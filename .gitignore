@@ -1,0 +1,11 @@
+*/bin/*
+*/obj/*
+api/
+obj/
+_site/
+.vs/
+*.nupkg
+*.code-workspace
+**/Generated/**
+*.xml
+.vscode
