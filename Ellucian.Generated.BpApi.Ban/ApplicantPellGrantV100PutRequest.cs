@@ -67,7 +67,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantPellGrantV100PutRequest
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAidyCode { get; set; } = default!;
+        public string? KeyblckAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RORSTAT_SAR_TRAN_NO
@@ -79,7 +79,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantPellGrantV100PutRequest
         /// Lineage reference object : keyblckId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckId { get; set; } = default!;
+        public string? KeyblckId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RORSTAT_SEC_SAR_PGI

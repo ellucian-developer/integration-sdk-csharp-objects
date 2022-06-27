@@ -36,11 +36,8 @@ namespace Ellucian.Generated.BpApi.Ban.StudentBillingMassDataEntryChargesPayment
         [Newtonsoft.Json.JsonProperty("origChgInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? OrigChgInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_DOCUMENT_NUMBER
@@ -53,6 +50,9 @@ namespace Ellucian.Generated.BpApi.Ban.StudentBillingMassDataEntryChargesPayment
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Id { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TaxAmount { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("receiptInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string ReceiptInd { get; set; } = default!;

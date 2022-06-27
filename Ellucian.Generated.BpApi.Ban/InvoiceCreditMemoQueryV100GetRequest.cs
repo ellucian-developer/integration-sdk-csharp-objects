@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.InvoiceCreditMemoQueryV100GetRequest
         /// Lineage reference object : faainvhDocCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faainvhDocCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object FaainvhDocCode { get; set; } = default!;
+        public string FaainvhDocCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("headerTextInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? HeaderTextInd { get; set; } = default!;
@@ -49,7 +49,7 @@ namespace Ellucian.Generated.BpApi.Ban.InvoiceCreditMemoQueryV100GetRequest
         /// Lineage reference object : invoiceChoiceDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("invoiceChoiceDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? InvoiceChoiceDesc { get; set; } = default!;
+        public string? InvoiceChoiceDesc { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("houseNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? HouseNumber { get; set; } = default!;

@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicApprovalSummaryOtherInformation
         /// Lineage reference object : transactionToDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("transactionToDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TransactionToDate { get; set; } = default!;
+        public System.DateTimeOffset? TransactionToDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NORCMNT_COMMENTS
@@ -40,25 +40,25 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicApprovalSummaryOtherInformation
         /// Lineage reference object : transactionStatus
         /// </summary>
         [Newtonsoft.Json.JsonProperty("transactionStatus", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object TransactionStatus { get; set; } = default!;
+        public string TransactionStatus { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queueStatus
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queueStatus", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object QueueStatus { get; set; } = default!;
+        public string QueueStatus { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : proxyFor
         /// </summary>
         [Newtonsoft.Json.JsonProperty("proxyFor", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ProxyFor { get; set; } = default!;
+        public string? ProxyFor { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : transactionFromDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("transactionFromDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TransactionFromDate { get; set; } = default!;
+        public System.DateTimeOffset? TransactionFromDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

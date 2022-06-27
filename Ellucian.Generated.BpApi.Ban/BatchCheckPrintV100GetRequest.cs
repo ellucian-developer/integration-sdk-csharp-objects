@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.BatchCheckPrintV100GetRequest
         /// Lineage reference object : faabatcBankCode, Lookup lineage reference object : gxvbank
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bankCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object BankCode { get; set; } = default!;
+        public string BankCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("runDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset RunDate { get; set; } = default!;

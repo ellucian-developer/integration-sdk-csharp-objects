@@ -101,13 +101,13 @@ namespace Ellucian.Generated.BpApi.Ban.AdditionalStudentInformationCohortV100Pos
         /// Lineage reference object : sgrchrtTermCodeFrom, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgrchrtTermCodeFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgrchrtTermCodeFrom { get; set; } = default!;
+        public string? SgrchrtTermCodeFrom { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sgrchrtTermCodeTo, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgrchrtTermCodeTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgrchrtTermCodeTo { get; set; } = default!;
+        public string? SgrchrtTermCodeTo { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -127,31 +127,31 @@ namespace Ellucian.Generated.BpApi.Ban.AdditionalStudentInformationCohortV100Pos
         /// Lineage reference object : sgastdnId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnId { get; set; } = default!;
+        public string? SgastdnId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sgastdnTermCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnTermCodeEff { get; set; } = default!;
+        public string? SgastdnTermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sgastdnName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnName { get; set; } = default!;
+        public string? SgastdnName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : confidInfo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("confidInfo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConfidInfo { get; set; } = default!;
+        public string? ConfidInfo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : deceasedInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("deceasedInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DeceasedInd { get; set; } = default!;
+        public string? DeceasedInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

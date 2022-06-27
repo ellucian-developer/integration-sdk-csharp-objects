@@ -25,28 +25,181 @@ namespace Ellucian.Generated.BpApi.Ban.CommonMatchingEntryV100PostResponse
     public partial class CommonMatchingEntryV100PostResponse
     {
         /// <summary>
-        /// Lineage reference object : keyblockSourceComment
+        /// Lineage reference object : GOTCMME_CNTY_CODE, Lookup lineage reference object : stvcnty
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("keyblockSourceComment", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblockSourceComment { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("cntyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CntyCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : keyblockSourceCode, Lookup lineage reference object : gtvcmsc
+        /// Lineage reference object : GOTCMME_STREET_LINE2
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("keyblockSourceCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblockSourceCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("streetLine2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StreetLine2 { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : id
+        /// Lineage reference object : GOTCMME_STREET_LINE1
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("streetLine1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StreetLine1 { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("lastName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? LastName { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : keyblockSourceDesc
+        /// Lineage reference object : GOTCMME_ADID_CODE, Lookup lineage reference object : gtvadid
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("keyblockSourceDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblockSourceDesc { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("adidCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AdidCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("nonpersonName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? NonpersonName { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_CITY
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("city", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? City { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_STREET_LINE3
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("streetLine3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StreetLine3 { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("sourceComment", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SourceComment { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_SSN
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ssn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Ssn { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("greenDataBar1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? GreenDataBar1 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_EMAIL_ADDRESS
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("emailAddress", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EmailAddress { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_EMAL_CODE, Lookup lineage reference object : gtvemal
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("emalCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EmalCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("teleDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TeleDescription { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("statDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatDescription { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_MI
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("mi", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Mi { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("emalDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EmalDescription { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("adidDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AdidDesc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_ZIP
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("zip", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Zip { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_ADDITIONAL_ID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("additionalId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AdditionalId { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_BIRTH_DAY
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("birthDay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? BirthDay { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_PHONE_EXT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("phoneExt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PhoneExt { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_STAT_CODE, Lookup lineage reference object : stvstat
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("statCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_NATN_CODE, Lookup lineage reference object : stvnatn
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("natnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? NatnCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_SEX
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("sex", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Sex { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("natnDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? NatnDescription { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_TELE_CODE, Lookup lineage reference object : stvtele
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("teleCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TeleCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("cntyDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CntyDescription { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_BIRTH_MON
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("birthMon", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? BirthMon { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_FIRST_NAME
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("firstName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? FirstName { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_PHONE_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("phoneNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PhoneNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_BIRTH_YEAR
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("birthYear", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? BirthYear { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_PHONE_AREA
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("phoneArea", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PhoneArea { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("atypDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AtypDescription { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOTCMME_ATYP_CODE, Lookup lineage reference object : stvatyp
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("atypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AtypCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

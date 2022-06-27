@@ -30,6 +30,9 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PostResponse
         [Newtonsoft.Json.JsonProperty("srceCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string SrceCode { get; set; } = default!;
 
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
+
         /// <summary>
         /// Lineage reference object : TBRACCD_DOCUMENT_NUMBER
         /// </summary>
@@ -97,12 +100,6 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PostResponse
         public string? AidyCode { get; set; } = default!;
 
         /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCodeV", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCodeV { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TBRACCD_FEED_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("feedDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -155,6 +152,9 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PostResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sessionNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? SessionNumber { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TaxAmount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_CPDT_IND

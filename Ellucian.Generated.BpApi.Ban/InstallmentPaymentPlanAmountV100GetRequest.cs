@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.InstallmentPaymentPlanAmountV100GetReques
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : termCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

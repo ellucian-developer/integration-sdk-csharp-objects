@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.CourseRegistrationCampusAndCollegeRestric
         /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("crseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CrseNumb { get; set; } = default!;
+        public string? CrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseTermCodeEff, Lookup lineage reference object : stvterm,scbcrky,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCodeEff { get; set; } = default!;
+        public string? TermCodeEff { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("criteria.campDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaCampDescription { get; set; } = default!;
@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.CourseRegistrationCampusAndCollegeRestric
         /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("subjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SubjCode { get; set; } = default!;
+        public string? SubjCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("criteria.collDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaCollDescription { get; set; } = default!;

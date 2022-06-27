@@ -28,55 +28,55 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralUserPreferencesMaintenanceV100PutR
         /// Lineage reference object : releaseCb
         /// </summary>
         [Newtonsoft.Json.JsonProperty("releaseCb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReleaseCb { get; set; } = default!;
+        public string? ReleaseCb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : deceasedPromptCb
         /// </summary>
         [Newtonsoft.Json.JsonProperty("deceasedPromptCb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DeceasedPromptCb { get; set; } = default!;
+        public string? DeceasedPromptCb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dataExtractPromptCb
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dataExtractPromptCb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DataExtractPromptCb { get; set; } = default!;
+        public string? DataExtractPromptCb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : duplicateSsnCb
         /// </summary>
         [Newtonsoft.Json.JsonProperty("duplicateSsnCb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DuplicateSsnCb { get; set; } = default!;
+        public string? DuplicateSsnCb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : enableBtnAccessibilityModeCb
         /// </summary>
         [Newtonsoft.Json.JsonProperty("enableBtnAccessibilityModeCb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EnableBtnAccessibilityModeCb { get; set; } = default!;
+        public string? EnableBtnAccessibilityModeCb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : confidentialPromptCb
         /// </summary>
         [Newtonsoft.Json.JsonProperty("confidentialPromptCb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConfidentialPromptCb { get; set; } = default!;
+        public string? ConfidentialPromptCb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dbaseInstCb
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dbaseInstCb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DbaseInstCb { get; set; } = default!;
+        public string? DbaseInstCb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : formnameDisplayInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("formnameDisplayInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FormnameDisplayInd { get; set; } = default!;
+        public string? FormnameDisplayInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : exitPromptCb
         /// </summary>
         [Newtonsoft.Json.JsonProperty("exitPromptCb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ExitPromptCb { get; set; } = default!;
+        public string? ExitPromptCb { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

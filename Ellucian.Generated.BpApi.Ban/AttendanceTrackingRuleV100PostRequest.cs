@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.AttendanceTrackingRuleV100PostRequest
         /// Lineage reference object : keyblckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORATRK_ENTRY_END_DATE

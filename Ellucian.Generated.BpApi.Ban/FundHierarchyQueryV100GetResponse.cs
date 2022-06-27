@@ -28,103 +28,103 @@ namespace Ellucian.Generated.BpApi.Ban.FundHierarchyQueryV100GetResponse
         /// Lineage reference object : level5
         /// </summary>
         [Newtonsoft.Json.JsonProperty("level5", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Level5 { get; set; } = default!;
+        public string? Level5 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : level4
         /// </summary>
         [Newtonsoft.Json.JsonProperty("level4", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Level4 { get; set; } = default!;
+        public string? Level4 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : hpPredFundCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("hpPredFundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HpPredFundCode { get; set; } = default!;
+        public string? HpPredFundCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : titl1
         /// </summary>
         [Newtonsoft.Json.JsonProperty("titl1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Titl1 { get; set; } = default!;
+        public string? Titl1 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : titl2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("titl2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Titl2 { get; set; } = default!;
+        public string? Titl2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : titl3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("titl3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Titl3 { get; set; } = default!;
+        public string? Titl3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : titl4
         /// </summary>
         [Newtonsoft.Json.JsonProperty("titl4", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Titl4 { get; set; } = default!;
+        public string? Titl4 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : predTitle
         /// </summary>
         [Newtonsoft.Json.JsonProperty("predTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PredTitle { get; set; } = default!;
+        public string? PredTitle { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : head1
         /// </summary>
         [Newtonsoft.Json.JsonProperty("head1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Head1 { get; set; } = default!;
+        public string? Head1 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : head2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("head2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Head2 { get; set; } = default!;
+        public string? Head2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : head3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("head3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Head3 { get; set; } = default!;
+        public string? Head3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : head4
         /// </summary>
         [Newtonsoft.Json.JsonProperty("head4", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Head4 { get; set; } = default!;
+        public string? Head4 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : level1
         /// </summary>
         [Newtonsoft.Json.JsonProperty("level1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Level1 { get; set; } = default!;
+        public string? Level1 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : titl5
         /// </summary>
         [Newtonsoft.Json.JsonProperty("titl5", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Titl5 { get; set; } = default!;
+        public string? Titl5 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : head5
         /// </summary>
         [Newtonsoft.Json.JsonProperty("head5", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Head5 { get; set; } = default!;
+        public string? Head5 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : level3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("level3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Level3 { get; set; } = default!;
+        public string? Level3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : level2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("level2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Level2 { get; set; } = default!;
+        public string? Level2 { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

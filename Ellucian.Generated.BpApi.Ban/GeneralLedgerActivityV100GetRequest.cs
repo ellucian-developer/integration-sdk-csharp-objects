@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralLedgerActivityV100GetRequest
         /// Lineage reference object : keyblckFundCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFundCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblckFundCode { get; set; } = default!;
+        public string KeyblckFundCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckCoasCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblckCoasCode { get; set; } = default!;
+        public string KeyblckCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FGVTRND_DOC_CODE
@@ -46,25 +46,25 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralLedgerActivityV100GetRequest
         /// Lineage reference object : keyblckPeriod
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckPeriod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckPeriod { get; set; } = default!;
+        public string? KeyblckPeriod { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckFsyrCode, Lookup lineage reference object : ftvfspd,ftvfsyr,ftvfspd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFsyrCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblckFsyrCode { get; set; } = default!;
+        public string KeyblckFsyrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckAcciCode, Lookup lineage reference object : ftvacci
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAcciCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAcciCode { get; set; } = default!;
+        public string? KeyblckAcciCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckAcctCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAcctCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAcctCode { get; set; } = default!;
+        public string? KeyblckAcctCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FGVTRND_TRANS_AMT

@@ -54,7 +54,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionDepartmentAndFieldOfStu
         /// Lineage reference object : ssrrdepDeptIeCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrdepDeptIeCde", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrdepDeptIeCde { get; set; } = default!;
+        public string SsrrdepDeptIeCde { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

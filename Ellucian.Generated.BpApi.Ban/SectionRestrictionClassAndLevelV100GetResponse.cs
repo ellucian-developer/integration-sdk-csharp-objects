@@ -54,7 +54,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionClassAndLevelV100GetRes
         /// Lineage reference object : ssrrclsClassInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrclsClassInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrclsClassInd { get; set; } = default!;
+        public string SsrrclsClassInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -97,7 +97,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionClassAndLevelV100GetRes
         /// Lineage reference object : ssrrlvlLevlInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrlvlLevlInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrlvlLevlInd { get; set; } = default!;
+        public string SsrrlvlLevlInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

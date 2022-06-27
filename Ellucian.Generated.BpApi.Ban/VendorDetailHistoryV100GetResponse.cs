@@ -48,7 +48,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorDetailHistoryV100GetResponse
         /// Lineage reference object : total
         /// </summary>
         [Newtonsoft.Json.JsonProperty("total", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Total { get; set; } = default!;
+        public double? Total { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

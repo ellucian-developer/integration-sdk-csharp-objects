@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.BasicCourseInformationsV100PutRequest
         /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseCrseNumb { get; set; } = default!;
+        public string? ScacrseCrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCBCRSE_ADD_FEES_IND
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.BasicCourseInformationsV100PutRequest
         /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseSubjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseSubjCode { get; set; } = default!;
+        public string? ScacrseSubjCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCBCRSE_CONT_HR_IND
@@ -244,7 +244,7 @@ namespace Ellucian.Generated.BpApi.Ban.BasicCourseInformationsV100PutRequest
         /// Lineage reference object : scacrseTermCodeEff
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseTermCodeEff { get; set; } = default!;
+        public string? ScacrseTermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCBCRSE_DEPT_CODE, Lookup lineage reference object : stvdept

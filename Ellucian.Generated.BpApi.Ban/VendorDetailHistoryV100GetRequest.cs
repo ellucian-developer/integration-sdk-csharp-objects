@@ -34,13 +34,13 @@ namespace Ellucian.Generated.BpApi.Ban.VendorDetailHistoryV100GetRequest
         /// Lineage reference object : faavndhVendCode, Lookup lineage reference object : ftvvend
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faavndhVendCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FaavndhVendCode { get; set; } = default!;
+        public string? FaavndhVendCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : endDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("endDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EndDate { get; set; } = default!;
+        public System.DateTimeOffset? EndDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FAVVIC2_APPR_IND
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorDetailHistoryV100GetRequest
         /// Lineage reference object : faavndhVendName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faavndhVendName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FaavndhVendName { get; set; } = default!;
+        public string? FaavndhVendName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FAVVIC2_VEND_INV_TOTAL
@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorDetailHistoryV100GetRequest
         /// Lineage reference object : faavndhSelInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faavndhSelInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FaavndhSelInd { get; set; } = default!;
+        public string? FaavndhSelInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FAVVIC2_CANCEL_IND
@@ -124,13 +124,13 @@ namespace Ellucian.Generated.BpApi.Ban.VendorDetailHistoryV100GetRequest
         /// Lineage reference object : displayFsyrCode, Lookup lineage reference object : ftvfspd,ftvfsyr,ftvfspd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayFsyrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayFsyrCode { get; set; } = default!;
+        public string? DisplayFsyrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : startDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("startDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StartDate { get; set; } = default!;
+        public System.DateTimeOffset? StartDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

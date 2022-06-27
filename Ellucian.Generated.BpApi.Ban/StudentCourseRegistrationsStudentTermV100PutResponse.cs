@@ -48,79 +48,79 @@ namespace Ellucian.Generated.BpApi.Ban.StudentCourseRegistrationsStudentTermV100
         /// Lineage reference object : printBill
         /// </summary>
         [Newtonsoft.Json.JsonProperty("printBill", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PrintBill { get; set; } = default!;
+        public string? PrintBill { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : printSchedule
         /// </summary>
         [Newtonsoft.Json.JsonProperty("printSchedule", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PrintSchedule { get; set; } = default!;
+        public string? PrintSchedule { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : holdDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldDesc { get; set; } = default!;
+        public string? HoldDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : confidInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("confidInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConfidInd { get; set; } = default!;
+        public string? ConfidInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyStudypath, Lookup lineage reference object : sovlcur,stvastd,stvcast,sgvstsp,sgrstsp,stvastd,stvcast,sgvstsp,sgrstsp,sovlcur
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyStudypath", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyStudypath { get; set; } = default!;
+        public double? KeyStudypath { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dcsdInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dcsdInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DcsdInd { get; set; } = default!;
+        public string? DcsdInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : viewCurrent
         /// </summary>
         [Newtonsoft.Json.JsonProperty("viewCurrent", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ViewCurrent { get; set; } = default!;
+        public string? ViewCurrent { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : holdPassword
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdPassword", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPassword { get; set; } = default!;
+        public string? HoldPassword { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : rwname
         /// </summary>
         [Newtonsoft.Json.JsonProperty("rwname", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Rwname { get; set; } = default!;
+        public string? Rwname { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : rstsEstsDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("rstsEstsDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RstsEstsDate { get; set; } = default!;
+        public System.DateTimeOffset? RstsEstsDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : term, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("term", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Term { get; set; } = default!;
+        public string? Term { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lastAssessmentDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lastAssessmentDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LastAssessmentDate { get; set; } = default!;
+        public System.DateTimeOffset? LastAssessmentDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

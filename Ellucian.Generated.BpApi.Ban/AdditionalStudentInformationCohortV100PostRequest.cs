@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.AdditionalStudentInformationCohortV100Pos
         /// Lineage reference object : sgastdnId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnId { get; set; } = default!;
+        public string? SgastdnId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SGRCHRT_CHRT_CODE, Lookup lineage reference object : stvchrt
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.AdditionalStudentInformationCohortV100Pos
         /// Lineage reference object : sgastdnTermCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnTermCodeEff { get; set; } = default!;
+        public string? SgastdnTermCodeEff { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

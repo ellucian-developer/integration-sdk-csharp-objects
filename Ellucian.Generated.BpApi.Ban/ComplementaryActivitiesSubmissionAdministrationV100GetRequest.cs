@@ -64,7 +64,7 @@ namespace Ellucian.Generated.BpApi.Ban.ComplementaryActivitiesSubmissionAdminist
         /// Lineage reference object : program
         /// </summary>
         [Newtonsoft.Json.JsonProperty("program", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Program { get; set; } = default!;
+        public string? Program { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORCASA_USER_ID
@@ -109,7 +109,7 @@ namespace Ellucian.Generated.BpApi.Ban.ComplementaryActivitiesSubmissionAdminist
         /// Lineage reference object : termCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORCASA_APPROVED_HRS

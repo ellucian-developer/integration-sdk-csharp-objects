@@ -28,19 +28,19 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantEntryByRequisitionOrPositionStat
         /// Lineage reference object : reqNo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("reqNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReqNo { get; set; } = default!;
+        public string? ReqNo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : pclsCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pclsCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PclsCode { get; set; } = default!;
+        public string? PclsCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : posn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("posn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Posn { get; set; } = default!;
+        public string? Posn { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

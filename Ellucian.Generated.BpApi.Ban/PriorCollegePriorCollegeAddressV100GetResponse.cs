@@ -28,85 +28,85 @@ namespace Ellucian.Generated.BpApi.Ban.PriorCollegePriorCollegeAddressV100GetRes
         /// Lineage reference object : sobsbgiStatCode, Lookup lineage reference object : stvstat
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiStatCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiStatCode { get; set; } = default!;
+        public string? SobsbgiStatCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiNatnCode, Lookup lineage reference object : stvnatn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiNatnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiNatnCode { get; set; } = default!;
+        public string? SobsbgiNatnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiCntyCode, Lookup lineage reference object : stvcnty
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiCntyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiCntyCode { get; set; } = default!;
+        public string? SobsbgiCntyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiZip
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiZip", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiZip { get; set; } = default!;
+        public string? SobsbgiZip { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stvstatDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stvstatDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StvstatDesc { get; set; } = default!;
+        public string? StvstatDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiHouseNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiHouseNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiHouseNumber { get; set; } = default!;
+        public string? SobsbgiHouseNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiCity
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiCity", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiCity { get; set; } = default!;
+        public string? SobsbgiCity { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stvcntyDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stvcntyDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StvcntyDesc { get; set; } = default!;
+        public string? StvcntyDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiStreetLine1
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiStreetLine1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiStreetLine1 { get; set; } = default!;
+        public string? SobsbgiStreetLine1 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiStreetLine2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiStreetLine2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiStreetLine2 { get; set; } = default!;
+        public string? SobsbgiStreetLine2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiStreetLine3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiStreetLine3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiStreetLine3 { get; set; } = default!;
+        public string? SobsbgiStreetLine3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sobsbgiStreetLine4
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sobsbgiStreetLine4", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SobsbgiStreetLine4 { get; set; } = default!;
+        public string? SobsbgiStreetLine4 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stvnatnDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stvnatnDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StvnatnDesc { get; set; } = default!;
+        public string? StvnatnDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : addrDisp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("addrDisp", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AddrDisp { get; set; } = default!;
+        public string? AddrDisp { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

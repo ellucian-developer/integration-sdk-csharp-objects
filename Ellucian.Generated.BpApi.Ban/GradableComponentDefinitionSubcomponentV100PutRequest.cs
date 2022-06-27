@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.GradableComponentDefinitionSubcomponentV1
         /// Lineage reference object : componentSort
         /// </summary>
         [Newtonsoft.Json.JsonProperty("componentSort", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ComponentSort { get; set; } = default!;
+        public string? ComponentSort { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRGCOM_COMP_RESIT_RULE, Lookup lineage reference object : shbgrul
@@ -178,7 +178,7 @@ namespace Ellucian.Generated.BpApi.Ban.GradableComponentDefinitionSubcomponentV1
         /// Lineage reference object : crn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("crn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Crn { get; set; } = default!;
+        public string? Crn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRSCOM_NAME
@@ -301,7 +301,7 @@ namespace Ellucian.Generated.BpApi.Ban.GradableComponentDefinitionSubcomponentV1
         /// Lineage reference object : termCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

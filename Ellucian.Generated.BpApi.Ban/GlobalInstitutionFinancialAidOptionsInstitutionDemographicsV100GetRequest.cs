@@ -106,7 +106,7 @@ namespace Ellucian.Generated.BpApi.Ban.GlobalInstitutionFinancialAidOptionsInsti
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAidyCode { get; set; } = default!;
+        public string? KeyblckAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RORCAMP_INST_FIN_CONTROL

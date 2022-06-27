@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.BeneficiaryCoverageV100PutRequest
         /// Lineage reference object : bdcaCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bdcaCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BdcaCode { get; set; } = default!;
+        public string? BdcaCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PDRBCOV_END_DATE
@@ -94,7 +94,7 @@ namespace Ellucian.Generated.BpApi.Ban.BeneficiaryCoverageV100PutRequest
         /// Lineage reference object : queryDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryDate { get; set; } = default!;
+        public System.DateTimeOffset? QueryDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PDRBCOV_BENE_SEQ_NO
@@ -118,7 +118,7 @@ namespace Ellucian.Generated.BpApi.Ban.BeneficiaryCoverageV100PutRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PDRBCOV_REQUESTED_DATE

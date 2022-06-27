@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.AdditionalStudentInformationCohortCopyV10
         /// Lineage reference object : sgastdnId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnId { get; set; } = default!;
+        public string? SgastdnId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sgastdnTermCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnTermCodeEff { get; set; } = default!;
+        public string? SgastdnTermCodeEff { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

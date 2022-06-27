@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.PositionRequisitionV100GetRequest
         /// Lineage reference object : reqNo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("reqNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReqNo { get; set; } = default!;
+        public string? ReqNo { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -24,11 +24,37 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100GetResponse
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class AccountDetailReviewsV100GetResponse
     {
+        [Newtonsoft.Json.JsonProperty("tbrcrcp", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbrcrcp>? Tbrcrcp { get; set; } = default!;
+
         [Newtonsoft.Json.JsonProperty("tbraccd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.Collections.Generic.ICollection<Tbraccd>? Tbraccd { get; set; } = default!;
 
+        [Newtonsoft.Json.JsonProperty("tbrcsum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbrcsum>? Tbrcsum { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("tbrcbrq", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbrcbrq>? Tbrcbrq { get; set; } = default!;
+
         [Newtonsoft.Json.JsonProperty("tbraccd_ctrl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.Collections.Generic.ICollection<Tbraccd_ctrl>? Tbraccd_ctrl { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Tbrcrcp
+    {
+        [Newtonsoft.Json.JsonProperty("message", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Message { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -49,6 +75,9 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100GetResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("srceCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string SrceCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_DOCUMENT_NUMBER
@@ -117,12 +146,6 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100GetResponse
         public string? AidyCode { get; set; } = default!;
 
         /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCodeV", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCodeV { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TBRACCD_FEED_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("feedDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -176,6 +199,9 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100GetResponse
         [Newtonsoft.Json.JsonProperty("sessionNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? SessionNumber { get; set; } = default!;
 
+        [Newtonsoft.Json.JsonProperty("taxAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TaxAmount { get; set; } = default!;
+
         /// <summary>
         /// Lineage reference object : TBRACCD_CPDT_IND
         /// </summary>
@@ -218,43 +244,77 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100GetResponse
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Tbrcsum
+    {
+        [Newtonsoft.Json.JsonProperty("message", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Message { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Tbrcbrq
+    {
+        [Newtonsoft.Json.JsonProperty("message", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Message { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class Tbraccd_ctrl
     {
         /// <summary>
         /// Lineage reference object : amountDue
         /// </summary>
         [Newtonsoft.Json.JsonProperty("amountDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AmountDue { get; set; } = default!;
+        public double? AmountDue { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : memoBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("memoBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MemoBalance { get; set; } = default!;
+        public double? MemoBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryBalance { get; set; } = default!;
+        public double? QueryBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : authAidBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("authAidBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AuthAidBalance { get; set; } = default!;
+        public double? AuthAidBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : accountBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("accountBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AccountBalance { get; set; } = default!;
+        public double? AccountBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : nsfCount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("nsfCount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NsfCount { get; set; } = default!;
+        public double? NsfCount { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

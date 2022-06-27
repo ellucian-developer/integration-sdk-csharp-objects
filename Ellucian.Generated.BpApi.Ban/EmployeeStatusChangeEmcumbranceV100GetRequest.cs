@@ -28,25 +28,25 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeStatusChangeEmcumbranceV100GetReq
         /// Lineage reference object : allCbox
         /// </summary>
         [Newtonsoft.Json.JsonProperty("allCbox", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AllCbox { get; set; } = default!;
+        public string? AllCbox { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : actionList
         /// </summary>
         [Newtonsoft.Json.JsonProperty("actionList", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object ActionList { get; set; } = default!;
+        public string ActionList { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : actionDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("actionDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ActionDate { get; set; } = default!;
+        public System.DateTimeOffset? ActionDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

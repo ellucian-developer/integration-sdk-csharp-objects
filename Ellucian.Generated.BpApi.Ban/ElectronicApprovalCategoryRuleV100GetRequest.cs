@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicApprovalCategoryRuleV100GetRequ
         /// Lineage reference object : acatCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("acatCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object AcatCode { get; set; } = default!;
+        public string AcatCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NTRACAT_APTY_ENTRY_SEQ_NO

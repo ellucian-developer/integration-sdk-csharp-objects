@@ -25,10 +25,22 @@ namespace Ellucian.Generated.BpApi.Ban.HighSchoolInformationHighSchoolSubjectsV1
     public partial class HighSchoolInformationHighSchoolSubjectsV100PutRequest
     {
         /// <summary>
-        /// Lineage reference object : SORHSBJ_GRADE
+        /// Lineage reference object : SORHSCH_CLASS_SIZE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("grade", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? Grade { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.classSize", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? CriteriaClassSize { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_ADMR_CODE, Lookup lineage reference object : stvadmr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.admrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaAdmrCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_COLL_PREP_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.collPrepInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaCollPrepInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORHSBJ_SUBJ_GPA
@@ -37,28 +49,28 @@ namespace Ellucian.Generated.BpApi.Ban.HighSchoolInformationHighSchoolSubjectsV1
         public string? SubjGpa { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SORHSBJ_SBJC_CODE, Lookup lineage reference object : stvsbjc
+        /// Lineage reference object : SORHSCH_GRADUATION_DATE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.sbjcCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CriteriaSbjcCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.graduationDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaGraduationDate { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SORHSBJ_SBJC_CODE, Lookup lineage reference object : stvsbjc
+        /// Lineage reference object : SORHSCH_GPA
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("sorhsbjSbjcCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string SorhsbjSbjcCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.gpa", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaGpa { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : id
+        /// Lineage reference object : SORHSCH_PERCENTILE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.percentile", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? CriteriaPercentile { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SORHSBJ_SUBJ_YEARS
+        /// Lineage reference object : SORHSCH_TRANS_RECV_DATE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.subjYears", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? CriteriaSubjYears { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.transRecvDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaTransRecvDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORHSBJ_SUBJ_YEARS
@@ -77,6 +89,54 @@ namespace Ellucian.Generated.BpApi.Ban.HighSchoolInformationHighSchoolSubjectsV1
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.subjGpa", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaSubjGpa { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_DPLM_CODE, Lookup lineage reference object : stvdplm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.dplmCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaDplmCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSBJ_GRADE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("grade", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Grade { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSBJ_SBJC_CODE, Lookup lineage reference object : stvsbjc
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.sbjcCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string CriteriaSbjcCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSBJ_SBJC_CODE, Lookup lineage reference object : stvsbjc
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("sorhsbjSbjcCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string SorhsbjSbjcCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : id
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Id { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSBJ_SUBJ_YEARS
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.subjYears", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? CriteriaSubjYears { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_SBGI_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.sbgiCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string CriteriaSbgiCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_CLASS_RANK
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.classRank", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? CriteriaClassRank { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

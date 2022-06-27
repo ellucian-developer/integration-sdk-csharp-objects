@@ -40,16 +40,16 @@ namespace Ellucian.Generated.BpApi.Ban.ContractPersonAuthorizationV100GetRespons
         public string? TbbcstuAuthInd { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : TBBCSTU_TERM_CODE_EXPIRATION, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("tbbcstuTermCodeExpiration", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TbbcstuTermCodeExpiration { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : TBBCSTU_STSP_KEY_SEQUENCE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("tbbcstuStspKeySequence", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? TbbcstuStspKeySequence { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TBBCSTU_DEL_IND
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("tbbcstuDelInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? TbbcstuDelInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBCSTU_MAX_STUDENT_AMOUNT
@@ -60,6 +60,12 @@ namespace Ellucian.Generated.BpApi.Ban.ContractPersonAuthorizationV100GetRespons
         [Newtonsoft.Json.JsonProperty("additionalText2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? AdditionalText2 { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : TBBCSTU_AUTH_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("tbbcstuAuthNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TbbcstuAuthNumber { get; set; } = default!;
+
         [Newtonsoft.Json.JsonProperty("stuName2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? StuName2 { get; set; } = default!;
 
@@ -68,21 +74,6 @@ namespace Ellucian.Generated.BpApi.Ban.ContractPersonAuthorizationV100GetRespons
         /// </summary>
         [Newtonsoft.Json.JsonProperty("tbbcstuActivityDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? TbbcstuActivityDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TBBCSTU_TERM_CODE_EXPIRATION, Lookup lineage reference object : stvterm
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("tbbcstuTermCodeExpiration", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? TbbcstuTermCodeExpiration { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("stuId2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? StuId2 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TBBCSTU_AUTH_NUMBER
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("tbbcstuAuthNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? TbbcstuAuthNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBCSTU_SPONSOR_REF_NUMBER

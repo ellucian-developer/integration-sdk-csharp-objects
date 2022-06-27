@@ -88,19 +88,19 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeJobsJobLaborDistributionV100PutRe
         /// Lineage reference object : posn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("posn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Posn { get; set; } = default!;
+        public string? Posn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object QueryDate { get; set; } = default!;
+        public System.DateTimeOffset QueryDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : suff
         /// </summary>
         [Newtonsoft.Json.JsonProperty("suff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Suff { get; set; } = default!;
+        public string? Suff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NBRJLBD_ACCI_CODE
@@ -130,7 +130,7 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeJobsJobLaborDistributionV100PutRe
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NBRJLBD_ENC_OVERRIDE_END_DATE

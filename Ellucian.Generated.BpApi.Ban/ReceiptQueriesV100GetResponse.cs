@@ -24,6 +24,26 @@ namespace Ellucian.Generated.BpApi.Ban.ReceiptQueriesV100GetResponse
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class ReceiptQueriesV100GetResponse
     {
+        [Newtonsoft.Json.JsonProperty("tbvrcp1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbvrcp1>? Tbvrcp1 { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("tbvrcp2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbvrcp2>? Tbvrcp2 { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Tbvrcp1
+    {
         /// <summary>
         /// Lineage reference object : TBVRCP1_DATE
         /// </summary>
@@ -77,6 +97,50 @@ namespace Ellucian.Generated.BpApi.Ban.ReceiptQueriesV100GetResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("receiptNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? ReceiptNumber { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Tbvrcp2
+    {
+        [Newtonsoft.Json.JsonProperty("charge", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? Charge { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBVRCP2_TRAN_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("tranNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TranNumber { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("payment", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? Payment { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBVRCP2_DETAIL_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("detailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DetailCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBVRCP2_DESC
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("desc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Desc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBVRCP2_TERM_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

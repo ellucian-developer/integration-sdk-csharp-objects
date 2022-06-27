@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.BlockScheduleQueryV100GetRequest
         /// Lineage reference object : ssablkqTermCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssablkqTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsablkqTermCodeEff { get; set; } = default!;
+        public string? SsablkqTermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSRBLCK_BLCK_CODE
@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.BlockScheduleQueryV100GetRequest
         /// Lineage reference object : ssablkqKeyCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssablkqKeyCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsablkqKeyCrn { get; set; } = default!;
+        public double? SsablkqKeyCrn { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("criteria.blckDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaBlckDescription { get; set; } = default!;

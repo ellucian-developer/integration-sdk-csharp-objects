@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.StudentTaxNotificationsV100GetRequest
         /// Lineage reference object : taxYear
         /// </summary>
         [Newtonsoft.Json.JsonProperty("taxYear", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TaxYear { get; set; } = default!;
+        public double? TaxYear { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckStudentId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckStudentId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckStudentId { get; set; } = default!;
+        public string? KeyblckStudentId { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

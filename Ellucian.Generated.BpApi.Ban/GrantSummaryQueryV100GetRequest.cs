@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantSummaryQueryV100GetRequest
         /// Lineage reference object : keyblckGrntCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckGrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckGrntCode { get; set; } = default!;
+        public string? KeyblckGrntCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

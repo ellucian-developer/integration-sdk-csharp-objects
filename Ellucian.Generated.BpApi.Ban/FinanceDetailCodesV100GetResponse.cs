@@ -27,11 +27,11 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetResponse
         [Newtonsoft.Json.JsonProperty("tbbdetc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.Collections.Generic.ICollection<Tbbdetc>? Tbbdetc { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("tbbeact2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<Tbbeact2>? Tbbeact2 { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("tbbeact", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbbeact>? Tbbeact { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("tbracct_ctrl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<Tbracct_ctrl>? Tbracct_ctrl { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("tbracct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbracct>? Tbracct { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -57,12 +57,6 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetResponse
         public double? Amount { get; set; } = default!;
 
         /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCode { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TBBDETC_TYPE_IND
         /// </summary>
         [Newtonsoft.Json.JsonProperty("typeInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -79,6 +73,9 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("paytCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string PaytCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_DETC_ACTIVE_IND
@@ -127,6 +124,9 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("likeTermInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? LikeTermInd { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxProfile", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxProfile { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_DCAT_CODE, Lookup lineage reference object : ttvdcat
@@ -191,25 +191,25 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetResponse
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class Tbbeact2
+    public partial class Tbbeact
     {
-        /// <summary>
-        /// Lineage reference object : TBBEACT_DETAIL_CODE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("tbbeactDetailCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string TbbeactDetailCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("detailDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DetailDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBEACT_EFF_DATE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("tbbeactEffDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset TbbeactEffDate { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("effDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset EffDate { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("displayNchgDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? DisplayNchgDate { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("tbbeactDetailDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? TbbeactDetailDesc { get; set; } = default!;
+        /// <summary>
+        /// Lineage reference object : TBBEACT_DETAIL_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("detailCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string DetailCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -223,31 +223,25 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetResponse
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class Tbracct_ctrl
+    public partial class Tbracct
     {
-        /// <summary>
-        /// Lineage reference object : holdPercent
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("holdPercent", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPercent { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("code", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Code { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : holdPercent4
+        /// Lineage reference object : TBRACCT_ACCOUNT_B
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("holdPercent4", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPercent4 { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("accountB", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string AccountB { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : holdPercent2
+        /// Lineage reference object : TBRACCT_ACCOUNT_A
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("holdPercent2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPercent2 { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("accountA", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string AccountA { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : holdPercent3
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("holdPercent3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPercent3 { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("accountPercent", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? AccountPercent { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

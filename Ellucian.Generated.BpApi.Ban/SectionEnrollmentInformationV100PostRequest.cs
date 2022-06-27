@@ -112,7 +112,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionEnrollmentInformationV100PostReque
         /// Lineage reference object : ssasectCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("crn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Crn { get; set; } = default!;
+        public string? Crn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSRRESV_OVERFLOW_IND
@@ -166,7 +166,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionEnrollmentInformationV100PostReque
         /// Lineage reference object : ssasectTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

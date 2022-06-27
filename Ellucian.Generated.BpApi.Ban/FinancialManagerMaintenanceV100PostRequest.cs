@@ -37,7 +37,7 @@ namespace Ellucian.Generated.BpApi.Ban.FinancialManagerMaintenanceV100PostReques
         /// Lineage reference object : finMgrName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lastName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LastName { get; set; } = default!;
+        public string? LastName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVFMGR_ADDR_SEQNO
@@ -157,7 +157,7 @@ namespace Ellucian.Generated.BpApi.Ban.FinancialManagerMaintenanceV100PostReques
         /// Lineage reference object : finMgrFirstName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("firstName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FirstName { get; set; } = default!;
+        public string? FirstName { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("areaCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? AreaCode { get; set; } = default!;
@@ -184,7 +184,7 @@ namespace Ellucian.Generated.BpApi.Ban.FinancialManagerMaintenanceV100PostReques
         /// Lineage reference object : finMgrMi
         /// </summary>
         [Newtonsoft.Json.JsonProperty("middleName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MiddleName { get; set; } = default!;
+        public string? MiddleName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVFMGR_TERM_DATE

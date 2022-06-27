@@ -34,13 +34,13 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationCorequisitesAndEqu
         /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("crseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CrseNumb { get; set; } = default!;
+        public string? CrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseTermCodeEff, Lookup lineage reference object : stvterm,scbcrky,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCodeEff { get; set; } = default!;
+        public string? TermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCREQIV_END_TERM, Lookup lineage reference object : stvterm
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationCorequisitesAndEqu
         /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("subjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SubjCode { get; set; } = default!;
+        public string? SubjCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRCORQ_CRSE_NUMB_CORQ, Lookup lineage reference object : stvsubj

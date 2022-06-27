@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.AwardMaintenanceDisbursementScheduleV100G
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAidyCode { get; set; } = default!;
+        public string? KeyblckAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RPRADSB_PERIOD
@@ -64,7 +64,7 @@ namespace Ellucian.Generated.BpApi.Ban.AwardMaintenanceDisbursementScheduleV100G
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("displayScheduleAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? DisplayScheduleAmt { get; set; } = default!;

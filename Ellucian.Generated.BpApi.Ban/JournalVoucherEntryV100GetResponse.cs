@@ -24,6 +24,26 @@ namespace Ellucian.Generated.BpApi.Ban.JournalVoucherEntryV100GetResponse
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class JournalVoucherEntryV100GetResponse
     {
+        [Newtonsoft.Json.JsonProperty("fgbjvch", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Fgbjvch>? Fgbjvch { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("fgbjvcd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Fgbjvcd>? Fgbjvcd { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Fgbjvch
+    {
         [Newtonsoft.Json.JsonProperty("distributeInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? DistributeInd { get; set; } = default!;
 
@@ -62,6 +82,230 @@ namespace Ellucian.Generated.BpApi.Ban.JournalVoucherEntryV100GetResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("docAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? DocAmt { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Fgbjvcd
+    {
+        [Newtonsoft.Json.JsonProperty("progTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ProgTitle { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("fundTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? FundTitle { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_CURR_CODE, Lookup lineage reference object : gtvcurr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CurrCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_PRJD_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("prjdCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PrjdCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_COAS_CODE, Lookup lineage reference object : ftvcoas
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("coasCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string CoasCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("acctTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AcctTitle { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_LOCN_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("locnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? LocnCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ORGN_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("orgnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? OrgnCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("journalTypeDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? JournalTypeDescription { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_FUND_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("fundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? FundCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("actvTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ActvTitle { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_BUDGET_PERIOD
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("budgetPeriod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? BudgetPeriod { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_STATUS_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("statusInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatusInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_PROG_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("progCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ProgCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_TRANS_AMT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("transAmt", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double TransAmt { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_DOC_REF_NUM
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("docRefNum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DocRefNum { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ENCD_ITEM_NUM
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("encdItemNum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? EncdItemNum { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("locnTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? LocnTitle { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_EMC_UNITS
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("emcUnits", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? EmcUnits { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ENCD_SEQ_NUM
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("encdSeqNum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? EncdSeqNum { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ACTV_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("actvCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ActvCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_DR_CR_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("drCrInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DrCrInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_DEP_NUM
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("depNum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DepNum { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("prjdDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PrjdDesc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_BANK_CODE, Lookup lineage reference object : gxvbank
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("bankCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? BankCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ACCRUAL_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("accrualInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AccrualInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_GIFT_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("giftDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? GiftDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_SEQ_NUM
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("seqNum", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double SeqNum { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ACCI_CODE, Lookup lineage reference object : ftvacci
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("acciCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AcciCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ACCT_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("acctCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AcctCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("orgnTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? OrgnTitle { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ENCB_NUM
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("encbNum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EncbNum { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_CMT_TYPE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cmtType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CmtType { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_TRANS_DESC
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("transDesc", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string TransDesc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ABAL_OVERRIDE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("abalOverride", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AbalOverride { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("acciTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AcciTitle { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_ENCB_ACTION_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("encbActionInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EncbActionInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_RUCL_CODE, Lookup lineage reference object : ftvrucl
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ruclCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string RuclCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : FGBJVCD_DIST_PCT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("distPct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? DistPct { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("coasTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CoasTitle { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

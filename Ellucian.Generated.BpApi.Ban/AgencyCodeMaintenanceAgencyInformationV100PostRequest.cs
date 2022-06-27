@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.AgencyCodeMaintenanceAgencyInformationV10
         /// Lineage reference object : ftvagcyName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftvagcyName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtvagcyName { get; set; } = default!;
+        public string? FtvagcyName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVAGCY_CONTACT_PHONE_EXT

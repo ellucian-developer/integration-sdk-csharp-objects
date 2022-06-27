@@ -127,7 +127,7 @@ namespace Ellucian.Generated.BpApi.Ban.PositionDefinitionPositionV100PutRequest
         /// Lineage reference object : posn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("posn", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Posn { get; set; } = default!;
+        public string Posn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NBBPOSN_STEP

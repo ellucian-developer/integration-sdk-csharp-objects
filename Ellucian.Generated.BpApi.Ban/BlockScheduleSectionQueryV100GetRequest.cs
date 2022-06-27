@@ -37,7 +37,7 @@ namespace Ellucian.Generated.BpApi.Ban.BlockScheduleSectionQueryV100GetRequest
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("ssbsectSeqNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? SsbsectSeqNumb { get; set; } = default!;
@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.BlockScheduleSectionQueryV100GetRequest
         /// Lineage reference object : keyblocBlckCode, Lookup lineage reference object : stvblck
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocBlckCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocBlckCode { get; set; } = default!;
+        public string? KeyblocBlckCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("ssbsectCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? SsbsectCrseNumb { get; set; } = default!;

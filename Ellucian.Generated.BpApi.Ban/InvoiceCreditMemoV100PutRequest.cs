@@ -82,7 +82,7 @@ namespace Ellucian.Generated.BpApi.Ban.InvoiceCreditMemoV100PutRequest
         /// Lineage reference object : keyBlockVendor
         /// </summary>
         [Newtonsoft.Json.JsonProperty("vendor", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Vendor { get; set; } = default!;
+        public string? Vendor { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FABINVH_ACHT_CODE, Lookup lineage reference object : gtvacht
@@ -136,7 +136,7 @@ namespace Ellucian.Generated.BpApi.Ban.InvoiceCreditMemoV100PutRequest
         /// Lineage reference object : faainvhDocCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faainvhDocCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FaainvhDocCode { get; set; } = default!;
+        public string? FaainvhDocCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FABINVH_MULTIPLE_INV_IND
@@ -148,7 +148,7 @@ namespace Ellucian.Generated.BpApi.Ban.InvoiceCreditMemoV100PutRequest
         /// Lineage reference object : invoiceChoice
         /// </summary>
         [Newtonsoft.Json.JsonProperty("invoiceChoice", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object InvoiceChoice { get; set; } = default!;
+        public string InvoiceChoice { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FABINVH_PMT_DUE_DATE

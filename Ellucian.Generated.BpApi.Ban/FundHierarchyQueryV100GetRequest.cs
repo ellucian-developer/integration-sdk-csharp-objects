@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.FundHierarchyQueryV100GetRequest
         /// Lineage reference object : ftxfndhFundCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftxfndhFundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtxfndhFundCode { get; set; } = default!;
+        public string? FtxfndhFundCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ftxfndhCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftxfndhCoasCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtxfndhCoasCode { get; set; } = default!;
+        public string? FtxfndhCoasCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

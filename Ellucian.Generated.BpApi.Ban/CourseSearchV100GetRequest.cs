@@ -28,25 +28,25 @@ namespace Ellucian.Generated.BpApi.Ban.CourseSearchV100GetRequest
         /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseCrseNumb { get; set; } = default!;
+        public string? ScacrseCrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseSubjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseSubjCode { get; set; } = default!;
+        public string? ScacrseSubjCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseStartDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseStartDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseStartDate { get; set; } = default!;
+        public System.DateTimeOffset? ScacrseStartDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseEndDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseEndDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseEndDate { get; set; } = default!;
+        public System.DateTimeOffset? ScacrseEndDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

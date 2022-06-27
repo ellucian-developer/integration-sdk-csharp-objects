@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantBudgetV100PutRequest
         /// Lineage reference object : displayGrntBudgCode, Lookup lineage reference object : frbbudg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayGrntBudgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayGrntBudgCode { get; set; } = default!;
+        public string? DisplayGrntBudgCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRBBUDG_TRANS_DATE
@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantBudgetV100PutRequest
         /// Lineage reference object : displayGrntCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayGrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayGrntCode { get; set; } = default!;
+        public string? DisplayGrntCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRBBUDG_FUND_CODE_DEF

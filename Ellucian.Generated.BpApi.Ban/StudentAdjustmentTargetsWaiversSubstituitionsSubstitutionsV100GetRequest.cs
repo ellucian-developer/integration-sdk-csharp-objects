@@ -34,7 +34,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAdjustmentTargetsWaiversSubstituit
         /// Lineage reference object : keyblckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SMRSSPV_PROGRAM
@@ -88,7 +88,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAdjustmentTargetsWaiversSubstituit
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SMRSSUB_SUBJ_CODE_SUB, Lookup lineage reference object : stvsubj

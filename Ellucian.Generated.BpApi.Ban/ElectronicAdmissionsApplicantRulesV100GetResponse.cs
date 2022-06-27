@@ -48,13 +48,13 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicAdmissionsApplicantRulesV100Get
         /// Lineage reference object : keyblckEgrpCode, Lookup lineage reference object : stvegrp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckEgrpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckEgrpCode { get; set; } = default!;
+        public string? KeyblckEgrpCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : egrpDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("egrpDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EgrpDesc { get; set; } = default!;
+        public string? EgrpDesc { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

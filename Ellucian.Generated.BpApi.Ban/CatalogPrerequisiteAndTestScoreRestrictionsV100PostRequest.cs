@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.CatalogPrerequisiteAndTestScoreRestrictio
         /// Lineage reference object : keyBlckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRPRTS_TEST_SCORE
@@ -82,7 +82,7 @@ namespace Ellucian.Generated.BpApi.Ban.CatalogPrerequisiteAndTestScoreRestrictio
         /// Lineage reference object : program
         /// </summary>
         [Newtonsoft.Json.JsonProperty("program", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Program { get; set; } = default!;
+        public string? Program { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRPRTS_LPAREN

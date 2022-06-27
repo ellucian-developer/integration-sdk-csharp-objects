@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.HistoryJobsInquiryV100GetRequest
         /// Lineage reference object : year
         /// </summary>
         [Newtonsoft.Json.JsonProperty("year", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Year { get; set; } = default!;
+        public string Year { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PHVJOBS_DISP
@@ -58,13 +58,13 @@ namespace Ellucian.Generated.BpApi.Ban.HistoryJobsInquiryV100GetRequest
         /// Lineage reference object : coas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("coas", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Coas { get; set; } = default!;
+        public string? Coas { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : payno
         /// </summary>
         [Newtonsoft.Json.JsonProperty("payno", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Payno { get; set; } = default!;
+        public double Payno { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PHVJOBS_ID_SEQ
@@ -76,13 +76,13 @@ namespace Ellucian.Generated.BpApi.Ban.HistoryJobsInquiryV100GetRequest
         /// Lineage reference object : pictCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pictCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object PictCode { get; set; } = default!;
+        public string PictCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : trCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("trCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TrCode { get; set; } = default!;
+        public string? TrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PHVJOBS_SUFF
@@ -94,7 +94,7 @@ namespace Ellucian.Generated.BpApi.Ban.HistoryJobsInquiryV100GetRequest
         /// Lineage reference object : orgn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("orgn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Orgn { get; set; } = default!;
+        public string? Orgn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PHVJOBS_EFFECTIVE_DATE

@@ -142,12 +142,6 @@ namespace Ellucian.Generated.BpApi.Ban.FundCodeMaintenanceV100PostRequest
         public string? LocnCodeDef { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : FTVFUND_EFF_CERT_REQUIRED_IND
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("ftvfundEffCertRequiredInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? FtvfundEffCertRequiredInd { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : FTVFUND_ACCT_CODE_ACCR
         /// </summary>
         [Newtonsoft.Json.JsonProperty("acctCodeAccr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]

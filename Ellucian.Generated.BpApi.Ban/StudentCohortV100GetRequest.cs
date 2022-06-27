@@ -31,13 +31,13 @@ namespace Ellucian.Generated.BpApi.Ban.StudentCohortV100GetRequest
         /// Lineage reference object : chrtCode, Lookup lineage reference object : stvchrt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("chrtCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ChrtCode { get; set; } = default!;
+        public string? ChrtCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : termCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCodeEff { get; set; } = default!;
+        public string? TermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SGRCHRT_CREA_CODE, Lookup lineage reference object : stvcrea

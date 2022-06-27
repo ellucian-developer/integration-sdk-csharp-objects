@@ -61,12 +61,6 @@ namespace Ellucian.Generated.BpApi.Ban.CertificationInformationV100PostRequest
         public System.DateTimeOffset? CertDate { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : PPRENDS_ENDS_CODE, Lookup lineage reference object : ptvends
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("endsCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string EndsCode { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : PPRCERT_EXPIRE_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("expireDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -76,19 +70,13 @@ namespace Ellucian.Generated.BpApi.Ban.CertificationInformationV100PostRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PPRCERT_NEXT_CERT_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("nextCertDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? NextCertDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRENDS_ENDS_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("endsDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset EndsDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

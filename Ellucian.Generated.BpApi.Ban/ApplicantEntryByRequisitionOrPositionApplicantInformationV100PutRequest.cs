@@ -34,7 +34,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantEntryByRequisitionOrPositionAppl
         /// Lineage reference object : reqNo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("reqNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReqNo { get; set; } = default!;
+        public string? ReqNo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PABAPPL_ASRC_CODE, Lookup lineage reference object : ptvasrc
@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantEntryByRequisitionOrPositionAppl
         /// Lineage reference object : pclsCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pclsCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PclsCode { get; set; } = default!;
+        public string? PclsCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("criteria.id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaId { get; set; } = default!;
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantEntryByRequisitionOrPositionAppl
         /// Lineage reference object : posn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("posn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Posn { get; set; } = default!;
+        public string? Posn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PABAPPL_FULL_PART_IND

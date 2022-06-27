@@ -97,7 +97,7 @@ namespace Ellucian.Generated.BpApi.Ban.AdmissionsApplicationChecklistV100PutRequ
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SARCHKL_REQ_DATE2
@@ -124,7 +124,7 @@ namespace Ellucian.Generated.BpApi.Ban.AdmissionsApplicationChecklistV100PutRequ
         /// Lineage reference object : kbentryTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("kbentryTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KbentryTermCode { get; set; } = default!;
+        public string? KbentryTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SARADAP_APST_CODE, Lookup lineage reference object : stvapst

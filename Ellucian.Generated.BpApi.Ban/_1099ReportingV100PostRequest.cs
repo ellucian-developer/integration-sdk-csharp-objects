@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban._1099ReportingV100PostRequest
         /// Lineage reference object : ftvvendVendOwner, Lookup lineage reference object : ftvvend
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftvvendVendOwner", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtvvendVendOwner { get; set; } = default!;
+        public string? FtvvendVendOwner { get; set; } = default!;
 
         /// <summary>
         /// Lookup lineage reference object : ftvityp
@@ -82,7 +82,7 @@ namespace Ellucian.Generated.BpApi.Ban._1099ReportingV100PostRequest
         /// Lineage reference object : faa1099VendCode, Lookup lineage reference object : ftvvend
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faa1099VendCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Faa1099VendCode { get; set; } = default!;
+        public string? Faa1099VendCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FAB1099_ST_PAID_OVER_AMT
@@ -94,7 +94,7 @@ namespace Ellucian.Generated.BpApi.Ban._1099ReportingV100PostRequest
         /// Lineage reference object : taxId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("taxID", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object TaxID { get; set; } = default!;
+        public string TaxID { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FAB1099_INVH_CODE
@@ -124,13 +124,13 @@ namespace Ellucian.Generated.BpApi.Ban._1099ReportingV100PostRequest
         /// Lineage reference object : faa1099RptYr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faa1099RptYr", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Faa1099RptYr { get; set; } = default!;
+        public string Faa1099RptYr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : instTin, Lookup lineage reference object : fob1099,for1099
         /// </summary>
         [Newtonsoft.Json.JsonProperty("instTin", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? InstTin { get; set; } = default!;
+        public string? InstTin { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

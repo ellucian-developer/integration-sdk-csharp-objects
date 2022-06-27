@@ -34,7 +34,7 @@ namespace Ellucian.Generated.BpApi.Ban.MassTimeEntryV100PutRequest
         /// Lineage reference object : year
         /// </summary>
         [Newtonsoft.Json.JsonProperty("year", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Year { get; set; } = default!;
+        public string? Year { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PHRMTIM_SUFF
@@ -106,7 +106,7 @@ namespace Ellucian.Generated.BpApi.Ban.MassTimeEntryV100PutRequest
         /// Lineage reference object : pictCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pictCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PictCode { get; set; } = default!;
+        public string? PictCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PHRMTIM_ACCI_CODE
@@ -247,7 +247,7 @@ namespace Ellucian.Generated.BpApi.Ban.MassTimeEntryV100PutRequest
         /// Lineage reference object : payno
         /// </summary>
         [Newtonsoft.Json.JsonProperty("payno", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Payno { get; set; } = default!;
+        public double? Payno { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PHRMTIM_BEGIN_DATE

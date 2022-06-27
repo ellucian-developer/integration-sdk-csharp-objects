@@ -31,6 +31,12 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PutRequest
         public string CriteriaDetailCode { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : TBRACCD_DOCUMENT_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("documentNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DocumentNumber { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : TBRACCD_SESSION_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.sessionNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -63,6 +69,12 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PutRequest
         [Newtonsoft.Json.JsonProperty("criteria.tranNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? CriteriaTranNumber { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : holdPassword
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("holdPassword", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? HoldPassword { get; set; } = default!;
+
         [Newtonsoft.Json.JsonProperty("criteria.taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaTaxMethod { get; set; } = default!;
 
@@ -77,6 +89,12 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PutRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.cpdtInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaCpdtInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_ACCT_FEED_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("acctFeedInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AcctFeedInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_TRAN_NUMBER_PAID
@@ -94,13 +112,19 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PutRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lookup lineage reference object : gtvcurr
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.currCodeV", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CriteriaCurrCodeV { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.currCodeV", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaCurrCodeV { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_TRAN_NUMBER_PAID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("tranNumberPaid", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TranNumberPaid { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_EFFECTIVE_DATE
@@ -129,6 +153,12 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PutRequest
         [Newtonsoft.Json.JsonProperty("criteria.transDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? CriteriaTransDate { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : TBRACCD_INV_NUMBER_PAID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("invNumberPaid", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? InvNumberPaid { get; set; } = default!;
+
         [Newtonsoft.Json.JsonProperty("criteria.taxAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? CriteriaTaxAmount { get; set; } = default!;
 
@@ -137,12 +167,6 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PutRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.invNumberPaid", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaInvNumberPaid { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TBRACCD_DETAIL_CODE, Lookup lineage reference object : tbbdetc
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("detailCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string DetailCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_STSP_KEY_SEQUENCE, Lookup lineage reference object : TBRACCD
@@ -199,16 +223,34 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100PutRequest
         public string? CriteriaInvoiceNumber { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : TBRACCD_CPDT_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cpdtInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CpdtInd { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : TBRACCD_FEED_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.feedDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? CriteriaFeedDate { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : TBRACCD_EFFECTIVE_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("effectiveDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset EffectiveDate { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : TBRACCD_RECEIPT_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.receiptNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? CriteriaReceiptNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_DESC
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("desc", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string Desc { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

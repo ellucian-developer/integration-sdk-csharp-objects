@@ -28,25 +28,25 @@ namespace Ellucian.Generated.BpApi.Ban.GrantTransactionDetailV100GetRequest
         /// Lineage reference object : keyblckFundCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckFundCode { get; set; } = default!;
+        public string? KeyblckFundCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckLocnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckLocnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckLocnCode { get; set; } = default!;
+        public string? KeyblckLocnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckCoasCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblckCoasCode { get; set; } = default!;
+        public string KeyblckCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckGrntYr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckGrntYr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckGrntYr { get; set; } = default!;
+        public string? KeyblckGrntYr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGTRD_FIELD_DESC
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantTransactionDetailV100GetRequest
         /// Lineage reference object : keyblckActvCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckActvCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckActvCode { get; set; } = default!;
+        public string? KeyblckActvCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGTRD_LOCN_CODE
@@ -88,13 +88,13 @@ namespace Ellucian.Generated.BpApi.Ban.GrantTransactionDetailV100GetRequest
         /// Lineage reference object : keyblckCmtType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckCmtType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckCmtType { get; set; } = default!;
+        public string? KeyblckCmtType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckAcctCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAcctCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAcctCode { get; set; } = default!;
+        public string? KeyblckAcctCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGTRD_PROG_CODE
@@ -124,7 +124,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantTransactionDetailV100GetRequest
         /// Lineage reference object : keyblckOrgnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckOrgnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckOrgnCode { get; set; } = default!;
+        public string? KeyblckOrgnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGTRD_DR_CR_IND
@@ -136,13 +136,13 @@ namespace Ellucian.Generated.BpApi.Ban.GrantTransactionDetailV100GetRequest
         /// Lineage reference object : keyblckProgCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckProgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckProgCode { get; set; } = default!;
+        public string? KeyblckProgCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckAcciCode, Lookup lineage reference object : ftvacci
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAcciCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAcciCode { get; set; } = default!;
+        public string? KeyblckAcciCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGTRD_DOC_CODE
@@ -160,19 +160,19 @@ namespace Ellucian.Generated.BpApi.Ban.GrantTransactionDetailV100GetRequest
         /// Lineage reference object : keyblckDateTo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckDateTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckDateTo { get; set; } = default!;
+        public System.DateTimeOffset? KeyblckDateTo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : poolCheckbox
         /// </summary>
         [Newtonsoft.Json.JsonProperty("poolCheckbox", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PoolCheckbox { get; set; } = default!;
+        public string? PoolCheckbox { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckPeriod
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckPeriod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckPeriod { get; set; } = default!;
+        public string? KeyblckPeriod { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGTRD_TRANS_DESC
@@ -190,7 +190,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantTransactionDetailV100GetRequest
         /// Lineage reference object : keyblckDateFrom
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckDateFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckDateFrom { get; set; } = default!;
+        public System.DateTimeOffset? KeyblckDateFrom { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGTRD_RUCL_CODE
@@ -202,7 +202,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantTransactionDetailV100GetRequest
         /// Lineage reference object : keyblckGrntCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckGrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckGrntCode { get; set; } = default!;
+        public string? KeyblckGrntCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

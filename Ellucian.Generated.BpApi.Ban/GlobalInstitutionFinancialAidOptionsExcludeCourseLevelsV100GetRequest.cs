@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.GlobalInstitutionFinancialAidOptionsExclu
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAidyCode { get; set; } = default!;
+        public string? KeyblckAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RORCLVE_STU_LEVL_CODE, Lookup lineage reference object : stvlevl

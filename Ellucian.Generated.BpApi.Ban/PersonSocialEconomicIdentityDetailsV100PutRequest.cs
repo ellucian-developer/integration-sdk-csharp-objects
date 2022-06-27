@@ -58,13 +58,13 @@ namespace Ellucian.Generated.BpApi.Ban.PersonSocialEconomicIdentityDetailsV100Pu
         /// Lineage reference object : gtvseirCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("gtvseirCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? GtvseirCode { get; set; } = default!;
+        public string? GtvseirCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GORPSID_SEID_CODE

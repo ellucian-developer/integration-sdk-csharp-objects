@@ -31,6 +31,12 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string? Value6 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label29", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label29 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value51", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -41,6 +47,12 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value5", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value5 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label28", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label28 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -61,6 +73,12 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string? Value8 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label27", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label27 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number48", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -77,6 +95,12 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value7", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value7 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label26", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label26 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -139,10 +163,22 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number43 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label21", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label21 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number42", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number42 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label20", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label20 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -157,10 +193,70 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number40 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label25", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label25 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value9", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value9 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label24", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label24 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label23", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label23 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label22", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label22 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label4", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label4 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label5", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label5 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label6", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label6 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label7", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label7 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label8", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label8 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label9", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label9 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
@@ -199,16 +295,34 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string? Value56 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label18", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label18 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value62", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value62 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label17", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label17 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value61", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value61 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label16", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label16 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -221,6 +335,12 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value64", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value64 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label15", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label15 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -259,10 +379,22 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string? Value60 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label19", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label19 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number54", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number54 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label10", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label10 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -289,10 +421,34 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number50 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label14", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label14 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label13", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label13 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label12", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label12 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label11", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label11 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : displayPrntCode, Lookup lineage reference object : gtvprnt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayPrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayPrntCode { get; set; } = default!;
+        public string? DisplayPrntCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayStorageDays
@@ -337,10 +493,22 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string? Value31 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label49", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label49 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value30", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value30 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label48", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label48 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -370,7 +538,7 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         /// Lineage reference object : submitJprmCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("submitJprmCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SubmitJprmCode { get; set; } = default!;
+        public string? SubmitJprmCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -379,10 +547,22 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number65 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label43", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label43 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number64", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number64 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label42", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label42 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -391,10 +571,22 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number63 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label41", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label41 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number62", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number62 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label40", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label40 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -403,10 +595,34 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number61 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label47", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label47 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number60", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number60 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label46", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label46 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label45", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label45 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label44", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label44 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
@@ -463,10 +679,28 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string? Value40 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label39", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label39 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label38", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label38 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value42", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value42 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label37", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label37 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
@@ -499,16 +733,34 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number76 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label32", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label32 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number75", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number75 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label31", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label31 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number74", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number74 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label30", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label30 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -523,10 +775,28 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number72 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label36", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label36 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number71", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number71 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label1 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label35", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label35 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -535,10 +805,34 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number70 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label2 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label34", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label34 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label3 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label33", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label33 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : displaySubmitInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displaySubmitInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplaySubmitInd { get; set; } = default!;
+        public string? DisplaySubmitInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
@@ -583,16 +877,76 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string? Value45 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label65", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label65 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label64", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label64 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label63", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label63 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label62", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label62 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label69", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label69 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label68", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label68 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label67", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label67 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label66", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label66 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value19", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value19 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label61", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label61 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value18", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Value18 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label60", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label60 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
@@ -673,6 +1027,12 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number14 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label59", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label59 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number13", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -697,6 +1057,60 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number10 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label54", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label54 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label53", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label53 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label52", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label52 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label51", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label51 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label58", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label58 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label57", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label57 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label56", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label56 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label55", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label55 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label50", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label50 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value29", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -706,7 +1120,7 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         /// Lineage reference object : displaySaveDefaults
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displaySaveDefaults", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplaySaveDefaults { get; set; } = default!;
+        public string? DisplaySaveDefaults { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
@@ -829,10 +1243,22 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number20 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label87", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label87 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number4", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number4 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label86", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label86 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -841,10 +1267,22 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number1 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label85", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label85 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number2", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number2 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label84", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label84 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -865,10 +1303,22 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number5 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label89", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label89 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number6", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number6 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label88", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label88 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -877,10 +1327,34 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number9 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label83", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label83 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label82", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label82 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : displayPdfFont, Lookup lineage reference object : gtvpdft
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayPdfFont", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayPdfFont { get; set; } = default!;
+        public string? DisplayPdfFont { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label81", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label81 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label80", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label80 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
@@ -943,28 +1417,148 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         public string Number31 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label76", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label76 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("number30", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Number30 { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label75", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label75 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label74", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label74 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label73", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label73 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label79", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label79 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label78", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label78 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label77", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label77 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label72", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label72 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label71", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label71 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label70", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label70 { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : displayPrntForm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayPrntForm", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayPrntForm { get; set; } = default!;
+        public string? DisplayPrntForm { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : jprmCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("jprmCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? JprmCode { get; set; } = default!;
+        public string? JprmCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displaySubmitTime
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displaySubmitTime", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplaySubmitTime { get; set; } = default!;
+        public string? DisplaySubmitTime { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label98", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label98 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label97", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label97 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label96", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label96 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label95", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label95 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label99", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label99 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label90", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label90 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label94", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label94 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label93", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label93 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label92", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label92 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label91", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label91 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayFontSize
@@ -1156,7 +1750,7 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         /// Lineage reference object : displayMimeType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayMimeType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayMimeType { get; set; } = default!;
+        public string? DisplayMimeType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
@@ -1222,7 +1816,7 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         /// Lineage reference object : keyblckJob
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckJob", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckJob { get; set; } = default!;
+        public string? KeyblckJob { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
@@ -1276,7 +1870,7 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostRequest
         /// Lineage reference object : submitJprmDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("submitJprmDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SubmitJprmDesc { get; set; } = default!;
+        public string? SubmitJprmDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval

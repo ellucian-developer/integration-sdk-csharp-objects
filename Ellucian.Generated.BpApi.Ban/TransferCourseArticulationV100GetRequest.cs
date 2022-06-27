@@ -28,19 +28,19 @@ namespace Ellucian.Generated.BpApi.Ban.TransferCourseArticulationV100GetRequest
         /// Lineage reference object : keyblocSbgiCode, Lookup lineage reference object : stvsbgi
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sbgiCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SbgiCode { get; set; } = default!;
+        public string? SbgiCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocProgram, Lookup lineage reference object : smrprle
         /// </summary>
         [Newtonsoft.Json.JsonProperty("program", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Program { get; set; } = default!;
+        public string? Program { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocSbgiCodeDef
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sbgiCodeDef", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SbgiCodeDef { get; set; } = default!;
+        public string? SbgiCodeDef { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

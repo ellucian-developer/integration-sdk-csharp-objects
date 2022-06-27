@@ -34,13 +34,13 @@ namespace Ellucian.Generated.BpApi.Ban.FundsManagementV100GetRequest
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("yearCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? YearCode { get; set; } = default!;
+        public string? YearCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckSort
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sort", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Sort { get; set; } = default!;
+        public string? Sort { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

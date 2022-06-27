@@ -28,25 +28,25 @@ namespace Ellucian.Generated.BpApi.Ban.SavedOutputReviewV100GetRequest
         /// Lineage reference object : keyblckOneUpNo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckOneUpNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckOneUpNo { get; set; } = default!;
+        public string? KeyblckOneUpNo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckStartDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckStartDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckStartDate { get; set; } = default!;
+        public System.DateTimeOffset? KeyblckStartDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckFileName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFileName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckFileName { get; set; } = default!;
+        public string? KeyblckFileName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckJob
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckJob", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckJob { get; set; } = default!;
+        public string? KeyblckJob { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

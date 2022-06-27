@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.IdentificationBiographicalV100PostRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GORPRAC_RACE_CDE, Lookup lineage reference object : gorrace

@@ -34,13 +34,13 @@ namespace Ellucian.Generated.BpApi.Ban.OpenPurchaseOrdersByFoapalV100GetRequest
         /// Lineage reference object : displayAcciCode, Lookup lineage reference object : ftvacci
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayAcciCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayAcciCode { get; set; } = default!;
+        public string? DisplayAcciCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayProjCode, Lookup lineage reference object : ftvproj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayProjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayProjCode { get; set; } = default!;
+        public string? DisplayProjCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FPRPODT_ITEM
@@ -52,25 +52,25 @@ namespace Ellucian.Generated.BpApi.Ban.OpenPurchaseOrdersByFoapalV100GetRequest
         /// Lineage reference object : displayOrgnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayOrgnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayOrgnCode { get; set; } = default!;
+        public string? DisplayOrgnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayLocnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayLocnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayLocnCode { get; set; } = default!;
+        public string? DisplayLocnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayProgCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayProgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayProgCode { get; set; } = default!;
+        public string? DisplayProgCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayCoasCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object DisplayCoasCode { get; set; } = default!;
+        public string DisplayCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FPRPODT_COMM_CODE
@@ -82,7 +82,7 @@ namespace Ellucian.Generated.BpApi.Ban.OpenPurchaseOrdersByFoapalV100GetRequest
         /// Lineage reference object : displayAcctCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayAcctCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayAcctCode { get; set; } = default!;
+        public string? DisplayAcctCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FPRPODT_QTY
@@ -100,13 +100,13 @@ namespace Ellucian.Generated.BpApi.Ban.OpenPurchaseOrdersByFoapalV100GetRequest
         /// Lineage reference object : displayActvCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayActvCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayActvCode { get; set; } = default!;
+        public string? DisplayActvCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayFundCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayFundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayFundCode { get; set; } = default!;
+        public string? DisplayFundCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FPRPODT_UOMS_CODE, Lookup lineage reference object : ftvuoms

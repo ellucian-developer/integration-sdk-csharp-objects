@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.TaxIdSearchV100GetRequest
         /// Lineage reference object : keyblckStudentId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckStudentId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckStudentId { get; set; } = default!;
+        public string? KeyblckStudentId { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -34,13 +34,13 @@ namespace Ellucian.Generated.BpApi.Ban.BillingMassDataEntryMemosV100PostRequest
         /// Lineage reference object : keybloc3DetailCode, Lookup lineage reference object : tbbdetc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc3DetailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc3DetailCode { get; set; } = default!;
+        public string? Keybloc3DetailCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keybloc3BillingInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc3BillingInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc3BillingInd { get; set; } = default!;
+        public string? Keybloc3BillingInd { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Id { get; set; } = default!;
@@ -49,7 +49,7 @@ namespace Ellucian.Generated.BpApi.Ban.BillingMassDataEntryMemosV100PostRequest
         /// Lineage reference object : keybloc3ExpDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc3ExpDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc3ExpDate { get; set; } = default!;
+        public System.DateTimeOffset? Keybloc3ExpDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRMEMO_DETAIL_CODE, Lookup lineage reference object : tbbdetc
@@ -73,7 +73,7 @@ namespace Ellucian.Generated.BpApi.Ban.BillingMassDataEntryMemosV100PostRequest
         /// Lineage reference object : keybloc3Amount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc3Amount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc3Amount { get; set; } = default!;
+        public double? Keybloc3Amount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRMEMO_DESC

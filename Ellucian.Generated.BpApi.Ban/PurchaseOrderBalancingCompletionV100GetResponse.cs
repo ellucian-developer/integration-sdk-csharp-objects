@@ -28,121 +28,121 @@ namespace Ellucian.Generated.BpApi.Ban.PurchaseOrderBalancingCompletionV100GetRe
         /// Lineage reference object : displayCurrCode, Lookup lineage reference object : gtvcurr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayCurrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayCurrCode { get; set; } = default!;
+        public string? DisplayCurrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : apprStatus
         /// </summary>
         [Newtonsoft.Json.JsonProperty("apprStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ApprStatus { get; set; } = default!;
+        public string? ApprStatus { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : headDisc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("headDisc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HeadDisc { get; set; } = default!;
+        public double? HeadDisc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : discStatus
         /// </summary>
         [Newtonsoft.Json.JsonProperty("discStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DiscStatus { get; set; } = default!;
+        public string? DiscStatus { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : acctDisc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("acctDisc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AcctDisc { get; set; } = default!;
+        public double? AcctDisc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : addlStatus
         /// </summary>
         [Newtonsoft.Json.JsonProperty("addlStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AddlStatus { get; set; } = default!;
+        public string? AddlStatus { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayCurrDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayCurrDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayCurrDesc { get; set; } = default!;
+        public string? DisplayCurrDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : headAppr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("headAppr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HeadAppr { get; set; } = default!;
+        public double? HeadAppr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : acctAppr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("acctAppr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AcctAppr { get; set; } = default!;
+        public double? AcctAppr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : commDisc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("commDisc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CommDisc { get; set; } = default!;
+        public double? CommDisc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : headTax
         /// </summary>
         [Newtonsoft.Json.JsonProperty("headTax", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HeadTax { get; set; } = default!;
+        public double? HeadTax { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : acctTax
         /// </summary>
         [Newtonsoft.Json.JsonProperty("acctTax", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AcctTax { get; set; } = default!;
+        public double? AcctTax { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : taxStatus
         /// </summary>
         [Newtonsoft.Json.JsonProperty("taxStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TaxStatus { get; set; } = default!;
+        public string? TaxStatus { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : commAddl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("commAddl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CommAddl { get; set; } = default!;
+        public double? CommAddl { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayConvRate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayConvRate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayConvRate { get; set; } = default!;
+        public double? DisplayConvRate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : acctAddl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("acctAddl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AcctAddl { get; set; } = default!;
+        public double? AcctAddl { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : commAppr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("commAppr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CommAppr { get; set; } = default!;
+        public double? CommAppr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : commTax
         /// </summary>
         [Newtonsoft.Json.JsonProperty("commTax", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CommTax { get; set; } = default!;
+        public double? CommTax { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : fpbpohdMatchBlkRequired
         /// </summary>
         [Newtonsoft.Json.JsonProperty("fpbpohdMatchBlkRequired", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object FpbpohdMatchBlkRequired { get; set; } = default!;
+        public string FpbpohdMatchBlkRequired { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : headAddl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("headAddl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HeadAddl { get; set; } = default!;
+        public double? HeadAddl { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

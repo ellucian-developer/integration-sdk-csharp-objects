@@ -142,7 +142,7 @@ namespace Ellucian.Generated.BpApi.Ban.PurchaseOrderCommodityAccountingV100GetRe
         /// Lineage reference object : displayPohdCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayPohdCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayPohdCode { get; set; } = default!;
+        public string? DisplayPohdCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

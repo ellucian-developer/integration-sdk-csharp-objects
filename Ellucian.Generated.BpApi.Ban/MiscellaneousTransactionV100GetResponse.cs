@@ -163,19 +163,19 @@ namespace Ellucian.Generated.BpApi.Ban.MiscellaneousTransactionV100GetResponse
         /// Lineage reference object : printReceipt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("printReceipt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PrintReceipt { get; set; } = default!;
+        public string? PrintReceipt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dupReceiptInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dupReceiptInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DupReceiptInd { get; set; } = default!;
+        public string? DupReceiptInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dummyNum3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dummyNum3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DummyNum3 { get; set; } = default!;
+        public string? DummyNum3 { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

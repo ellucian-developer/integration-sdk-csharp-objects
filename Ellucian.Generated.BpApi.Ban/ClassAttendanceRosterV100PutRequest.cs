@@ -31,7 +31,7 @@ namespace Ellucian.Generated.BpApi.Ban.ClassAttendanceRosterV100PutRequest
         /// Lineage reference object : ssbsectCrnt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectCrnt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectCrnt { get; set; } = default!;
+        public string? SsbsectCrnt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRSTCR_ATTEND_HR
@@ -43,13 +43,13 @@ namespace Ellucian.Generated.BpApi.Ban.ClassAttendanceRosterV100PutRequest
         /// Lineage reference object : ssbsectDegsAwrdInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectDegsAwrdInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectDegsAwrdInd { get; set; } = default!;
+        public string? SsbsectDegsAwrdInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ssbsectTermCodet, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectTermCodet", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectTermCodet { get; set; } = default!;
+        public string? SsbsectTermCodet { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRSTCR_REG_SEQ

@@ -82,6 +82,12 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceV100PostRequest
         public string? CtryCodePhone { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : persMi
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("persMi", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersMi { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : FTVVEND_EFF_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("effDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -91,7 +97,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceV100PostRequest
         /// Lineage reference object : ftvvendName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftvvendName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtvvendName { get; set; } = default!;
+        public string? FtvvendName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVVEND_COLLECT_TAX
@@ -118,6 +124,12 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceV100PostRequest
         public string? DiscCode { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : ftvvendVendCode, Lookup lineage reference object : ftvvend
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ftvvendVendCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string FtvvendVendCode { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : FTVVEND_CONTACT
         /// </summary>
         [Newtonsoft.Json.JsonProperty("contact", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -128,6 +140,12 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceV100PostRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("fedWholdPct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? FedWholdPct { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : persFirstName
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("persFirstName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersFirstName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVVEND_PO_HOLD_RSN_CODE, Lookup lineage reference object : ftvhrsn
@@ -152,6 +170,12 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceV100PostRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("1099RptId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? _1099RptId { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : persLastName
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("persLastName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersLastName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVVEND_GROUPING_IND

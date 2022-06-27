@@ -43,13 +43,13 @@ namespace Ellucian.Generated.BpApi.Ban.EnrollmentStatusControlV100GetRequest
         /// Lineage reference object : xxxxxxxTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("xxxxxxxTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? XxxxxxxTermCode { get; set; } = default!;
+        public string? XxxxxxxTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : xxxxxxxTermCodeDef, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("xxxxxxxTermCodeDef", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? XxxxxxxTermCodeDef { get; set; } = default!;
+        public string? XxxxxxxTermCodeDef { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFBESTS_END_DATE

@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.BenefitOrDeductionMassChangeRuleV100GetRe
         /// Lineage reference object : bcatCode, Lookup lineage reference object : ptrbcat
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bcat_code", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Bcat_code { get; set; } = default!;
+        public string Bcat_code { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PTRBDMC_OPT_CODE4

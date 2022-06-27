@@ -176,31 +176,31 @@ namespace Ellucian.Generated.BpApi.Ban.ContractReviewV100GetResponse
         /// Lineage reference object : ctlDetailCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ctlDetailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CtlDetailCode { get; set; } = default!;
+        public string? CtlDetailCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ctlDescription
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ctlDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CtlDescription { get; set; } = default!;
+        public string? CtlDescription { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryBalance { get; set; } = default!;
+        public double? QueryBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : accountBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("accountBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AccountBalance { get; set; } = default!;
+        public double? AccountBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ctlAmount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ctlAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CtlAmount { get; set; } = default!;
+        public double? CtlAmount { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

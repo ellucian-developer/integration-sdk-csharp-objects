@@ -48,43 +48,43 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantMailV100GetResponse
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAidyCode { get; set; } = default!;
+        public string? KeyblckAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayMessage
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayMessage", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayMessage { get; set; } = default!;
+        public string? DisplayMessage { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : statAwdLtrInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("statAwdLtrInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StatAwdLtrInd { get; set; } = default!;
+        public string? StatAwdLtrInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : rwname
         /// </summary>
         [Newtonsoft.Json.JsonProperty("rwname", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Rwname { get; set; } = default!;
+        public string? Rwname { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : confidInfo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("confidInfo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConfidInfo { get; set; } = default!;
+        public string? ConfidInfo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : deceasedInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("deceasedInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DeceasedInd { get; set; } = default!;
+        public string? DeceasedInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

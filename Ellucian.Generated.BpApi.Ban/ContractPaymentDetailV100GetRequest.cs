@@ -67,7 +67,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractPaymentDetailV100GetRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("stuName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? StuName { get; set; } = default!;
@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractPaymentDetailV100GetRequest
         /// Lineage reference object : contTranNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("contTranNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ContTranNumber { get; set; } = default!;
+        public double? ContTranNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRCPDT_FINAL_IND

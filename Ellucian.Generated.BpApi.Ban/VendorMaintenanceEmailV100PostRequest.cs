@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceEmailV100PostRequest
         /// Lineage reference object : ftvvendVendCode, Lookup lineage reference object : ftvvend
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftvvendVendCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object FtvvendVendCode { get; set; } = default!;
+        public string FtvvendVendCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GOREMAL_COMMENT

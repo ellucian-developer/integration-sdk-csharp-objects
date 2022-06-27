@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleCalendarV100GetRequest
         /// Lineage reference object : keyblckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckCrn { get; set; } = default!;
+        public string? KeyblckCrn { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

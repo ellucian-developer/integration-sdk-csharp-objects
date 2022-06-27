@@ -64,7 +64,7 @@ namespace Ellucian.Generated.BpApi.Ban.PoolSectionV100GetRequest
         /// Lineage reference object : poolInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("poolInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PoolInd { get; set; } = default!;
+        public string? PoolInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSBSECT_SCHD_CODE
@@ -82,7 +82,7 @@ namespace Ellucian.Generated.BpApi.Ban.PoolSectionV100GetRequest
         /// Lineage reference object : keyblocTermCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCodeEff { get; set; } = default!;
+        public string? KeyblocTermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSBSECT_PTRM_CODE
@@ -118,13 +118,13 @@ namespace Ellucian.Generated.BpApi.Ban.PoolSectionV100GetRequest
         /// Lineage reference object : keyBlckSessCode, Lookup lineage reference object : stvsess
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyBlckSessCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyBlckSessCode { get; set; } = default!;
+        public string? KeyBlckSessCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ssbsectSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectSubjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectSubjCode { get; set; } = default!;
+        public string? SsbsectSubjCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSBSECT_NUMBER_OF_UNITS
@@ -154,19 +154,19 @@ namespace Ellucian.Generated.BpApi.Ban.PoolSectionV100GetRequest
         /// Lineage reference object : scbcrkyCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scbcrkyCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScbcrkyCrseNumb { get; set; } = default!;
+        public string? ScbcrkyCrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : blckCode, Lookup lineage reference object : stvblck
         /// </summary>
         [Newtonsoft.Json.JsonProperty("blckCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BlckCode { get; set; } = default!;
+        public string? BlckCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyBlckCampCode, Lookup lineage reference object : stvcamp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyBlckCampCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyBlckCampCode { get; set; } = default!;
+        public string? KeyBlckCampCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSBSECT_INSM_CODE

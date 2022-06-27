@@ -34,7 +34,7 @@ namespace Ellucian.Generated.BpApi.Ban.PurchaseOrdersByVendorV100GetRequest
         /// Lineage reference object : displayOrgnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayOrgnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayOrgnCode { get; set; } = default!;
+        public string? DisplayOrgnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FPRPODT_POHD_CODE
@@ -46,25 +46,25 @@ namespace Ellucian.Generated.BpApi.Ban.PurchaseOrdersByVendorV100GetRequest
         /// Lineage reference object : statusGrp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("statusGrp", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StatusGrp { get; set; } = default!;
+        public string? StatusGrp { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayCoasCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayCoasCode { get; set; } = default!;
+        public string? DisplayCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayFsyrCode, Lookup lineage reference object : ftvfspd,ftvfsyr,ftvfspd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayFsyrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayFsyrCode { get; set; } = default!;
+        public string? DisplayFsyrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayVendCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayVendCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayVendCode { get; set; } = default!;
+        public string? DisplayVendCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FPRPODT_UOMS_CODE, Lookup lineage reference object : ftvuoms

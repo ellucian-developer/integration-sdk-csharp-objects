@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeHolidaysRuleV100GetRequest
         /// Lineage reference object : ecls
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ecls", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Ecls { get; set; } = default!;
+        public string Ecls { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PTREHOL_DESC

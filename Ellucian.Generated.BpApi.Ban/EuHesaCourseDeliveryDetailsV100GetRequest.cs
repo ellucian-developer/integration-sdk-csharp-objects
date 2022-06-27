@@ -25,13 +25,13 @@ namespace Ellucian.Generated.BpApi.Ban.EuHesaCourseDeliveryDetailsV100GetRequest
     public partial class EuHesaCourseDeliveryDetailsV100GetRequest
     {
         /// <summary>
-        /// Lineage reference object : keyblockCourseId
+        /// Lineage reference object : keyblockCourseId, Lookup lineage reference object : sorpcde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblockCourseId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public object? KeyblockCourseId { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : copyCourseId
+        /// Lineage reference object : copyCourseId, Lookup lineage reference object : sorpcde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("copyCourseId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public object? CopyCourseId { get; set; } = default!;

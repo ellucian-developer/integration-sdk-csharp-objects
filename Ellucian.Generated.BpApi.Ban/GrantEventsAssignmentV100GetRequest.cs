@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantEventsAssignmentV100GetRequest
         /// Lineage reference object : keyblckAgencyCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAgencyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAgencyCode { get; set; } = default!;
+        public string? KeyblckAgencyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRREVNG_DUE_DATE
@@ -121,7 +121,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantEventsAssignmentV100GetRequest
         /// Lineage reference object : displayGrntCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayGrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayGrntCode { get; set; } = default!;
+        public string? DisplayGrntCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRBEVNG_ALTERNATE_EVNT_DESC

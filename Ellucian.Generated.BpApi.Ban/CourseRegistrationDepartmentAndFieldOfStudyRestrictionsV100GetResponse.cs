@@ -54,25 +54,25 @@ namespace Ellucian.Generated.BpApi.Ban.CourseRegistrationDepartmentAndFieldOfStu
         /// Lineage reference object : scrrdepDeptIeCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrdepDeptIeCde", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object ScrrdepDeptIeCde { get; set; } = default!;
+        public string ScrrdepDeptIeCde { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : rdepCtrlEndcopy
         /// </summary>
         [Newtonsoft.Json.JsonProperty("rdepCtrlEndcopy", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RdepCtrlEndcopy { get; set; } = default!;
+        public string? RdepCtrlEndcopy { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrdepTermCodeFrom, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrdepTermCodeFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrdepTermCodeFrom { get; set; } = default!;
+        public string? ScrrdepTermCodeFrom { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrdepTermCodeTo, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrdepTermCodeTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrdepTermCodeTo { get; set; } = default!;
+        public string? ScrrdepTermCodeTo { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

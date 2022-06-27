@@ -49,31 +49,31 @@ namespace Ellucian.Generated.BpApi.Ban.EntityNameIdSearchV100GetRequest
         /// Lineage reference object : queryAgency
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryAgency", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryAgency { get; set; } = default!;
+        public string? QueryAgency { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryAll
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryAll", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryAll { get; set; } = default!;
+        public string? QueryAll { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryVendor
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryVendor", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryVendor { get; set; } = default!;
+        public string? QueryVendor { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryGrntPersonnel
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryGrntPersonnel", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryGrntPersonnel { get; set; } = default!;
+        public string? QueryGrntPersonnel { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryTermFinMgr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryTermFinMgr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryTermFinMgr { get; set; } = default!;
+        public string? QueryTermFinMgr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRIDEN_FIRST_NAME
@@ -100,13 +100,13 @@ namespace Ellucian.Generated.BpApi.Ban.EntityNameIdSearchV100GetRequest
         /// Lineage reference object : queryPropPersonnel
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryPropPersonnel", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryPropPersonnel { get; set; } = default!;
+        public string? QueryPropPersonnel { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryTermVendor
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryTermVendor", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryTermVendor { get; set; } = default!;
+        public string? QueryTermVendor { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRIDEN_ID
@@ -118,7 +118,7 @@ namespace Ellucian.Generated.BpApi.Ban.EntityNameIdSearchV100GetRequest
         /// Lineage reference object : queryFinMgr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryFinMgr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryFinMgr { get; set; } = default!;
+        public string? QueryFinMgr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRIDEN_MI

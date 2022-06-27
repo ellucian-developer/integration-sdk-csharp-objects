@@ -100,7 +100,7 @@ namespace Ellucian.Generated.BpApi.Ban.GradableComponentDefinitionV100PostReques
         /// Lineage reference object : componentSort
         /// </summary>
         [Newtonsoft.Json.JsonProperty("componentSort", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ComponentSort { get; set; } = default!;
+        public string? ComponentSort { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSBSECT_GSCH_NAME, Lookup lineage reference object : shbgsch,ssbsect,scbcrse,scbcrse
@@ -154,13 +154,13 @@ namespace Ellucian.Generated.BpApi.Ban.GradableComponentDefinitionV100PostReques
         /// Lineage reference object : crn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("crn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Crn { get; set; } = default!;
+        public string? Crn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : termCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

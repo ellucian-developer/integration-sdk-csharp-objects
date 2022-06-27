@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.CommonMatchingSourceV100GetRequest
         /// Lineage reference object : columnCode, Lookup lineage reference object : gorcmdd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("columnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ColumnCode { get; set; } = default!;
+        public string? ColumnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GORCMSR_CMSC_CODE

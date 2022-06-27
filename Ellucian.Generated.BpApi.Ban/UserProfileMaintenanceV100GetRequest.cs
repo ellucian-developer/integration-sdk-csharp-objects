@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.UserProfileMaintenanceV100GetRequest
         /// Lineage reference object : keyBlockUserId, Lookup lineage reference object : all_users
         /// </summary>
         [Newtonsoft.Json.JsonProperty("userId", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object UserId { get; set; } = default!;
+        public string UserId { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

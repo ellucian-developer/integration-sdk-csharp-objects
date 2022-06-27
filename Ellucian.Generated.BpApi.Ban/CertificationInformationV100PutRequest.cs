@@ -31,6 +31,24 @@ namespace Ellucian.Generated.BpApi.Ban.CertificationInformationV100PutRequest
         public string? LcsvCode { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : PPRCERT_STAT_CODE, Lookup lineage reference object : stvstat
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("statCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : PPRCERT_NEXT_CERT_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.nextCertDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaNextCertDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : PPRCERT_NATN_CODE, Lookup lineage reference object : stvnatn
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("natnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? NatnCode { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : PPRCERT_CERT_CODE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("certCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -53,81 +71,6 @@ namespace Ellucian.Generated.BpApi.Ban.CertificationInformationV100PutRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.expireDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? CriteriaExpireDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRENDS_ENDS_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.endsDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset CriteriaEndsDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRENDS_ENDS_CODE, Lookup lineage reference object : ptvends
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.endsCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CriteriaEndsCode { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRCERT_LCSV_CODE, Lookup lineage reference object : ptvlcsv
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.lcsvCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaLcsvCode { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.statDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaStatDesc { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRCERT_NATN_CODE, Lookup lineage reference object : stvnatn
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.natnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaNatnCode { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.certDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaCertDesc { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRENDS_ENDS_CODE, Lookup lineage reference object : ptvends
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("endsCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string EndsCode { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRCERT_EXPIRE_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("expireDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? ExpireDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : id
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRENDS_ENDS_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("endsDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset EndsDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRCERT_STAT_CODE, Lookup lineage reference object : stvstat
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("statCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? StatCode { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.endsDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaEndsDesc { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRCERT_NEXT_CERT_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.nextCertDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? CriteriaNextCertDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRCERT_NATN_CODE, Lookup lineage reference object : stvnatn
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("natnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? NatnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PPRCERT_STAT_CODE, Lookup lineage reference object : stvstat
@@ -162,8 +105,38 @@ namespace Ellucian.Generated.BpApi.Ban.CertificationInformationV100PutRequest
         [Newtonsoft.Json.JsonProperty("criteria.certNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaCertNo { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : PPRCERT_LCSV_CODE, Lookup lineage reference object : ptvlcsv
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.lcsvCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaLcsvCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("criteria.statDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaStatDesc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : PPRCERT_NATN_CODE, Lookup lineage reference object : stvnatn
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.natnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaNatnCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("criteria.certDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaCertDesc { get; set; } = default!;
+
         [Newtonsoft.Json.JsonProperty("criteria.lcsvDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaLcsvDesc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : PPRCERT_EXPIRE_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("expireDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? ExpireDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : id
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Id { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -28,25 +28,25 @@ namespace Ellucian.Generated.BpApi.Ban.BillingMessageV100PostRequest
         /// Lineage reference object : accountId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("accountId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AccountId { get; set; } = default!;
+        public string? AccountId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckDeliCode, Lookup lineage reference object : ttvdeli
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckDeliCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckDeliCode { get; set; } = default!;
+        public string? KeyblckDeliCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : installmentPlan
         /// </summary>
         [Newtonsoft.Json.JsonProperty("installmentPlan", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? InstallmentPlan { get; set; } = default!;
+        public string? InstallmentPlan { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : collectionAgency
         /// </summary>
         [Newtonsoft.Json.JsonProperty("collectionAgency", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CollectionAgency { get; set; } = default!;
+        public string? CollectionAgency { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRMESG_TEXT

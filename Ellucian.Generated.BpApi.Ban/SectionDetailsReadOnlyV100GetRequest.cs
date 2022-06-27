@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.SectionDetailsReadOnlyV100GetRequest
         /// Lineage reference object : keyblocTermCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCodeEff { get; set; } = default!;
+        public string? KeyblocTermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocCrn, Lookup lineage reference object : _date,ssbsect_reg_to_date,ssbsect_ssts_code,ssbsect_camp_code,course_title,ssbsect_schd_code,ssbsect_insm_code,ssbsect_dunt_code,ssbsect_number_of_units,block_indicator,ssbsect_link_ident,cross_list,ssbsect_reserved_ind,long_course_title,syllabus_indicator,section_comments_indicator,ssbsect_max_enrl,ssbsect_enrl,ssbsect_seats_avail,ssbsect_wait_capacity,ssbsect_wait_count,ssbsect_wait_avail,svq_ssasecq
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckCrn { get; set; } = default!;
+        public string? KeyblckCrn { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

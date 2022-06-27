@@ -49,6 +49,18 @@ namespace Ellucian.Generated.BpApi.Ban.ProgramDefinitionRulesV100PostRequest
         public string? WebInd { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : SMRPRLE_CURR_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("currInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CurrInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SMRPRLE_CURR_RULE_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("currRuleInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CurrRuleInd { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : SMRPRLE_PROGRAM
         /// </summary>
         [Newtonsoft.Json.JsonProperty("program", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]

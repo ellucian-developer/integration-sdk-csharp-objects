@@ -895,19 +895,19 @@ namespace Ellucian.Generated.BpApi.Ban.StudentCourseRegistrationsV100GetResponse
         /// Lineage reference object : lcurCollegeDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurCollegeDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurCollegeDisplay { get; set; } = default!;
+        public string? LcurCollegeDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dataSeparatorLine2a
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dataSeparatorLine2a", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DataSeparatorLine2a { get; set; } = default!;
+        public string? DataSeparatorLine2a { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurLmodCodeDisplay, Lookup lineage reference object : stvlmod
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurLmodCodeDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurLmodCodeDisplay { get; set; } = default!;
+        public string? LcurLmodCodeDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurRecNum
@@ -919,67 +919,67 @@ namespace Ellucian.Generated.BpApi.Ban.StudentCourseRegistrationsV100GetResponse
         /// Lineage reference object : lcurSeqnoDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurSeqnoDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurSeqnoDisplay { get; set; } = default!;
+        public double? LcurSeqnoDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurCampusDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurCampusDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurCampusDisplay { get; set; } = default!;
+        public string? LcurCampusDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurPriorityDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurPriorityDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurPriorityDisplay { get; set; } = default!;
+        public string? LcurPriorityDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurDegreeDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurDegreeDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurDegreeDisplay { get; set; } = default!;
+        public string? LcurDegreeDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurKeySeqnoDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurKeySeqnoDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurKeySeqnoDisplay { get; set; } = default!;
+        public double? LcurKeySeqnoDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dataSeparatorLine1
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dataSeparatorLine1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DataSeparatorLine1 { get; set; } = default!;
+        public string? DataSeparatorLine1 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurCactCodeDisplay, Lookup lineage reference object : stvcact,sobcact
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurCactCodeDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurCactCodeDisplay { get; set; } = default!;
+        public string? LcurCactCodeDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurTermCodeDisplay, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurTermCodeDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurTermCodeDisplay { get; set; } = default!;
+        public string? LcurTermCodeDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dataSeparatorLine2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dataSeparatorLine2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DataSeparatorLine2 { get; set; } = default!;
+        public string? DataSeparatorLine2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurLevelDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurLevelDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurLevelDisplay { get; set; } = default!;
+        public string? LcurLevelDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurCurrentIndDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurCurrentIndDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurCurrentIndDisplay { get; set; } = default!;
+        public string? LcurCurrentIndDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurRecCntLfos
@@ -997,19 +997,19 @@ namespace Ellucian.Generated.BpApi.Ban.StudentCourseRegistrationsV100GetResponse
         /// Lineage reference object : lcurCatlgDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurCatlgDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurCatlgDisplay { get; set; } = default!;
+        public string? LcurCatlgDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurTermCodeEndDisplay, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurTermCodeEndDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurTermCodeEndDisplay { get; set; } = default!;
+        public string? LcurTermCodeEndDisplay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : lcurProgramDisplay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lcurProgramDisplay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LcurProgramDisplay { get; set; } = default!;
+        public string? LcurProgramDisplay { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.MealAssignmentV100PutRequest
         /// Lineage reference object : statusDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("statusDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StatusDate { get; set; } = default!;
+        public System.DateTimeOffset? StatusDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SLRMASG_MRCD_CODE, Lookup lineage reference object : slrlmfe,tbbdetc
@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.MealAssignmentV100PutRequest
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SLRMASG_ROLL_IND
@@ -118,7 +118,7 @@ namespace Ellucian.Generated.BpApi.Ban.MealAssignmentV100PutRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SLRMASG_ASSESS_NEEDED

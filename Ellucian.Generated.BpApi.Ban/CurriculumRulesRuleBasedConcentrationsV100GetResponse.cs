@@ -48,19 +48,19 @@ namespace Ellucian.Generated.BpApi.Ban.CurriculumRulesRuleBasedConcentrationsV10
         /// Lineage reference object : cconMultipleMsg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("cconMultipleMsg", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CconMultipleMsg { get; set; } = default!;
+        public string? CconMultipleMsg { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : concFrtermDisp, Lookup lineage reference object : stvterm,sorccon
         /// </summary>
         [Newtonsoft.Json.JsonProperty("concFrtermDisp", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConcFrtermDisp { get; set; } = default!;
+        public string? ConcFrtermDisp { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : concTotermDisp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("concTotermDisp", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConcTotermDisp { get; set; } = default!;
+        public string? ConcTotermDisp { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

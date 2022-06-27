@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.IdentificationAlternateIdentificationV100
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRIDEN_SURNAME_PREFIX

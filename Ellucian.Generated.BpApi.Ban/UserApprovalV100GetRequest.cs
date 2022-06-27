@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.UserApprovalV100GetRequest
         /// Lineage reference object : nextIndicator
         /// </summary>
         [Newtonsoft.Json.JsonProperty("nextIndicator", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NextIndicator { get; set; } = default!;
+        public string? NextIndicator { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FOBUAPP_ORIG_USER
@@ -58,13 +58,13 @@ namespace Ellucian.Generated.BpApi.Ban.UserApprovalV100GetRequest
         /// Lineage reference object : docCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("docCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DocCode { get; set; } = default!;
+        public string? DocCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : userId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("userId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? UserId { get; set; } = default!;
+        public string? UserId { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

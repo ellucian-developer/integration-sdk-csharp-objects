@@ -33,6 +33,36 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationCorequisitesAndEqu
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ScacrseTermCodeEff { get; set; } = default!;
 
+        [Newtonsoft.Json.JsonProperty("subjCodeCorq", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SubjCodeCorq { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("crseNumbCorq", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CrseNumbCorq { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCREQIV_SUBJ_CODE_EQIV, Lookup lineage reference object : scbcrse,scbcrky
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("subjCodeEqiv", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SubjCodeEqiv { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCREQIV_CRSE_NUMB_EQIV, Lookup lineage reference object : scbcrse,scbcrky
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("crseNumbEqiv", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CrseNumbEqiv { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCREQIV_START_TERM, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("startTerm", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StartTerm { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCREQIV_END_TERM, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("endTerm", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EndTerm { get; set; } = default!;
+
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
         [Newtonsoft.Json.JsonExtensionData]

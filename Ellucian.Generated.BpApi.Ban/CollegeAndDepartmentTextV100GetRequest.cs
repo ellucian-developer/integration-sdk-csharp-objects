@@ -28,19 +28,19 @@ namespace Ellucian.Generated.BpApi.Ban.CollegeAndDepartmentTextV100GetRequest
         /// Lineage reference object : scatextCollCode, Lookup lineage reference object : stvcoll
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scatextCollCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScatextCollCode { get; set; } = default!;
+        public string? ScatextCollCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scatextEffTerm, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scatextEffTerm", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScatextEffTerm { get; set; } = default!;
+        public string? ScatextEffTerm { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scatextDeptCode, Lookup lineage reference object : stvdept
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scatextDeptCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScatextDeptCode { get; set; } = default!;
+        public string? ScatextDeptCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

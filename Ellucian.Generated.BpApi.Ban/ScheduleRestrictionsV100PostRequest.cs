@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleRestrictionsV100PostRequest
         /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseCrseNumb { get; set; } = default!;
+        public string? ScacrseCrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRRCMP_CAMP_CODE, Lookup lineage reference object : stvcamp
@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleRestrictionsV100PostRequest
         /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseSubjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseSubjCode { get; set; } = default!;
+        public string? ScacrseSubjCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRRTRM_RTRM_CODE, Lookup lineage reference object : stvrtrm
@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleRestrictionsV100PostRequest
         /// Lineage reference object : scacrseTermCodeEff, Lookup lineage reference object : stvterm,scbcrky,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseTermCodeEff { get; set; } = default!;
+        public string? ScacrseTermCodeEff { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

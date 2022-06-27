@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.LocationHierarchyQueryV100GetRequest
         /// Lineage reference object : ftxlochLocnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftxlochLocnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtxlochLocnCode { get; set; } = default!;
+        public string? FtxlochLocnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ftxlochCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftxlochCoasCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtxlochCoasCode { get; set; } = default!;
+        public string? FtxlochCoasCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

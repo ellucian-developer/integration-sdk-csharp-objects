@@ -45,8 +45,8 @@ namespace Ellucian.Generated.BpApi.Ban.StudentDetailCodesV100PutRequest
         /// <summary>
         /// Lookup lineage reference object : gtvcurr
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CurrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_DETAIL_CODE_IND
@@ -327,8 +327,8 @@ namespace Ellucian.Generated.BpApi.Ban.StudentDetailCodesV100PutRequest
         /// <summary>
         /// Lookup lineage reference object : gtvcurr
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.currCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CriteriaCurrCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.currCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaCurrCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("criteria.nonAllowChgInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaNonAllowChgInd { get; set; } = default!;

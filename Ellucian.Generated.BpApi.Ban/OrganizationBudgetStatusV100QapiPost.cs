@@ -33,8 +33,8 @@ namespace Ellucian.Generated.BpApi.Ban.OrganizationBudgetStatusV100QapiPost
         [Newtonsoft.Json.JsonProperty("keyblocAcciCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? KeyblocAcciCode { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("queryAcct", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string QueryAcct { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("queryAcct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? QueryAcct { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("inclRev", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? InclRev { get; set; } = default!;

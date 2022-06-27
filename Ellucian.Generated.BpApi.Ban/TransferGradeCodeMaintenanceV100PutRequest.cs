@@ -148,7 +148,7 @@ namespace Ellucian.Generated.BpApi.Ban.TransferGradeCodeMaintenanceV100PutReques
         /// Lineage reference object : shatgrdSbgiCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("shatgrdSbgiCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ShatgrdSbgiCode { get; set; } = default!;
+        public string? ShatgrdSbgiCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTGRD_GMOD_CODE

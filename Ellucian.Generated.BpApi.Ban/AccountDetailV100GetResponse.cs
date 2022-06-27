@@ -188,12 +188,6 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailV100GetResponse
         public double Amount { get; set; } = default!;
 
         /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCodeV", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCodeV { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TBRACCD_FEED_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("feedDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]

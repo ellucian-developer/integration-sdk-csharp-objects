@@ -33,6 +33,12 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationDegreeAttributesV1
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ScacrseTermCodeEff { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : SCRATTR_ATTR_CODE, Lookup lineage reference object : stvattr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("attrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AttrCode { get; set; } = default!;
+
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
         [Newtonsoft.Json.JsonExtensionData]

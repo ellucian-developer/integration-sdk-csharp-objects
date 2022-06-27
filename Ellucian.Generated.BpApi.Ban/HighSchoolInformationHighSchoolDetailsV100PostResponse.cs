@@ -70,6 +70,12 @@ namespace Ellucian.Generated.BpApi.Ban.HighSchoolInformationHighSchoolDetailsV10
         public double? ClassSize { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : SORHSCH_GRADE_COMPLETED
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("gradeCompleted", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? GradeCompleted { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : SORHSCH_PERCENTILE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("percentile", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]

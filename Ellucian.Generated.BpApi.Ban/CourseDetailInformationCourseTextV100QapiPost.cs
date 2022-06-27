@@ -33,6 +33,12 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationCourseTextV100Qapi
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ScacrseTermCodeEff { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : SCRTEXT_TEXT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("text", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Text { get; set; } = default!;
+
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
         [Newtonsoft.Json.JsonExtensionData]

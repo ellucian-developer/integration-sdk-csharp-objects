@@ -28,19 +28,19 @@ namespace Ellucian.Generated.BpApi.Ban.GrantInceptionToDateV100GetRequest
         /// Lineage reference object : keyblocYearTo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocYearTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocYearTo { get; set; } = default!;
+        public double? KeyblocYearTo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocAtypCode, Lookup lineage reference object : ftvatyp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAtypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAtypCode { get; set; } = default!;
+        public string? KeyblocAtypCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocMonthTo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocMonthTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocMonthTo { get; set; } = default!;
+        public double? KeyblocMonthTo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGBAL_TITLE
@@ -52,55 +52,55 @@ namespace Ellucian.Generated.BpApi.Ban.GrantInceptionToDateV100GetRequest
         /// Lineage reference object : keyblocProgCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocProgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocProgCode { get; set; } = default!;
+        public string? KeyblocProgCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocAcciCode, Lookup lineage reference object : ftvacci
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAcciCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAcciCode { get; set; } = default!;
+        public string? KeyblocAcciCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocOrgnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocOrgnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocOrgnCode { get; set; } = default!;
+        public string? KeyblocOrgnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : excludeAcctInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("excludeAcctInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ExcludeAcctInd { get; set; } = default!;
+        public string? ExcludeAcctInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : revenueAcctInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("revenueAcctInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RevenueAcctInd { get; set; } = default!;
+        public string? RevenueAcctInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : hier
         /// </summary>
         [Newtonsoft.Json.JsonProperty("hier", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Hier { get; set; } = default!;
+        public string? Hier { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocYearFrom
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocYearFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocYearFrom { get; set; } = default!;
+        public double? KeyblocYearFrom { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocLocnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocLocnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocLocnCode { get; set; } = default!;
+        public string? KeyblocLocnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocCoasCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocCoasCode { get; set; } = default!;
+        public string? KeyblocCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGBAL_INT_ATYP_DESC
@@ -118,13 +118,13 @@ namespace Ellucian.Generated.BpApi.Ban.GrantInceptionToDateV100GetRequest
         /// Lineage reference object : keyblocAcctCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAcctCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAcctCode { get; set; } = default!;
+        public string? KeyblocAcctCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : fundSummary
         /// </summary>
         [Newtonsoft.Json.JsonProperty("fundSummary", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FundSummary { get; set; } = default!;
+        public string? FundSummary { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGBAL_ACCT_CODE
@@ -136,13 +136,13 @@ namespace Ellucian.Generated.BpApi.Ban.GrantInceptionToDateV100GetRequest
         /// Lineage reference object : keyblocAcctSummary
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAcctSummary", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAcctSummary { get; set; } = default!;
+        public string? KeyblocAcctSummary { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : sponsorAcctInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sponsorAcctInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SponsorAcctInd { get; set; } = default!;
+        public string? SponsorAcctInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGBAL_AVAIL_BAL
@@ -154,7 +154,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantInceptionToDateV100GetRequest
         /// Lineage reference object : keyblocMonthFrom
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocMonthFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocMonthFrom { get; set; } = default!;
+        public double? KeyblocMonthFrom { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGBAL_YTD_ACTV_AMT
@@ -166,19 +166,19 @@ namespace Ellucian.Generated.BpApi.Ban.GrantInceptionToDateV100GetRequest
         /// Lineage reference object : keyblocActvCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocActvCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocActvCode { get; set; } = default!;
+        public string? KeyblocActvCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocGrntCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocGrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocGrntCode { get; set; } = default!;
+        public string? KeyblocGrntCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocGrntYr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocGrntYr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocGrntYr { get; set; } = default!;
+        public string? KeyblocGrntYr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRVGBAL_CMT_AMT
@@ -190,7 +190,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantInceptionToDateV100GetRequest
         /// Lineage reference object : keyblocFundCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocFundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocFundCode { get; set; } = default!;
+        public string? KeyblocFundCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

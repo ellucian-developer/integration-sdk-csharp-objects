@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.ExemptionAuthorizationV100PutRequest
         /// Lineage reference object : exemptionCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("exemptionCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ExemptionCode { get; set; } = default!;
+        public string? ExemptionCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBEXPT_DETAIL_CODE, Lookup lineage reference object : tbbdetc
@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.ExemptionAuthorizationV100PutRequest
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBEXPT_TERM_CODE_EXPIRATION, Lookup lineage reference object : stvterm

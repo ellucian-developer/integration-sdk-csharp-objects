@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.EarningsCodeRuleV100GetRequest
         /// Lineage reference object : earnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("earnCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object EarnCode { get; set; } = default!;
+        public string EarnCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -48,25 +48,25 @@ namespace Ellucian.Generated.BpApi.Ban.OrganizationBudgetStatusV100GetResponse
         /// Lineage reference object : netSumYtdActv
         /// </summary>
         [Newtonsoft.Json.JsonProperty("netSumYtdActv", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NetSumYtdActv { get; set; } = default!;
+        public double? NetSumYtdActv { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : netSumAdjt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("netSumAdjt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NetSumAdjt { get; set; } = default!;
+        public double? NetSumAdjt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : netSumRsrv
         /// </summary>
         [Newtonsoft.Json.JsonProperty("netSumRsrv", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NetSumRsrv { get; set; } = default!;
+        public double? NetSumRsrv { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : netSumAbal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("netSumAbal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NetSumAbal { get; set; } = default!;
+        public double? NetSumAbal { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

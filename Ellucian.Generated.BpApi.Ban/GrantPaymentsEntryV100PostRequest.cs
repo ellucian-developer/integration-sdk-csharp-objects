@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantPaymentsEntryV100PostRequest
         /// Lineage reference object : keyblckAgencyCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAgencyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAgencyCode { get; set; } = default!;
+        public string? KeyblckAgencyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TRRACCD_GRNT_CODE
@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantPaymentsEntryV100PostRequest
         /// Lineage reference object : keyblckGrntCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckGrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckGrntCode { get; set; } = default!;
+        public string? KeyblckGrntCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TRRACCD_DETAIL_CODE

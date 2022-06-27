@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionDepartmentAndFieldOfStu
         /// Lineage reference object : ssasectTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssasectTermCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsasectTermCode { get; set; } = default!;
+        public string SsasectTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ssasectCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssasectCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsasectCrn { get; set; } = default!;
+        public string? SsasectCrn { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("fosAll", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? FosAll { get; set; } = default!;
@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionDepartmentAndFieldOfStu
         /// Lineage reference object : ssrrdepDeptIeCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrdepDeptIeCde", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrdepDeptIeCde { get; set; } = default!;
+        public string SsrrdepDeptIeCde { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSRRMAJ_MAJR_CODE, Lookup lineage reference object : stvmajr

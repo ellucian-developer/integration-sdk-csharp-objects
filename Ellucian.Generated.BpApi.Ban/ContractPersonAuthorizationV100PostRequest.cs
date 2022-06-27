@@ -43,7 +43,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractPersonAuthorizationV100PostReques
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : contractNumber
@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractPersonAuthorizationV100PostReques
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBCSTU_CONTRACT_PRIORITY

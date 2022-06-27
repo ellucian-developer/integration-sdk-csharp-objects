@@ -25,10 +25,94 @@ namespace Ellucian.Generated.BpApi.Ban.TelephoneV100GetRequest
     public partial class TelephoneV100GetRequest
     {
         /// <summary>
+        /// Lineage reference object : SPRTELE_PHONE_EXT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("phoneExt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PhoneExt { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_UNLIST_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("unlistInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? UnlistInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_CTRY_CODE_PHONE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ctryCodePhone", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CtryCodePhone { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_USER_ID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("userId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? UserId { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_TELE_CODE, Lookup lineage reference object : stvtele
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("teleCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string TeleCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_PHONE_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("phoneNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PhoneNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_ADDR_SEQNO
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("addrSeqno", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? AddrSeqno { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_ACTIVITY_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("activityDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? ActivityDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_STATUS_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("statusInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatusInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_PHONE_AREA
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("phoneArea", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PhoneArea { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_COMMENT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("comment", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Comment { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_INTL_ACCESS
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("intlAccess", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? IntlAccess { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_ATYP_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("atypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AtypCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_PRIMARY_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("primaryInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PrimaryInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

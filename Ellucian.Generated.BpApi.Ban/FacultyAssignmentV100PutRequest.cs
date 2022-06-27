@@ -79,7 +79,7 @@ namespace Ellucian.Generated.BpApi.Ban.FacultyAssignmentV100PutRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SIRASGN_POSN
@@ -226,7 +226,7 @@ namespace Ellucian.Generated.BpApi.Ban.FacultyAssignmentV100PutRequest
         /// Lineage reference object : keyblocTermCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCodeEff { get; set; } = default!;
+        public string? KeyblocTermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SIRNIST_WEEKLY_HRS

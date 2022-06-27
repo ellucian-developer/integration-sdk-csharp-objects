@@ -124,13 +124,13 @@ namespace Ellucian.Generated.BpApi.Ban.DocumentApprovalHistoryV100GetResponse
         /// Lineage reference object : origUserId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("origUserId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? OrigUserId { get; set; } = default!;
+        public string? OrigUserId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : origUserName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("origUserName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? OrigUserName { get; set; } = default!;
+        public string? OrigUserName { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

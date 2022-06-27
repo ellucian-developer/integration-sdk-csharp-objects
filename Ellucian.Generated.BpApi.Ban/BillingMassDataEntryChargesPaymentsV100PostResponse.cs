@@ -45,52 +45,46 @@ namespace Ellucian.Generated.BpApi.Ban.BillingMassDataEntryChargesPaymentsV100Po
     public partial class Key_block
     {
         /// <summary>
-        /// Lineage reference object : currCode, Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CurrCode { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : keyblocDocumentNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocDocumentNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocDocumentNumber { get; set; } = default!;
+        public string? KeyblocDocumentNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocDetailCode, Lookup lineage reference object : tbbdetc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocDetailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocDetailCode { get; set; } = default!;
+        public string? KeyblocDetailCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocEffDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocEffDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocEffDate { get; set; } = default!;
+        public System.DateTimeOffset? KeyblocEffDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : runningDepoTotal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("runningDepoTotal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RunningDepoTotal { get; set; } = default!;
+        public double? RunningDepoTotal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : runningAccdTotal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("runningAccdTotal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RunningAccdTotal { get; set; } = default!;
+        public double? RunningAccdTotal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocAmount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAmount { get; set; } = default!;
+        public double? KeyblocAmount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : runningMemoTotal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("runningMemoTotal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RunningMemoTotal { get; set; } = default!;
+        public double? RunningMemoTotal { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -112,11 +106,8 @@ namespace Ellucian.Generated.BpApi.Ban.BillingMassDataEntryChargesPaymentsV100Po
         [Newtonsoft.Json.JsonProperty("amount", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double Amount { get; set; } = default!;
 
-        /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_DOCUMENT_NUMBER
@@ -138,6 +129,9 @@ namespace Ellucian.Generated.BpApi.Ban.BillingMassDataEntryChargesPaymentsV100Po
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Id { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TaxAmount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_DETAIL_CODE, Lookup lineage reference object : tbbdetc

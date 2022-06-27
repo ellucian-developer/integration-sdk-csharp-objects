@@ -84,8 +84,26 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100QapiPost
         [Newtonsoft.Json.JsonProperty("effectiveDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? EffectiveDate { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("tbbdetcDetailCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string TbbdetcDetailCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("tbbeactDetailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TbbeactDetailCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("effDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EffDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCT_ACCOUNT_A
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("accountA", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AccountA { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCT_ACCOUNT_B
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("accountB", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AccountB { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("accountPercent", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? AccountPercent { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

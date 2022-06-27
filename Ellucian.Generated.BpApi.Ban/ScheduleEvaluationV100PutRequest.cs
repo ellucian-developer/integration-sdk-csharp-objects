@@ -31,7 +31,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleEvaluationV100PutRequest
         /// Lineage reference object : ssaevalCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssaevalCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsaevalCrn { get; set; } = default!;
+        public string? SsaevalCrn { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("ssrevalScore2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public object? SsrevalScore2 { get; set; } = default!;
@@ -67,7 +67,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleEvaluationV100PutRequest
         /// Lineage reference object : ssaevalTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssaevalTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsaevalTermCode { get; set; } = default!;
+        public string? SsaevalTermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

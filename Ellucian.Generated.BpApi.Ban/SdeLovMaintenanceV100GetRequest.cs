@@ -46,13 +46,13 @@ namespace Ellucian.Generated.BpApi.Ban.SdeLovMaintenanceV100GetRequest
         /// Lineage reference object : attrName, Lookup lineage reference object : gtvsdlv,gorsdam,gtvsdlv
         /// </summary>
         [Newtonsoft.Json.JsonProperty("attrName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AttrName { get; set; } = default!;
+        public string? AttrName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : tableName, Lookup lineage reference object : gobsdtb,all_tab_comments,dual
         /// </summary>
         [Newtonsoft.Json.JsonProperty("tableName", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object TableName { get; set; } = default!;
+        public string TableName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GTVSDLV_DESC

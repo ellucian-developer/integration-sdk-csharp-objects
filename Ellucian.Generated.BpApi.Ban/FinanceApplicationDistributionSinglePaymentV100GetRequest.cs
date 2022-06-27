@@ -28,61 +28,61 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceApplicationDistributionSinglePayme
         /// Lineage reference object : addressCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("addressCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AddressCode { get; set; } = default!;
+        public string? AddressCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : amount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("amount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Amount { get; set; } = default!;
+        public double? Amount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : holdPassword
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdPassword", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPassword { get; set; } = default!;
+        public string? HoldPassword { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : paymentId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("paymentId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PaymentId { get; set; } = default!;
+        public string? PaymentId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : documentNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("documentNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DocumentNumber { get; set; } = default!;
+        public string? DocumentNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : tagOption
         /// </summary>
         [Newtonsoft.Json.JsonProperty("tagOption", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TagOption { get; set; } = default!;
+        public double? TagOption { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : invNumberPaid
         /// </summary>
         [Newtonsoft.Json.JsonProperty("invNumberPaid", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? InvNumberPaid { get; set; } = default!;
+        public string? InvNumberPaid { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : addressSeqno
         /// </summary>
         [Newtonsoft.Json.JsonProperty("addressSeqno", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AddressSeqno { get; set; } = default!;
+        public double? AddressSeqno { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : detailCode, Lookup lineage reference object : tbbdetc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("detailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DetailCode { get; set; } = default!;
+        public string? DetailCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

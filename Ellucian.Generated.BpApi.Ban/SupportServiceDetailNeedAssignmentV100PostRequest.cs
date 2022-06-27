@@ -37,34 +37,34 @@ namespace Ellucian.Generated.BpApi.Ban.SupportServiceDetailNeedAssignmentV100Pos
         public string NeedCode { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : seadetlTermCodeEff, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("termCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TermCodeEff { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : SERDTND_SELF_IND
         /// </summary>
         [Newtonsoft.Json.JsonProperty("selfInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? SelfInd { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : seadetlTermCodeEff, Lookup lineage reference object : stvterm
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("seadetlTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SeadetlTermCodeEff { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : SERDTND_SSGP_CODE, Lookup lineage reference object : stvssgp
+        /// Lineage reference object : seadetlSsgpCode, Lookup lineage reference object : stvssgp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? SsgpCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : seadetlId
+        /// Lineage reference object : SERDTND_SSGP_CODE, Lookup lineage reference object : stvssgp
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("seadetlId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SeadetlId { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("serdtndSsgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SerdtndSsgpCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : seadetlSsgpCode, Lookup lineage reference object : stvssgp
+        /// Lineage reference object : seadetlId
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("seadetlSsgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SeadetlSsgpCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Id { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralEncumbranceMaintenanceV100GetReque
         /// Lineage reference object : documentNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("docN", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DocN { get; set; } = default!;
+        public string? DocN { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

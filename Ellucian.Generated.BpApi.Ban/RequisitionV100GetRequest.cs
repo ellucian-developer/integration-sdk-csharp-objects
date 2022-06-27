@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.RequisitionV100GetRequest
         /// Lineage reference object : displayRqstCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayRqstCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayRqstCode { get; set; } = default!;
+        public string? DisplayRqstCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

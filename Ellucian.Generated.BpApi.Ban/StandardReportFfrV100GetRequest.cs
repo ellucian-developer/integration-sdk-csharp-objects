@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.StandardReportFfrV100GetRequest
         /// Lineage reference object : displayGrantCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayGrantCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayGrantCode { get; set; } = default!;
+        public string? DisplayGrantCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRRFFRR_REP_TYPE
@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.StandardReportFfrV100GetRequest
         /// Lineage reference object : displayPmsCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayPmsCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayPmsCode { get; set; } = default!;
+        public string? DisplayPmsCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRRFFRR_FINAL_IND

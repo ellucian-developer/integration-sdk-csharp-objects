@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.InvoiceCreditMemoListV100GetRequest
         /// Lineage reference object : invoiceStatus
         /// </summary>
         [Newtonsoft.Json.JsonProperty("status", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Status { get; set; } = default!;
+        public string? Status { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FAVINVQ_CR_MEMO_IND

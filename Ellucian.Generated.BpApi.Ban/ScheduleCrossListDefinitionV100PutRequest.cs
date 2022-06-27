@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleCrossListDefinitionV100PutRequest
         /// Lineage reference object : keyblocXlstGroup
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocXlstGroup", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocXlstGroup { get; set; } = default!;
+        public string? KeyblocXlstGroup { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSBXLST_MAX_ENRL

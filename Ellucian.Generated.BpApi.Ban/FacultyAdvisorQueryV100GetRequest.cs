@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.FacultyAdvisorQueryV100GetRequest
         /// Lineage reference object : keyblckFcstCode, Lookup lineage reference object : stvfcst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFcstCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckFcstCode { get; set; } = default!;
+        public string? KeyblckFcstCode { get; set; } = default!;
 
         /// <summary>
         /// Lookup lineage reference object : stvdept
@@ -40,19 +40,19 @@ namespace Ellucian.Generated.BpApi.Ban.FacultyAdvisorQueryV100GetRequest
         /// Lineage reference object : keyblckTenrCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTenrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTenrCode { get; set; } = default!;
+        public string? KeyblckTenrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckAdvrInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAdvrInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAdvrInd { get; set; } = default!;
+        public string? KeyblckAdvrInd { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("faclSchdInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? FaclSchdInd { get; set; } = default!;
@@ -79,13 +79,13 @@ namespace Ellucian.Generated.BpApi.Ban.FacultyAdvisorQueryV100GetRequest
         /// Lineage reference object : keyblckFctgCode, Lookup lineage reference object : stvfctg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFctgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckFctgCode { get; set; } = default!;
+        public string? KeyblckFctgCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckSchdInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckSchdInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckSchdInd { get; set; } = default!;
+        public string? KeyblckSchdInd { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("faclFirstName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? FaclFirstName { get; set; } = default!;
@@ -94,7 +94,7 @@ namespace Ellucian.Generated.BpApi.Ban.FacultyAdvisorQueryV100GetRequest
         /// Lineage reference object : keyblckFstpCode, Lookup lineage reference object : stvfstp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFstpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckFstpCode { get; set; } = default!;
+        public string? KeyblckFstpCode { get; set; } = default!;
 
         /// <summary>
         /// Lookup lineage reference object : sirdpcl,sirdpcl

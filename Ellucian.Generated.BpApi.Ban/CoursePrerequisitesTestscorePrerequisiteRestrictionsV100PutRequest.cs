@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.CoursePrerequisitesTestscorePrerequisiteR
         /// Lineage reference object : scapreqTermCodeEff, Lookup lineage reference object : stvterm,scbcrky,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCodeEff { get; set; } = default!;
+        public string? TermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRRTST_CRSE_NUMB_PREQ, Lookup lineage reference object : scbcrse,scbcrky
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.CoursePrerequisitesTestscorePrerequisiteR
         /// Lineage reference object : scapreqSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("subjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SubjCode { get; set; } = default!;
+        public string? SubjCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRRTST_TEST_SCORE
@@ -106,7 +106,7 @@ namespace Ellucian.Generated.BpApi.Ban.CoursePrerequisitesTestscorePrerequisiteR
         /// Lineage reference object : scapreqCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("crseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CrseNumb { get; set; } = default!;
+        public string? CrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRRTST_TESC_CODE, Lookup lineage reference object : stvtesc

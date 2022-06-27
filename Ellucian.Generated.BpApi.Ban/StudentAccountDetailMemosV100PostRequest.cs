@@ -34,13 +34,13 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountDetailMemosV100PostRequest
         /// Lineage reference object : holdPassword
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdPassword", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPassword { get; set; } = default!;
+        public string? HoldPassword { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRMEMO_DETAIL_CODE, Lookup lineage reference object : tbbdetc
@@ -65,6 +65,12 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountDetailMemosV100PostRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("expirationDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? ExpirationDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRMEMO_DESC
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("desc", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string Desc { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

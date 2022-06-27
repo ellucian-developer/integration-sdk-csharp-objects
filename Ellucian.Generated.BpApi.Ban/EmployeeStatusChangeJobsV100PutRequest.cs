@@ -28,19 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeStatusChangeJobsV100PutRequest
         /// Lineage reference object : allCbox
         /// </summary>
         [Newtonsoft.Json.JsonProperty("allCbox", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AllCbox { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("effDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? EffDate { get; set; } = default!;
+        public string? AllCbox { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : actionList
         /// </summary>
         [Newtonsoft.Json.JsonProperty("actionList", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object ActionList { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("nbrjobsPersonnelDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? NbrjobsPersonnelDate { get; set; } = default!;
+        public string ActionList { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PEBEMPL_LREA_CODE
@@ -52,28 +46,19 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeStatusChangeJobsV100PutRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("nbrjobsStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? NbrjobsStatus { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : actionDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("actionDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ActionDate { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("actionJobCbox", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? ActionJobCbox { get; set; } = default!;
+        public System.DateTimeOffset? ActionDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PEBEMPL_LOA_BEG_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("loaBegDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? LoaBegDate { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("nbrjobsJcreCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? NbrjobsJcreCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

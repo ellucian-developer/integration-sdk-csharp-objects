@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.ShipToAddressMaintenanceV100GetRequest
         /// Lineage reference object : displayShipCode, Lookup lineage reference object : ftvship
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayShipCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object DisplayShipCode { get; set; } = default!;
+        public string DisplayShipCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVSHIP_ZIP_CODE

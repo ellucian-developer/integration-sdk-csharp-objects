@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralTextEntryV100GetRequest
         /// Lineage reference object : keyblokDocCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblokDocCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblokDocCode { get; set; } = default!;
+        public string? KeyblokDocCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblokDtypCode, Lookup lineage reference object : ftvdtyp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblokDtypCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblokDtypCode { get; set; } = default!;
+        public string KeyblokDtypCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FOBTEXT_PRT_IND

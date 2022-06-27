@@ -58,13 +58,13 @@ namespace Ellucian.Generated.BpApi.Ban.CommitteeServiceMembersV100GetRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : shacomiComtCode, Lookup lineage reference object : stvcomt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("shacomiComtCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object ShacomiComtCode { get; set; } = default!;
+        public string ShacomiComtCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRCOMM_COLL_CODE, Lookup lineage reference object : stvcoll

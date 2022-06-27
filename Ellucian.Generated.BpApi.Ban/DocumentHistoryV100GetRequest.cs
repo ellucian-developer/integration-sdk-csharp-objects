@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.DocumentHistoryV100GetRequest
         /// Lineage reference object : displayDtypCode, Lookup lineage reference object : ftvdtyp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayDtypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayDtypCode { get; set; } = default!;
+        public string? DisplayDtypCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FORDCHC_STATUS
@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.DocumentHistoryV100GetRequest
         /// Lineage reference object : displayDocCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayDocCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayDocCode { get; set; } = default!;
+        public string? DisplayDocCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FORDCHC_DOC_CODE

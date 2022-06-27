@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.CheckCancellationV100GetRequest
         /// Lineage reference object : faachksBankCode, Lookup lineage reference object : gxvbank
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bankCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object BankCode { get; set; } = default!;
+        public string BankCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : faachksCheckNum
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faachksCheckNum", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object FaachksCheckNum { get; set; } = default!;
+        public string FaachksCheckNum { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -160,7 +160,7 @@ namespace Ellucian.Generated.BpApi.Ban.BuildingDefinitionV100PutRequest
         /// Lineage reference object : slabldgBldgCode, Lookup lineage reference object : stvbldg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("slabldgBldgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SlabldgBldgCode { get; set; } = default!;
+        public string? SlabldgBldgCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SLBBLDG_PHONE_AREA

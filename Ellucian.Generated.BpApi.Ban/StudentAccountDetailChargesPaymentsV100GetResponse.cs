@@ -350,109 +350,109 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountDetailChargesPaymentsV100Ge
         /// Lineage reference object : memoBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("memoBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MemoBalance { get; set; } = default!;
+        public double? MemoBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryBalance { get; set; } = default!;
+        public double? QueryBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : authAidBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("authAidBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AuthAidBalance { get; set; } = default!;
+        public double? AuthAidBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : nsfCount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("nsfCount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NsfCount { get; set; } = default!;
+        public double? NsfCount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : amountDue
         /// </summary>
         [Newtonsoft.Json.JsonProperty("amountDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AmountDue { get; set; } = default!;
+        public double? AmountDue { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryBalance3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryBalance3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryBalance3 { get; set; } = default!;
+        public double? QueryBalance3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : accountBalance2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("accountBalance2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AccountBalance2 { get; set; } = default!;
+        public double? AccountBalance2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryBalance2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryBalance2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryBalance2 { get; set; } = default!;
+        public double? QueryBalance2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : accountBalance3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("accountBalance3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AccountBalance3 { get; set; } = default!;
+        public double? AccountBalance3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : nsfCount2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("nsfCount2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NsfCount2 { get; set; } = default!;
+        public double? NsfCount2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : nsfCount3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("nsfCount3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NsfCount3 { get; set; } = default!;
+        public double? NsfCount3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : accountBalance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("accountBalance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AccountBalance { get; set; } = default!;
+        public double? AccountBalance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : amountDue3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("amountDue3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AmountDue3 { get; set; } = default!;
+        public double? AmountDue3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : authAidBalance2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("authAidBalance2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AuthAidBalance2 { get; set; } = default!;
+        public double? AuthAidBalance2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : amountDue2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("amountDue2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AmountDue2 { get; set; } = default!;
+        public double? AmountDue2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : authAidBalance3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("authAidBalance3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AuthAidBalance3 { get; set; } = default!;
+        public double? AuthAidBalance3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : memoBalance3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("memoBalance3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MemoBalance3 { get; set; } = default!;
+        public double? MemoBalance3 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : memoBalance2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("memoBalance2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MemoBalance2 { get; set; } = default!;
+        public double? MemoBalance2 { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

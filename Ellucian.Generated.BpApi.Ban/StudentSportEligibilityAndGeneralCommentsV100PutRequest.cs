@@ -64,7 +64,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentSportEligibilityAndGeneralComments
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SGRATCT_CMTT_CODE, Lookup lineage reference object : stvcmtt

@@ -28,55 +28,55 @@ namespace Ellucian.Generated.BpApi.Ban.DegreeSummaryV100GetRequest
         /// Lineage reference object : lfstCode, Lookup lineage reference object : gtvlfst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lfstCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LfstCode { get; set; } = default!;
+        public string? LfstCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : campCode, Lookup lineage reference object : stvcamp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("campCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CampCode { get; set; } = default!;
+        public string? CampCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : degcCode, Lookup lineage reference object : stvdegc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("degcCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DegcCode { get; set; } = default!;
+        public string? DegcCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : program, Lookup lineage reference object : smrprle
         /// </summary>
         [Newtonsoft.Json.JsonProperty("program", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Program { get; set; } = default!;
+        public string? Program { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : collCode, Lookup lineage reference object : stvcoll
         /// </summary>
         [Newtonsoft.Json.JsonProperty("collCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CollCode { get; set; } = default!;
+        public string? CollCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stvtermTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stvtermTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StvtermTermCode { get; set; } = default!;
+        public string? StvtermTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : majrCode, Lookup lineage reference object : stvmajr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("majrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MajrCode { get; set; } = default!;
+        public string? MajrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : levlCode, Lookup lineage reference object : stvlevl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("levlCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LevlCode { get; set; } = default!;
+        public string? LevlCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

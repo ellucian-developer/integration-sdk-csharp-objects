@@ -25,10 +25,10 @@ namespace Ellucian.Generated.BpApi.Ban.StudentTaxNotificationsV100PutRequest
     public partial class StudentTaxNotificationsV100PutRequest
     {
         /// <summary>
-        /// Lineage reference object : TTBTAXN_LAST_NAME
+        /// Lineage reference object : TTBTAXN_FUTURE_IND
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("lastName", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string LastName { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("futureInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? FutureInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TTBTAXN_USER_ID
@@ -37,52 +37,22 @@ namespace Ellucian.Generated.BpApi.Ban.StudentTaxNotificationsV100PutRequest
         public string? CriteriaUserId { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TTBTAXN_ACTIVITY_DATE
+        /// Lineage reference object : TTBTAXN_IRS_REPORT_STATUS
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.activityDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? CriteriaActivityDate { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("irsReportStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? IrsReportStatus { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TTBTAXN_CITY
+        /// Lineage reference object : TTBTAXN_SSN
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("city", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? City { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_FIRST_NAME
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.firstName", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CriteriaFirstName { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_STUD_NOTIF_STATUS
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.studNotifStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaStudNotifStatus { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_IRS_REPORT_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.irsReportDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? CriteriaIrsReportDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_REMOVE_NOTIF_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.removeNotifDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? CriteriaRemoveNotifDate { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("ssn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Ssn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : taxYear
         /// </summary>
         [Newtonsoft.Json.JsonProperty("taxYear", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TaxYear { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_NATN_CODE, Lookup lineage reference object : stvnatn
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.natnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaNatnCode { get; set; } = default!;
+        public double? TaxYear { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TTBTAXN_IRS_REPORT_STATUS
@@ -91,28 +61,10 @@ namespace Ellucian.Generated.BpApi.Ban.StudentTaxNotificationsV100PutRequest
         public string? CriteriaIrsReportStatus { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : keyblckStudentId
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("keyblckStudentId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckStudentId { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_CITY
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.city", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaCity { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TTBTAXN_MI
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.mi", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string CriteriaMi { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_SSN
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.ssn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaSsn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TTBTAXN_MI
@@ -127,49 +79,10 @@ namespace Ellucian.Generated.BpApi.Ban.StudentTaxNotificationsV100PutRequest
         public string? Zip { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TTBTAXN_ADDR_LINE3
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.addrLine3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaAddrLine3 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_ADDR_LINE2
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.addrLine2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaAddrLine2 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_ADDR_LINE1
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.addrLine1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaAddrLine1 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_STUD_NOTIF_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.studNotifDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? CriteriaStudNotifDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_REMOVE_NOTIF_IND
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.removeNotifInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaRemoveNotifInd { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TTBTAXN_LAST_NAME
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.lastName", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string CriteriaLastName { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.methodChanged", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaMethodChanged { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_STAT_CODE, Lookup lineage reference object : stvstat
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.statCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaStatCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TTBTAXN_ZIP
@@ -205,6 +118,189 @@ namespace Ellucian.Generated.BpApi.Ban.StudentTaxNotificationsV100PutRequest
         public string? CriteriaGradStudInd { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : TTBTAXN_GRAD_STUD_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("gradStudInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? GradStudInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_AMOUNT_4
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.amount4", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double CriteriaAmount4 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_AMOUNT_3
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.amount3", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double CriteriaAmount3 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_SSN_CERT_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ssnCertInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SsnCertInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_AMOUNT_6
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.amount6", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double CriteriaAmount6 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_AMOUNT_5
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.amount5", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double CriteriaAmount5 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_AMOUNT_2
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.amount2", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double CriteriaAmount2 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_AMOUNT_1
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.amount1", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double CriteriaAmount1 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_LAST_NAME
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("lastName", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string LastName { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_ACTIVITY_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.activityDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaActivityDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_CITY
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("city", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? City { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_FIRST_NAME
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.firstName", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string CriteriaFirstName { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_STUD_NOTIF_STATUS
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.studNotifStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaStudNotifStatus { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_REMOVE_NOTIF_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("removeNotifInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? RemoveNotifInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_IRS_REPORT_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.irsReportDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaIrsReportDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_REMOVE_NOTIF_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.removeNotifDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaRemoveNotifDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_NATN_CODE, Lookup lineage reference object : stvnatn
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.natnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaNatnCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : keyblckStudentId
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("keyblckStudentId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? KeyblckStudentId { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_CITY
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.city", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaCity { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_STUD_NOTIF_STATUS
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("studNotifStatus", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StudNotifStatus { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_SSN
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.ssn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaSsn { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_STAT_CODE, Lookup lineage reference object : stvstat
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("statCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_ADDR_LINE3
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.addrLine3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaAddrLine3 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_NATN_CODE, Lookup lineage reference object : stvnatn
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("natnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? NatnCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_ADDR_LINE2
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.addrLine2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaAddrLine2 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_ADDR_LINE1
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.addrLine1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaAddrLine1 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_HALF_TIME_ENRL_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("halfTimeEnrlInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? HalfTimeEnrlInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_STUD_NOTIF_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.studNotifDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaStudNotifDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_REMOVE_NOTIF_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.removeNotifInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaRemoveNotifInd { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("criteria.methodChanged", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaMethodChanged { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TTBTAXN_STAT_CODE, Lookup lineage reference object : stvstat
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.statCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaStatCode { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : TTBTAXN_ADDR_LINE3
         /// </summary>
         [Newtonsoft.Json.JsonProperty("addrLine3", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -223,46 +319,10 @@ namespace Ellucian.Generated.BpApi.Ban.StudentTaxNotificationsV100PutRequest
         public string? AddrLine1 { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TTBTAXN_AMOUNT_4
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.amount4", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double CriteriaAmount4 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_AMOUNT_3
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.amount3", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double CriteriaAmount3 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_AMOUNT_6
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.amount6", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double CriteriaAmount6 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_AMOUNT_5
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.amount5", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double CriteriaAmount5 { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TTBTAXN_HALF_TIME_ENRL_IND
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.halfTimeEnrlInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaHalfTimeEnrlInd { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_AMOUNT_2
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.amount2", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double CriteriaAmount2 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TTBTAXN_AMOUNT_1
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.amount1", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double CriteriaAmount1 { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.ProjectMaintenanceV100GetRequest
         /// Lineage reference object : ftmprojProjCode, Lookup lineage reference object : ftvproj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftmprojProjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtmprojProjCode { get; set; } = default!;
+        public string? FtmprojProjCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : projDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("projDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ProjDesc { get; set; } = default!;
+        public string? ProjDesc { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

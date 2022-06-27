@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.AdditionalStudentInformationCohortV100Put
         /// Lineage reference object : sgastdnId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnId { get; set; } = default!;
+        public string? SgastdnId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SGRCHRT_USER_ID
@@ -64,7 +64,7 @@ namespace Ellucian.Generated.BpApi.Ban.AdditionalStudentInformationCohortV100Put
         /// Lineage reference object : sgastdnTermCodeEff, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("sgastdnTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SgastdnTermCodeEff { get; set; } = default!;
+        public string? SgastdnTermCodeEff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SGRCHRT_CREA_CODE, Lookup lineage reference object : stvcrea

@@ -48,16 +48,13 @@ namespace Ellucian.Generated.BpApi.Ban.StudentDetailCodesV100PutResponse
     public partial class Tbbdetc
     {
         /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCode { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TBBDETC_DETAIL_CODE_IND
         /// </summary>
         [Newtonsoft.Json.JsonProperty("detailCodeInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? DetailCodeInd { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_DETC_ACTIVE_IND
@@ -160,6 +157,9 @@ namespace Ellucian.Generated.BpApi.Ban.StudentDetailCodesV100PutResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("receiptInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ReceiptInd { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxProfile", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxProfile { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_DCAT_CODE, Lookup lineage reference object : ttvdcat

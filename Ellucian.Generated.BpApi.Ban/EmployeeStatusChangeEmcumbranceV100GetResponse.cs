@@ -134,61 +134,61 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeStatusChangeEmcumbranceV100GetRes
         /// Lineage reference object : salaryEncumbrance
         /// </summary>
         [Newtonsoft.Json.JsonProperty("salaryEncumbrance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SalaryEncumbrance { get; set; } = default!;
+        public double? SalaryEncumbrance { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : detailEncumbranceHrs
         /// </summary>
         [Newtonsoft.Json.JsonProperty("detailEncumbranceHrs", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DetailEncumbranceHrs { get; set; } = default!;
+        public double? DetailEncumbranceHrs { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dataSeparatorLine1
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dataSeparatorLine1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DataSeparatorLine1 { get; set; } = default!;
+        public string? DataSeparatorLine1 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : contractBeginDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("contractBeginDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ContractBeginDate { get; set; } = default!;
+        public System.DateTimeOffset? ContractBeginDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : totalSalaryEnc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalSalaryEnc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalSalaryEnc { get; set; } = default!;
+        public double? TotalSalaryEnc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dataSeparatorLine0
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dataSeparatorLine0", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DataSeparatorLine0 { get; set; } = default!;
+        public string? DataSeparatorLine0 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : contractEndDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("contractEndDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ContractEndDate { get; set; } = default!;
+        public System.DateTimeOffset? ContractEndDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : totalContractHrs
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalContractHrs", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalContractHrs { get; set; } = default!;
+        public double? TotalContractHrs { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : futureSalaryEnc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("futureSalaryEnc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FutureSalaryEnc { get; set; } = default!;
+        public double? FutureSalaryEnc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : totalEncumbranceHrs
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalEncumbranceHrs", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalEncumbranceHrs { get; set; } = default!;
+        public double? TotalEncumbranceHrs { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

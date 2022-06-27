@@ -33,6 +33,18 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationTransferInstitutio
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ScacrseTermCodeEff { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : SCRSBGI_SBGI_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("sbgiCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SbgiCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRSBGI_AGREEMENT_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("agreementDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? AgreementDate { get; set; } = default!;
+
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
         [Newtonsoft.Json.JsonExtensionData]

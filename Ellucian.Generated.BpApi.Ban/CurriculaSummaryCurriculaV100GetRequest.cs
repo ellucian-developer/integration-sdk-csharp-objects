@@ -34,19 +34,19 @@ namespace Ellucian.Generated.BpApi.Ban.CurriculaSummaryCurriculaV100GetRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dgmrSeqNo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dgmrSeqNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DgmrSeqNo { get; set; } = default!;
+        public double? DgmrSeqNo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : viewCurrent
         /// </summary>
         [Newtonsoft.Json.JsonProperty("viewCurrent", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ViewCurrent { get; set; } = default!;
+        public string? ViewCurrent { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

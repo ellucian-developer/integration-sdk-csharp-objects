@@ -24,6 +24,99 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationDegreeAttributesV1
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class CourseDetailInformationDegreeAttributesV100GetResponse
     {
+        [Newtonsoft.Json.JsonProperty("scacrse_key_block", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Scacrse_key_block>? Scacrse_key_block { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("attr_ctrl_block", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Attr_ctrl_block>? Attr_ctrl_block { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("scrattr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Scrattr>? Scrattr { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Scacrse_key_block
+    {
+        /// <summary>
+        /// Lineage reference object : crseTitle
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("crseTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CrseTitle { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("scacrseCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ScacrseCrseNumb { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : subjDescription
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("subjDescription", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SubjDescription { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("scacrseSubjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ScacrseSubjCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : scacrseTermCodeEff, Lookup lineage reference object : stvterm,scbcrky,scbcrky
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ScacrseTermCodeEff { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Attr_ctrl_block
+    {
+        /// <summary>
+        /// Lineage reference object : scrattrTermCodeFrom, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("scrattrTermCodeFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ScrattrTermCodeFrom { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : scrattrTermCodeTo, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("scrattrTermCodeTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ScrattrTermCodeTo { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Scrattr
+    {
         /// <summary>
         /// Lineage reference object : SCRATTR_ATTR_CODE, Lookup lineage reference object : stvattr
         /// </summary>

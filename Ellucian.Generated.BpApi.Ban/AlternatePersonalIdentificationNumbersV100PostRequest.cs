@@ -40,13 +40,13 @@ namespace Ellucian.Generated.BpApi.Ban.AlternatePersonalIdentificationNumbersV10
         /// Lineage reference object : termCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCodeKey", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCodeKey { get; set; } = default!;
+        public string? TermCodeKey { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRAPIN_TERM_CODE, Lookup lineage reference object : stvterm

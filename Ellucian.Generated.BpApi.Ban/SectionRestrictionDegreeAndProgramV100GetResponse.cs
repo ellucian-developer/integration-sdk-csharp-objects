@@ -100,7 +100,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionDegreeAndProgramV100Get
         /// Lineage reference object : ssrrdegDegcInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrdegDegcInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrdegDegcInd { get; set; } = default!;
+        public string SsrrdegDegcInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -120,7 +120,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionDegreeAndProgramV100Get
         /// Lineage reference object : ssrrprgProgramInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrprgProgramInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrprgProgramInd { get; set; } = default!;
+        public string SsrrprgProgramInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

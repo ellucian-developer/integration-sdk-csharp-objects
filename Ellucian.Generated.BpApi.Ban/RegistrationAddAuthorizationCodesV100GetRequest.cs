@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationAddAuthorizationCodesV100GetR
         /// Lineage reference object : keyTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyTermCode { get; set; } = default!;
+        public string? KeyTermCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("spridenId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? SpridenId { get; set; } = default!;
@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationAddAuthorizationCodesV100GetR
         /// Lineage reference object : keyCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyCrn { get; set; } = default!;
+        public string? KeyCrn { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

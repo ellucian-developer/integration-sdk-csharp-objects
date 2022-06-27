@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.GeographicRegionRulesV100PutRequest
         /// Lineage reference object : georCode, Lookup lineage reference object : stvgeor
         /// </summary>
         [Newtonsoft.Json.JsonProperty("georCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? GeorCode { get; set; } = default!;
+        public string? GeorCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORGEOR_START_RANGE
@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.GeographicRegionRulesV100PutRequest
         /// Lineage reference object : geodCode, Lookup lineage reference object : stvgeod
         /// </summary>
         [Newtonsoft.Json.JsonProperty("geodCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? GeodCode { get; set; } = default!;
+        public string? GeodCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORGEOR_TYPE

@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralEncumbranceMaintenanceV100PutReque
         /// Lineage reference object : documentNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("documentNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DocumentNumber { get; set; } = default!;
+        public string? DocumentNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FGBENCH_CHANGE_DESC

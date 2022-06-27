@@ -24,34 +24,11 @@ namespace Ellucian.Generated.BpApi.Ban.GradeCodeMaintenanceV100GetResponse
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class GradeCodeMaintenanceV100GetResponse
     {
-        [Newtonsoft.Json.JsonProperty("shrgrdo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<Shrgrdo>? Shrgrdo { get; set; } = default!;
-
         [Newtonsoft.Json.JsonProperty("shrgrde", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.Collections.Generic.ICollection<Shrgrde>? Shrgrde { get; set; } = default!;
 
-        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
-
-        [Newtonsoft.Json.JsonExtensionData]
-        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
-        {
-            get { return _additionalProperties; }
-            set { _additionalProperties = value; }
-        }
-
-    }
-
-    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class Shrgrdo
-    {
-        /// <summary>
-        /// Lineage reference object : SHRGRDO_GMOD_CODE, Lookup lineage reference object : stvgmod
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("gmodCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string GmodCode { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("stvgmodDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? StvgmodDesc { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("shrgrdo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Shrgrdo>? Shrgrdo { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -174,6 +151,29 @@ namespace Ellucian.Generated.BpApi.Ban.GradeCodeMaintenanceV100GetResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("levlCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string LevlCode { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Shrgrdo
+    {
+        /// <summary>
+        /// Lineage reference object : SHRGRDO_GMOD_CODE, Lookup lineage reference object : stvgmod
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("gmodCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string GmodCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("stvgmodDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StvgmodDesc { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

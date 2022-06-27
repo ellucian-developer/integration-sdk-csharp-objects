@@ -94,7 +94,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionMeetingTimesV100GetRequest
         /// Lineage reference object : ssasectCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("crn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Crn { get; set; } = default!;
+        public string? Crn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSRMEET_START_DATE
@@ -106,7 +106,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionMeetingTimesV100GetRequest
         /// Lineage reference object : ssasectTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSRMEET_MON_DAY

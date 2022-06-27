@@ -142,7 +142,7 @@ namespace Ellucian.Generated.BpApi.Ban.GradableComponentDefinitionV100PutRequest
         /// Lineage reference object : crn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("crn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Crn { get; set; } = default!;
+        public string? Crn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRGCOM_MIN_PASS_SCORE
@@ -235,7 +235,7 @@ namespace Ellucian.Generated.BpApi.Ban.GradableComponentDefinitionV100PutRequest
         /// Lineage reference object : termCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

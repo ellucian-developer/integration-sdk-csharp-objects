@@ -27,8 +27,8 @@ namespace Ellucian.Generated.BpApi.Ban.StudentDetailCodesV100GetRequest
         /// <summary>
         /// Lookup lineage reference object : gtvcurr
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CurrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_DETAIL_CODE_IND

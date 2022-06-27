@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.EnrollmentStatusV100GetRequest
         /// Lineage reference object : xxxxxxxTermCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("xxxxxxxtermcode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Xxxxxxxtermcode { get; set; } = default!;
+        public string? Xxxxxxxtermcode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

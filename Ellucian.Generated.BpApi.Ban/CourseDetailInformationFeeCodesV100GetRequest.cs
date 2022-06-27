@@ -25,22 +25,157 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationFeeCodesV100GetReq
     public partial class CourseDetailInformationFeeCodesV100GetRequest
     {
         /// <summary>
+        /// Lineage reference object : SCRFEES_VTYP_CODE, Lookup lineage reference object : stvvtyp
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("vtypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? VtypCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_STYP_CODE_CURRIC, Lookup lineage reference object : stvstyp
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("stypCodeCurric", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StypCodeCurric { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("duntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DuntCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_LEVL_CODE_STDN, Lookup lineage reference object : stvlevl
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("levlCodeStdn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? LevlCodeStdn { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_PRIM_SEC_CDE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("primSecCde", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PrimSecCde { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseCrseNumb { get; set; } = default!;
+        public string? ScacrseCrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseSubjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseSubjCode { get; set; } = default!;
+        public string? ScacrseSubjCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_DETL_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("detlCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string DetlCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_DEGC_CODE, Lookup lineage reference object : stvdegc
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("degcCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DegcCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_PROGRAM, Lookup lineage reference object : smrprle
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("program", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Program { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_MAJR_CODE, Lookup lineage reference object : stvmajr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("majrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? MajrCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_RATE_CODE, Lookup lineage reference object : stvrate
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("rateCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? RateCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_LFST_CODE, Lookup lineage reference object : gtvlfst
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("lfstCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? LfstCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_CHRT_CODE, Lookup lineage reference object : stvchrt
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("chrtCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ChrtCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_RATE_CODE_CURRIC, Lookup lineage reference object : stvrate
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("rateCodeCurric", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? RateCodeCurric { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_CAMP_CODE, Lookup lineage reference object : stvcamp
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("campCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CampCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_CLAS_CODE, Lookup lineage reference object : stvclas
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("clasCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ClasCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_RESD_CODE, Lookup lineage reference object : stvresd
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("resdCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ResdCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_FEE_AMOUNT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("feeAmount", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double FeeAmount { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_ATTS_CODE, Lookup lineage reference object : stvatts
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("attsCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AttsCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_TERM_CODE_ADMIT, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("termCodeAdmit", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TermCodeAdmit { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_STYP_CODE, Lookup lineage reference object : stvstyp
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("stypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StypCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_COLL_CODE, Lookup lineage reference object : stvcoll
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("collCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CollCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseTermCodeEff, Lookup lineage reference object : stvterm,scbcrky,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseTermCodeEff { get; set; } = default!;
+        public string? ScacrseTermCodeEff { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_FTYP_CODE, Lookup lineage reference object : stvftyp
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ftypCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string FtypCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRFEES_DEPT_CODE, Lookup lineage reference object : stvdept
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("deptCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DeptCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

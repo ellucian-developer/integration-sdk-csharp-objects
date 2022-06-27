@@ -214,13 +214,13 @@ namespace Ellucian.Generated.BpApi.Ban.RoomDefinitionV100PutRequest
         /// Lineage reference object : stvtermTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stvtermTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StvtermTermCode { get; set; } = default!;
+        public string? StvtermTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : slardefBldgCode, Lookup lineage reference object : stvbldg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("slardefBldgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SlardefBldgCode { get; set; } = default!;
+        public string? SlardefBldgCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SLBRDEF_UTILITY_RATE
@@ -280,7 +280,7 @@ namespace Ellucian.Generated.BpApi.Ban.RoomDefinitionV100PutRequest
         /// Lineage reference object : room
         /// </summary>
         [Newtonsoft.Json.JsonProperty("room", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Room { get; set; } = default!;
+        public string? Room { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SLBRDEF_RMST_CODE, Lookup lineage reference object : stvrmst

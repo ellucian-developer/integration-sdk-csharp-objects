@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantNeedAnalysisApplicationInquiryV1
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAidyCode { get; set; } = default!;
+        public string? KeyblckAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RCVAPPL_PGI
@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantNeedAnalysisApplicationInquiryV1
         /// Lineage reference object : keyblckStudentId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckStudentId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckStudentId { get; set; } = default!;
+        public string? KeyblckStudentId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RCVAPPL_ACTIVE_IND

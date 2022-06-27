@@ -112,7 +112,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicationSupplementalInformationV100Put
         /// Lineage reference object : keyblockApplNo, Lookup lineage reference object : sabsupl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblockApplNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblockApplNo { get; set; } = default!;
+        public double? KeyblockApplNo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SABSUPL_STAT_CODE_ADMIT, Lookup lineage reference object : stvstat
@@ -142,7 +142,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicationSupplementalInformationV100Put
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SABSUPL_INST_DATA18
@@ -208,7 +208,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicationSupplementalInformationV100Put
         /// Lineage reference object : keyblockTerm, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblockTerm", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblockTerm { get; set; } = default!;
+        public string? KeyblockTerm { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SABSUPL_STAT_CODE_BIRTH, Lookup lineage reference object : stvstat

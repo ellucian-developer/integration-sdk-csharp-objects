@@ -30,11 +30,8 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailQueryV100GetResponse
         [Newtonsoft.Json.JsonProperty("tbvaccdTranNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? TbvaccdTranNumber { get; set; } = default!;
 
-        /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CurrCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBVACCD_CRN
@@ -209,6 +206,9 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailQueryV100GetResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("tbvaccdSrceCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? TbvaccdSrceCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TaxAmount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBVACCD_DETAIL_CODE

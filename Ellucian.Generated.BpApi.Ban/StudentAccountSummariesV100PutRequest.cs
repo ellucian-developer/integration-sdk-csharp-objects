@@ -106,7 +106,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountSummariesV100PutRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBCSTU_STSP_KEY_SEQUENCE
@@ -206,6 +206,12 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountSummariesV100PutRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("exemptionPriority", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double ExemptionPriority { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : currentDue
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("currentDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? CurrentDue { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBESTU_STSP_KEY_SEQUENCE

@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleOverrideV100PutRequest
         /// Lineage reference object : ssasectTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssasectTermCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsasectTermCode { get; set; } = default!;
+        public string SsasectTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSBOVRR_TOPS_CODE, Lookup lineage reference object : stvtops
@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleOverrideV100PutRequest
         /// Lineage reference object : ssasectCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssasectCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsasectCrn { get; set; } = default!;
+        public string? SsasectCrn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSBOVRR_DIVS_CODE, Lookup lineage reference object : stvdivs

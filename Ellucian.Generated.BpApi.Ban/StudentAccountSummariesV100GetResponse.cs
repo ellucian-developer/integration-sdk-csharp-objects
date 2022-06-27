@@ -60,127 +60,127 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountSummariesV100GetResponse
         /// Lineage reference object : effDate91
         /// </summary>
         [Newtonsoft.Json.JsonProperty("effDate91", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDate91 { get; set; } = default!;
+        public double? EffDate91 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : balanceDue
         /// </summary>
         [Newtonsoft.Json.JsonProperty("balanceDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BalanceDue { get; set; } = default!;
+        public double? BalanceDue { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billDateUnbilled
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billDateUnbilled", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDateUnbilled { get; set; } = default!;
+        public double? BillDateUnbilled { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : effDate61
         /// </summary>
         [Newtonsoft.Json.JsonProperty("effDate61", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDate61 { get; set; } = default!;
+        public double? EffDate61 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : effDateFut
         /// </summary>
         [Newtonsoft.Json.JsonProperty("effDateFut", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDateFut { get; set; } = default!;
+        public double? EffDateFut { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : memoBal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("memoBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MemoBal { get; set; } = default!;
+        public double? MemoBal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billDate91
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billDate91", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDate91 { get; set; } = default!;
+        public double? BillDate91 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : pastDue
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pastDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PastDue { get; set; } = default!;
+        public double? PastDue { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : netBal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("netBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NetBal { get; set; } = default!;
+        public double? NetBal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : depoBal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("depoBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DepoBal { get; set; } = default!;
+        public double? DepoBal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : currentDue
         /// </summary>
         [Newtonsoft.Json.JsonProperty("currentDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CurrentDue { get; set; } = default!;
+        public double? CurrentDue { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : futureDue
         /// </summary>
         [Newtonsoft.Json.JsonProperty("futureDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FutureDue { get; set; } = default!;
+        public double? FutureDue { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : acctBal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("acctBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AcctBal { get; set; } = default!;
+        public double? AcctBal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : nsfCounter
         /// </summary>
         [Newtonsoft.Json.JsonProperty("nsfCounter", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NsfCounter { get; set; } = default!;
+        public double? NsfCounter { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : amountDue
         /// </summary>
         [Newtonsoft.Json.JsonProperty("amountDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AmountDue { get; set; } = default!;
+        public double? AmountDue { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : effDate0
         /// </summary>
         [Newtonsoft.Json.JsonProperty("effDate0", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDate0 { get; set; } = default!;
+        public double? EffDate0 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : unappliedCr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("unappliedCr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? UnappliedCr { get; set; } = default!;
+        public double? UnappliedCr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billDate61
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billDate61", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDate61 { get; set; } = default!;
+        public double? BillDate61 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billDate31
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billDate31", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDate31 { get; set; } = default!;
+        public double? BillDate31 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : effDate31
         /// </summary>
         [Newtonsoft.Json.JsonProperty("effDate31", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDate31 { get; set; } = default!;
+        public double? EffDate31 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billDate0
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billDate0", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDate0 { get; set; } = default!;
+        public double? BillDate0 { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

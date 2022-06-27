@@ -28,19 +28,19 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100PostResponse
         /// Lineage reference object : jprmCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("jprmCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? JprmCode { get; set; } = default!;
+        public string? JprmCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : jobTitle
         /// </summary>
         [Newtonsoft.Json.JsonProperty("jobTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? JobTitle { get; set; } = default!;
+        public string? JobTitle { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckJob
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckJob", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckJob { get; set; } = default!;
+        public string? KeyblckJob { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

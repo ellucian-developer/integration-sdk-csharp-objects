@@ -92,43 +92,43 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralLedgerTrialBalanceV100GetResponse
         /// Lineage reference object : totalTitle
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalTitle { get; set; } = default!;
+        public string? TotalTitle { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayTotCurrDrCr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayTotCurrDrCr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayTotCurrDrCr { get; set; } = default!;
+        public string? DisplayTotCurrDrCr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : holdCurrTot
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdCurrTot", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldCurrTot { get; set; } = default!;
+        public double? HoldCurrTot { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : begTotDrCrDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("begTotDrCrDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BegTotDrCrDesc { get; set; } = default!;
+        public string? BegTotDrCrDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : holdBegTot
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdBegTot", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldBegTot { get; set; } = default!;
+        public double? HoldBegTot { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : curTotDrCrDesc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("curTotDrCrDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CurTotDrCrDesc { get; set; } = default!;
+        public string? CurTotDrCrDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayTotBegDrCr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayTotBegDrCr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayTotBegDrCr { get; set; } = default!;
+        public string? DisplayTotBegDrCr { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

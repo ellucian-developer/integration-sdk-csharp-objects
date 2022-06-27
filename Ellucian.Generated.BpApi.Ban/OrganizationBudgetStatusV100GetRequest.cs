@@ -28,55 +28,55 @@ namespace Ellucian.Generated.BpApi.Ban.OrganizationBudgetStatusV100GetRequest
         /// Lineage reference object : keyblocLocnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocLocnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocLocnCode { get; set; } = default!;
+        public string? KeyblocLocnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocCoasCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblocCoasCode { get; set; } = default!;
+        public string KeyblocCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocAtypCode, Lookup lineage reference object : ftvatyp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAtypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAtypCode { get; set; } = default!;
+        public string? KeyblocAtypCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocAcctCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAcctCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAcctCode { get; set; } = default!;
+        public string? KeyblocAcctCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocProgCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocProgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocProgCode { get; set; } = default!;
+        public string? KeyblocProgCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocAcciCode, Lookup lineage reference object : ftvacci
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAcciCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAcciCode { get; set; } = default!;
+        public string? KeyblocAcciCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocOrgnCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocOrgnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocOrgnCode { get; set; } = default!;
+        public string? KeyblocOrgnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocCmtType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocCmtType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocCmtType { get; set; } = default!;
+        public string? KeyblocCmtType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocActvCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocActvCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocActvCode { get; set; } = default!;
+        public string? KeyblocActvCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVACCT_ACCT_CODE
@@ -88,25 +88,25 @@ namespace Ellucian.Generated.BpApi.Ban.OrganizationBudgetStatusV100GetRequest
         /// Lineage reference object : inclRev
         /// </summary>
         [Newtonsoft.Json.JsonProperty("inclRev", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? InclRev { get; set; } = default!;
+        public string? InclRev { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocFundCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocFundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocFundCode { get; set; } = default!;
+        public string? KeyblocFundCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocFsyrCode, Lookup lineage reference object : ftvfsyr,ftvfspd,ftvfspd,ftvfspd,ftvfspd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocFsyrCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblocFsyrCode { get; set; } = default!;
+        public string KeyblocFsyrCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : queryAcct
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryAcct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryAcct { get; set; } = default!;
+        public string? QueryAcct { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -151,13 +151,13 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralStudentMiscellaneousTypesV100PutRe
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stvtermTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stvtermTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StvtermTermCode { get; set; } = default!;
+        public string? StvtermTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SGBSTDN_RATE_CODE, Lookup lineage reference object : stvrate

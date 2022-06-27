@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.AttributeValuesMaintenanceV100PostRequest
         /// Lineage reference object : coasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("coasCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CoasCode { get; set; } = default!;
+        public string? CoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTRATTV_VALID_ACCT_IND
@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.AttributeValuesMaintenanceV100PostRequest
         /// Lineage reference object : atttCode, Lookup lineage reference object : ftvattt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("atttCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AtttCode { get; set; } = default!;
+        public string? AtttCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTRATTV_VALID_ORGN_IND

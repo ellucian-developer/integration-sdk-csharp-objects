@@ -37,6 +37,12 @@ namespace Ellucian.Generated.BpApi.Ban.AidYearBasedDesignatorsV100PutRequest
         public string CriteriaShortDesc { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : TTVTEXT_SHORT_DESC
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("shortDesc", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string ShortDesc { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : TTVTEXT_COMMENT
         /// </summary>
         [Newtonsoft.Json.JsonProperty("comment", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]

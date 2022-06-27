@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.PositionRequisitionV100PutRequest
         /// Lineage reference object : reqNo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("reqNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReqNo { get; set; } = default!;
+        public string? ReqNo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PABREQU_COAS_CODE

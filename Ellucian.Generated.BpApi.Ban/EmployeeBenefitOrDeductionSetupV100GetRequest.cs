@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeBenefitOrDeductionSetupV100GetReq
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : defaultBeginDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("defaultBeginDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DefaultBeginDate { get; set; } = default!;
+        public System.DateTimeOffset? DefaultBeginDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

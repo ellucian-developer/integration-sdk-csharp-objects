@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.CommentBillingMassDataEntryV100PostReques
         /// Lineage reference object : keyblocOrigCode, Lookup lineage reference object : stvorig
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocOrigCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocOrigCode { get; set; } = default!;
+        public string? KeyblocOrigCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocComment
@@ -40,13 +40,13 @@ namespace Ellucian.Generated.BpApi.Ban.CommentBillingMassDataEntryV100PostReques
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocTextCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTextCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTextCode { get; set; } = default!;
+        public string? KeyblocTextCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRCMNT_RESTRICT_UPDATE_IND
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.CommentBillingMassDataEntryV100PostReques
         /// Lineage reference object : keyblocCommentCode, Lookup lineage reference object : ttvcmnt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocCommentCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocCommentCode { get; set; } = default!;
+        public string? KeyblocCommentCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRCMNT_PURGE_IND
@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.CommentBillingMassDataEntryV100PostReques
         /// Lineage reference object : keyblocRestrictUpdateInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocUpdateInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocUpdateInd { get; set; } = default!;
+        public string? KeyblocUpdateInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRCMNT_ENDDATE
@@ -94,13 +94,13 @@ namespace Ellucian.Generated.BpApi.Ban.CommentBillingMassDataEntryV100PostReques
         /// Lineage reference object : keyblocPurgeInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocPurgeInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocPurgeInd { get; set; } = default!;
+        public string? KeyblocPurgeInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocEnddate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocEnddate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocEnddate { get; set; } = default!;
+        public System.DateTimeOffset? KeyblocEnddate { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Id { get; set; } = default!;

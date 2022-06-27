@@ -24,26 +24,23 @@ namespace Ellucian.Generated.BpApi.Ban.ClassRosterV100PutRequest
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class ClassRosterV100PutRequest
     {
-        [Newtonsoft.Json.JsonProperty("criteria.spridenId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaSpridenId { get; set; } = default!;
-
         /// <summary>
         /// Lineage reference object : ssbsectCrnt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectCrnt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectCrnt { get; set; } = default!;
+        public string? SsbsectCrnt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ssbsectDegsAwrdInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectDegsAwrdInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectDegsAwrdInd { get; set; } = default!;
+        public string? SsbsectDegsAwrdInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ssbsectTermCodet, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectTermCodet", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectTermCodet { get; set; } = default!;
+        public string? SsbsectTermCodet { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRSTCR_REG_SEQ
@@ -64,7 +61,7 @@ namespace Ellucian.Generated.BpApi.Ban.ClassRosterV100PutRequest
         /// Lineage reference object : rollIndicator
         /// </summary>
         [Newtonsoft.Json.JsonProperty("rollIndicator", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RollIndicator { get; set; } = default!;
+        public string? RollIndicator { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRSTCR_RSTS_DATE
@@ -119,12 +116,6 @@ namespace Ellucian.Generated.BpApi.Ban.ClassRosterV100PutRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.grdeCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaGrdeCode { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.gcmtCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaGcmtCodeDesc { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.spridenCurrName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaSpridenCurrName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRSTCR_GRDE_CODE_INCMP_FINAL, Lookup lineage reference object : shrgrde,shrgrde

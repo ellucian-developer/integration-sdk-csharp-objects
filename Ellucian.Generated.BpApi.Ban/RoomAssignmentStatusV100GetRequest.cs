@@ -34,7 +34,7 @@ namespace Ellucian.Generated.BpApi.Ban.RoomAssignmentStatusV100GetRequest
         /// Lineage reference object : xxxxxxxTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("xxxxxxxTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? XxxxxxxTermCode { get; set; } = default!;
+        public string? XxxxxxxTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SLRASCD_START_DATE

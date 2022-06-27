@@ -100,7 +100,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationFeeAssessmentRulesV100GetRequ
         /// Lineage reference object : ruleType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ruleType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RuleType { get; set; } = default!;
+        public string? RuleType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRRGFE_ENTRY_TYPE
@@ -130,7 +130,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationFeeAssessmentRulesV100GetRequ
         /// Lineage reference object : entryType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("entryType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EntryType { get; set; } = default!;
+        public string? EntryType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRRGFE_SEQNO
@@ -160,7 +160,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationFeeAssessmentRulesV100GetRequ
         /// Lineage reference object : setCopyIndEnMassInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("setCopyIndEnMassInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SetCopyIndEnMassInd { get; set; } = default!;
+        public string? SetCopyIndEnMassInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRRGFE_USER_ID
@@ -211,7 +211,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationFeeAssessmentRulesV100GetRequ
         /// Lineage reference object : termCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRRGFE_COPY_IND

@@ -51,115 +51,115 @@ namespace Ellucian.Generated.BpApi.Ban.FinancialAidRecordMaintenanceV100GetRespo
         /// Lineage reference object : dispsumImBudgetAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumImBudgetAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumImBudgetAmt { get; set; } = default!;
+        public double? DispsumImBudgetAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumResourceAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumResourceAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumResourceAmt { get; set; } = default!;
+        public double? DispsumResourceAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumBudgetGroup
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumBudgetGroup", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumBudgetGroup { get; set; } = default!;
+        public string? DispsumBudgetGroup { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumCrossoverPellAward
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumCrossoverPellAward", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumCrossoverPellAward { get; set; } = default!;
+        public double? DispsumCrossoverPellAward { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumFmGrossNeed
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumFmGrossNeed", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumFmGrossNeed { get; set; } = default!;
+        public double? DispsumFmGrossNeed { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumOfferAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumOfferAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumOfferAmt { get; set; } = default!;
+        public double? DispsumOfferAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumFmUnmetNeed
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumFmUnmetNeed", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumFmUnmetNeed { get; set; } = default!;
+        public double? DispsumFmUnmetNeed { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumCrossoverAidyCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumCrossoverAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumCrossoverAidyCode { get; set; } = default!;
+        public string? DispsumCrossoverAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumImEfc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumImEfc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumImEfc { get; set; } = default!;
+        public double? DispsumImEfc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumPellBudgetAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumPellBudgetAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumPellBudgetAmt { get; set; } = default!;
+        public double? DispsumPellBudgetAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumBudgetGroupInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumBudgetGroupInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumBudgetGroupInd { get; set; } = default!;
+        public string? DispsumBudgetGroupInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumFmBudgetAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumFmBudgetAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumFmBudgetAmt { get; set; } = default!;
+        public double? DispsumFmBudgetAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumPellEfc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumPellEfc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumPellEfc { get; set; } = default!;
+        public double? DispsumPellEfc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumBbayAwardedInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumBbayAwardedInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumBbayAwardedInd { get; set; } = default!;
+        public string? DispsumBbayAwardedInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumAprdCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumAprdCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumAprdCode { get; set; } = default!;
+        public string? DispsumAprdCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumImGrossNeed
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumImGrossNeed", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumImGrossNeed { get; set; } = default!;
+        public double? DispsumImGrossNeed { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumAprdCodePell
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumAprdCodePell", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumAprdCodePell { get; set; } = default!;
+        public string? DispsumAprdCodePell { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumFmEfc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumFmEfc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumFmEfc { get; set; } = default!;
+        public double? DispsumFmEfc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dispsumImUnmetNeed
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispsumImUnmetNeed", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispsumImUnmetNeed { get; set; } = default!;
+        public double? DispsumImUnmetNeed { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

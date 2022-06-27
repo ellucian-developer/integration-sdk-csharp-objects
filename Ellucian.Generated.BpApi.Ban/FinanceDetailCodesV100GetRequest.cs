@@ -25,6 +25,48 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetRequest
     public partial class FinanceDetailCodesV100GetRequest
     {
         /// <summary>
+        /// Lookup lineage reference object : gtvcurr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CurrCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBDETC_DETAIL_CODE_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("detailCodeInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DetailCodeInd { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBDETC_DETC_ACTIVE_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("detcActiveInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DetcActiveInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBDETC_PAYHIST_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("payhistInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PayhistInd { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("accountPercent", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? AccountPercent { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBEACT_EFF_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("effDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset EffDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBDETC_GL_NOS_ENTERABLE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("glNosEnterable", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? GlNosEnterable { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : TBBDETC_AMOUNT
         /// </summary>
         [Newtonsoft.Json.JsonProperty("amount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -37,31 +79,10 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetRequest
         public string TypeInd { get; set; } = default!;
 
         /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CurrCode { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TBBDETC_DETAIL_CODE_IND
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("detailCodeInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? DetailCodeInd { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TBBDETC_PAYT_CODE, Lookup lineage reference object : ttvpayt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("paytCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string PaytCode { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? TaxMethod { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TBBDETC_DETC_ACTIVE_IND
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("detcActiveInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? DetcActiveInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_REFUND_IND
@@ -70,10 +91,16 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetRequest
         public string? RefundInd { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TBBDETC_PAYHIST_IND
+        /// Lineage reference object : TBRACCT_ACCOUNT_B
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("payhistInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? PayhistInd { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("accountB", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string AccountB { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCT_ACCOUNT_A
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("accountA", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string AccountA { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_PRIORITY
@@ -92,6 +119,12 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("receiptInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ReceiptInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBEACT_DETAIL_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("tbbeactDetailCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string TbbeactDetailCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("taxProfile", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? TaxProfile { get; set; } = default!;
@@ -113,18 +146,6 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceDetailCodesV100GetRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("refundableInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? RefundableInd { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TBBDETC_DETAIL_CODE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("tbbdetcDetailCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string TbbdetcDetailCode { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : TBBDETC_GL_NOS_ENTERABLE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("glNosEnterable", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? GlNosEnterable { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBDETC_TAXT_CODE, Lookup lineage reference object : ttvtaxt

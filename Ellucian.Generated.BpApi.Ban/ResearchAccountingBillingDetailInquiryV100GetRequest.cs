@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.ResearchAccountingBillingDetailInquiryV10
         /// Lineage reference object : keyblckFundCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckFundCode { get; set; } = default!;
+        public string? KeyblckFundCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckCoasCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckCoasCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblckCoasCode { get; set; } = default!;
+        public string KeyblckCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRBGRNT_CODE
@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.ResearchAccountingBillingDetailInquiryV10
         /// Lineage reference object : keyblckGrntCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckGrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckGrntCode { get; set; } = default!;
+        public string? KeyblckGrntCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRBGRNT_TITLE

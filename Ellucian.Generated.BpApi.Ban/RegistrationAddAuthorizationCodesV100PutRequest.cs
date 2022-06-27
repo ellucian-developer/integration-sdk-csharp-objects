@@ -31,7 +31,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationAddAuthorizationCodesV100PutR
         /// Lineage reference object : keyTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyTermCode { get; set; } = default!;
+        public string? KeyTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFBAUTH_AUTH_CDE
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationAddAuthorizationCodesV100PutR
         /// Lineage reference object : keyCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyCrn { get; set; } = default!;
+        public string? KeyCrn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFBAUTH_ASSIGN_DATE

@@ -28,19 +28,19 @@ namespace Ellucian.Generated.BpApi.Ban.PurchaseBlanketOrderInquiryV100GetRequest
         /// Lineage reference object : displayBordCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayBordCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayBordCode { get; set; } = default!;
+        public string? DisplayBordCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayChangeSeqNum
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayChangeSeqNum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayChangeSeqNum { get; set; } = default!;
+        public double? DisplayChangeSeqNum { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayPohdCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayPohdCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayPohdCode { get; set; } = default!;
+        public string? DisplayPohdCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

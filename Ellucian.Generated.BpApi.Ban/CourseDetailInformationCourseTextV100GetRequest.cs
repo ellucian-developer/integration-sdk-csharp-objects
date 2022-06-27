@@ -28,19 +28,25 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationCourseTextV100GetR
         /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseCrseNumb { get; set; } = default!;
+        public string? ScacrseCrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseSubjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseSubjCode { get; set; } = default!;
+        public string? ScacrseSubjCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRTEXT_TEXT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("text", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string Text { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseTermCodeEff, Lookup lineage reference object : stvterm,scbcrky,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseTermCodeEff { get; set; } = default!;
+        public string? ScacrseTermCodeEff { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

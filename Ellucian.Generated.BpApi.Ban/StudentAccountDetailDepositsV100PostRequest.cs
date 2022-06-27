@@ -73,25 +73,31 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountDetailDepositsV100PostReque
         /// Lineage reference object : receiptGenInd2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("receiptGenInd2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReceiptGenInd2 { get; set; } = default!;
+        public string? ReceiptGenInd2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : holdPassword
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdPassword", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPassword { get; set; } = default!;
+        public string? HoldPassword { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRDEPO_RECEIPT_NUMBER
         /// </summary>
         [Newtonsoft.Json.JsonProperty("receiptNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? ReceiptNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRDEPO_DESC
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("desc", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string Desc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRDEPO_TERM_CODE, Lookup lineage reference object : stvterm

@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractReviewV100GetRequest
         /// Lineage reference object : idstudent
         /// </summary>
         [Newtonsoft.Json.JsonProperty("idstudent", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Idstudent { get; set; } = default!;
+        public string? Idstudent { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBVCONR_CROSSREF_DETAIL_CODE
@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractReviewV100GetRequest
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBVCONR_REFUND_IND
@@ -64,7 +64,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractReviewV100GetRequest
         /// Lineage reference object : contractNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("contractNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ContractNumber { get; set; } = default!;
+        public double? ContractNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBVCONR_TRAN_NUMBER
@@ -124,7 +124,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractReviewV100GetRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBVCONR_CPDT_IND

@@ -28,25 +28,25 @@ namespace Ellucian.Generated.BpApi.Ban.ClassRosterV100GetRequest
         /// Lineage reference object : ssbsectCrnt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectCrnt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectCrnt { get; set; } = default!;
+        public string? SsbsectCrnt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ssbsectDegsAwrdInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectDegsAwrdInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectDegsAwrdInd { get; set; } = default!;
+        public string? SsbsectDegsAwrdInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ssbsectTermCodet, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssbsectTermCodet", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsbsectTermCodet { get; set; } = default!;
+        public string? SsbsectTermCodet { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : rollIndicator
         /// </summary>
         [Newtonsoft.Json.JsonProperty("rollIndicator", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RollIndicator { get; set; } = default!;
+        public string? RollIndicator { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -127,7 +127,7 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralStudentAcademicAndGraduationStatus
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SGBSTDN_COLL_CODE_DUAL, Lookup lineage reference object : stvcoll
@@ -139,7 +139,7 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralStudentAcademicAndGraduationStatus
         /// Lineage reference object : stvtermTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stvtermTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StvtermTermCode { get; set; } = default!;
+        public string? StvtermTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SGBSTDN_CAST_CODE, Lookup lineage reference object : stvcast

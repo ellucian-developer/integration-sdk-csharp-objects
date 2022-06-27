@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.CommodityMaintenanceV100PostRequest
         /// Lineage reference object : displayCommCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayCommCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayCommCode { get; set; } = default!;
+        public string? DisplayCommCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTRCOMM_COAS_CODE, Lookup lineage reference object : ftvcoas

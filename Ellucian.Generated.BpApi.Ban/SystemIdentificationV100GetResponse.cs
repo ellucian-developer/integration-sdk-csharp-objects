@@ -28,211 +28,211 @@ namespace Ellucian.Generated.BpApi.Ban.SystemIdentificationV100GetResponse
         /// Lineage reference object : finHeading
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finHeading", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinHeading { get; set; } = default!;
+        public string? FinHeading { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : aluHeading
         /// </summary>
         [Newtonsoft.Json.JsonProperty("aluHeading", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AluHeading { get; set; } = default!;
+        public string? AluHeading { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : hrAppl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("hrAppl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HrAppl { get; set; } = default!;
+        public string? HrAppl { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : confidMsg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("confidMsg", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConfidMsg { get; set; } = default!;
+        public string? ConfidMsg { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stdAdm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stdAdm", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StdAdm { get; set; } = default!;
+        public string? StdAdm { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : aluOrgn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("aluOrgn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AluOrgn { get; set; } = default!;
+        public string? AluOrgn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stdHeading
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stdHeading", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StdHeading { get; set; } = default!;
+        public string? StdHeading { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finVend
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finVend", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinVend { get; set; } = default!;
+        public string? FinVend { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : hrCobra
         /// </summary>
         [Newtonsoft.Json.JsonProperty("hrCobra", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HrCobra { get; set; } = default!;
+        public string? HrCobra { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : hrEmpl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("hrEmpl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HrEmpl { get; set; } = default!;
+        public string? HrEmpl { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finEmpl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finEmpl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinEmpl { get; set; } = default!;
+        public string? FinEmpl { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : advIndivDonrCatg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("advIndivDonrCatg", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AdvIndivDonrCatg { get; set; } = default!;
+        public string? AdvIndivDonrCatg { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finAgency
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finAgency", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinAgency { get; set; } = default!;
+        public string? FinAgency { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stdRecr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stdRecr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StdRecr { get; set; } = default!;
+        public string? StdRecr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finAidAppl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finAidAppl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinAidAppl { get; set; } = default!;
+        public string? FinAidAppl { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stdGenr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stdGenr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StdGenr { get; set; } = default!;
+        public string? StdGenr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : aluConst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("aluConst", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AluConst { get; set; } = default!;
+        public string? AluConst { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stdRegr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stdRegr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StdRegr { get; set; } = default!;
+        public string? StdRegr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finCust
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finCust", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinCust { get; set; } = default!;
+        public string? FinCust { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stdTran
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stdTran", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StdTran { get; set; } = default!;
+        public string? StdTran { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stdHous
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stdHous", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StdHous { get; set; } = default!;
+        public string? StdHous { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : hrHeading
         /// </summary>
         [Newtonsoft.Json.JsonProperty("hrHeading", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HrHeading { get; set; } = default!;
+        public string? HrHeading { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : arHeading2
         /// </summary>
         [Newtonsoft.Json.JsonProperty("arHeading2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ArHeading2 { get; set; } = default!;
+        public string? ArHeading2 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : arHeading1
         /// </summary>
         [Newtonsoft.Json.JsonProperty("arHeading1", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ArHeading1 { get; set; } = default!;
+        public string? ArHeading1 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ar
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ar", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Ar { get; set; } = default!;
+        public string? Ar { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finBank
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finBank", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinBank { get; set; } = default!;
+        public string? FinBank { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finMagr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finMagr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinMagr { get; set; } = default!;
+        public string? FinMagr { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : stdFacu
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stdFacu", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? StdFacu { get; set; } = default!;
+        public string? StdFacu { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finAidHeading
         /// </summary>
         [Newtonsoft.Json.JsonProperty("finAidHeading", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FinAidHeading { get; set; } = default!;
+        public string? FinAidHeading { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : dcsdMsg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dcsdMsg", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DcsdMsg { get; set; } = default!;
+        public string? DcsdMsg { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : advIndivPrefClas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("advIndivPrefClas", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AdvIndivPrefClas { get; set; } = default!;
+        public string? AdvIndivPrefClas { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : nname
         /// </summary>
         [Newtonsoft.Json.JsonProperty("nname", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Nname { get; set; } = default!;
+        public string? Nname { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : advOrgnDonrCatg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("advOrgnDonrCatg", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AdvOrgnDonrCatg { get; set; } = default!;
+        public string? AdvOrgnDonrCatg { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : hrBene
         /// </summary>
         [Newtonsoft.Json.JsonProperty("hrBene", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HrBene { get; set; } = default!;
+        public string? HrBene { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

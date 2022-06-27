@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountDetailChargesPaymentsV100Po
         /// Lineage reference object : receiptGenInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("receiptGenInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReceiptGenInd { get; set; } = default!;
+        public string? ReceiptGenInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_DETAIL_CODE, Lookup lineage reference object : tbbdetc
@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountDetailChargesPaymentsV100Po
         /// Lineage reference object : holdPassword
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdPassword", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPassword { get; set; } = default!;
+        public string? HoldPassword { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_PAYMENT_ID
@@ -100,7 +100,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountDetailChargesPaymentsV100Po
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_TRAN_NUMBER_PAID

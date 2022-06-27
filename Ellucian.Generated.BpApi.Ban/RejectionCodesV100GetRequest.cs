@@ -34,7 +34,7 @@ namespace Ellucian.Generated.BpApi.Ban.RejectionCodesV100GetRequest
         /// Lineage reference object : keyblckRjctType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckRjctType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckRjctType { get; set; } = default!;
+        public string? KeyblckRjctType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RTVRJCT_TYPE

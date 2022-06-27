@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.FoapalAttributeAssociationQueryV100GetReq
         /// Lineage reference object : queryBy
         /// </summary>
         [Newtonsoft.Json.JsonProperty("queryBy", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? QueryBy { get; set; } = default!;
+        public string? QueryBy { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVSATV_ATTT_CODE, Lookup lineage reference object : ftvsatv
@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.FoapalAttributeAssociationQueryV100GetReq
         /// Lineage reference object : foapalType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("foapalType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FoapalType { get; set; } = default!;
+        public string? FoapalType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTVSATV_FOAPAL_TITLE
@@ -73,7 +73,7 @@ namespace Ellucian.Generated.BpApi.Ban.FoapalAttributeAssociationQueryV100GetReq
         /// Lineage reference object : coasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("coasCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object CoasCode { get; set; } = default!;
+        public string CoasCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

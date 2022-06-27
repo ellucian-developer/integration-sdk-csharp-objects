@@ -106,7 +106,7 @@ namespace Ellucian.Generated.BpApi.Ban.QuickAdmitStudentsV100PostRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SOVLCUR_LEVL_CODE, Lookup lineage reference object : stvlevl
@@ -220,7 +220,7 @@ namespace Ellucian.Generated.BpApi.Ban.QuickAdmitStudentsV100PostRequest
         /// Lineage reference object : keyblocLevlCode, Lookup lineage reference object : stvlevl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("levlCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LevlCode { get; set; } = default!;
+        public string? LevlCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPBPERS_DEAD_DATE
@@ -418,7 +418,7 @@ namespace Ellucian.Generated.BpApi.Ban.QuickAdmitStudentsV100PostRequest
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

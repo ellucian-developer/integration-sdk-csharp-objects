@@ -28,31 +28,31 @@ namespace Ellucian.Generated.BpApi.Ban.FinancialManagerMaintenanceV100GetRequest
         /// Lineage reference object : finMgrName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lastName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LastName { get; set; } = default!;
+        public string? LastName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finMgrSurnamePrefix
         /// </summary>
         [Newtonsoft.Json.JsonProperty("lastNamePrefix", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? LastNamePrefix { get; set; } = default!;
+        public string? LastNamePrefix { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finMgrFirstName
         /// </summary>
         [Newtonsoft.Json.JsonProperty("firstName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FirstName { get; set; } = default!;
+        public string? FirstName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : finMgrMi
         /// </summary>
         [Newtonsoft.Json.JsonProperty("middleName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MiddleName { get; set; } = default!;
+        public string? MiddleName { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayFmgrCode, Lookup lineage reference object : spriden,ftvfmgr
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayFmgrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayFmgrCode { get; set; } = default!;
+        public string? DisplayFmgrCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

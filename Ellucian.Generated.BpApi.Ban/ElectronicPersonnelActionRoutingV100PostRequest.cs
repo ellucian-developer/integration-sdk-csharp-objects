@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicPersonnelActionRoutingV100PostR
         /// Lineage reference object : proxyForUserId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("proxyForUserId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ProxyForUserId { get; set; } = default!;
+        public string? ProxyForUserId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NORROUT_RECIPIENT_USER_ID
@@ -40,13 +40,13 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicPersonnelActionRoutingV100PostR
         /// Lineage reference object : acatCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("acatCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AcatCode { get; set; } = default!;
+        public string? AcatCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : aptyCode, Lookup lineage reference object : ntracat,ntvapty
         /// </summary>
         [Newtonsoft.Json.JsonProperty("aptyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AptyCode { get; set; } = default!;
+        public string? AptyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NORROUT_ACTION_IND
@@ -58,19 +58,19 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicPersonnelActionRoutingV100PostR
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : transNo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("transNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TransNo { get; set; } = default!;
+        public double? TransNo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : effectiveDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("effectiveDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffectiveDate { get; set; } = default!;
+        public System.DateTimeOffset? EffectiveDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NORROUT_ALVL_CODE, Lookup lineage reference object : ntralvl

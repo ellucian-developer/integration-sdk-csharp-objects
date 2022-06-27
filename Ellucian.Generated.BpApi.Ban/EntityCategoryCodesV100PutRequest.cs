@@ -37,12 +37,6 @@ namespace Ellucian.Generated.BpApi.Ban.EntityCategoryCodesV100PutRequest
         public System.DateTimeOffset? CriteriaActivityDate { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TTVECAT_CODE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("code", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string Code { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : TTVECAT_DESC
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.desc", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]

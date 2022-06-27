@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.CatalogPrerequisiteAndTestScoreRestrictio
         /// Lineage reference object : keyBlckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SCRCLPP_SUBJ_CODE, Lookup lineage reference object : scbcrse,scbcrky
@@ -91,7 +91,7 @@ namespace Ellucian.Generated.BpApi.Ban.CatalogPrerequisiteAndTestScoreRestrictio
         /// Lineage reference object : program
         /// </summary>
         [Newtonsoft.Json.JsonProperty("program", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Program { get; set; } = default!;
+        public string? Program { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("criteria.title", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaTitle { get; set; } = default!;

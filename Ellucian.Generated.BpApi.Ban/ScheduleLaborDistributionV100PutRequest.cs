@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleLaborDistributionV100PutRequest
         /// Lineage reference object : ssasectCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssasectCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsasectCrn { get; set; } = default!;
+        public string? SsasectCrn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSRCLBD_ACCI_CODE
@@ -112,7 +112,7 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleLaborDistributionV100PutRequest
         /// Lineage reference object : ssasectTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssasectTermCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsasectTermCode { get; set; } = default!;
+        public string SsasectTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SSRCLBD_ACCI_CODE

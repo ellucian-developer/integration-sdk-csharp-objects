@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.BankTapeReconcilationV100PutRequest
         /// Lineage reference object : cashAcct
         /// </summary>
         [Newtonsoft.Json.JsonProperty("cashAcct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CashAcct { get; set; } = default!;
+        public string? CashAcct { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : faabrecBankCode, Lookup lineage reference object : gxvbank
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bankCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BankCode { get; set; } = default!;
+        public string? BankCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FABBKTP_CHECK_DEPOSIT_CODE
@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.BankTapeReconcilationV100PutRequest
         /// Lineage reference object : bankAcct
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bankAcct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BankAcct { get; set; } = default!;
+        public string? BankAcct { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FABBKTP_TRANS_DATE
@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.BankTapeReconcilationV100PutRequest
         /// Lineage reference object : reconInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("reconInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReconInd { get; set; } = default!;
+        public string? ReconInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FABBKTP_INTERNAL_DOC_CODE

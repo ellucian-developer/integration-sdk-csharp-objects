@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.BenefitOrDeductionGroupingRuleV100GetRequ
         /// Lineage reference object : bdpgCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bdpgCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object BdpgCode { get; set; } = default!;
+        public string BdpgCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

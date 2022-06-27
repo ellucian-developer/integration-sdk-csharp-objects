@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractAuthorizationPersonAuthorizationV
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBCSTU_MAX_STUDENT_AMOUNT
@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractAuthorizationPersonAuthorizationV
         /// Lineage reference object : contractNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("contractNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ContractNumber { get; set; } = default!;
+        public double? ContractNumber { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("stuName2", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? StuName2 { get; set; } = default!;
@@ -106,7 +106,7 @@ namespace Ellucian.Generated.BpApi.Ban.ContractAuthorizationPersonAuthorizationV
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBBCSTU_CONTRACT_PRIORITY

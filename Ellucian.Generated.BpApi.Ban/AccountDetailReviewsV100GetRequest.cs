@@ -25,16 +25,187 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailReviewsV100GetRequest
     public partial class AccountDetailReviewsV100GetRequest
     {
         /// <summary>
+        /// Lineage reference object : TBRACCD_SRCE_CODE, Lookup lineage reference object : ttvsrce
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("srceCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string SrceCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("taxMethod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TaxMethod { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_DOCUMENT_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("documentNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DocumentNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_BALANCE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("balance", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? Balance { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : holdPassword
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdPassword", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldPassword { get; set; } = default!;
+        public string? HoldPassword { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_ACCT_FEED_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("acctFeedInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AcctFeedInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_TRANS_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("transDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? TransDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_INVOICE_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("invoiceNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? InvoiceNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_USER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("tbraccdUser", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TbraccdUser { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("payment", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? Payment { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_TRAN_NUMBER_PAID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("tranNumberPaid", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TranNumberPaid { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_RECEIPT_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("receiptNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? ReceiptNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_PERIOD
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("period", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Period { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("charge", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? Charge { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_STSP_KEY_SEQUENCE, Lookup lineage reference object : TBRACCD
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("stspKeySequence", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? StspKeySequence { get; set; } = default!;
+
+        /// <summary>
+        /// Lookup lineage reference object : gtvcurr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("currCodeV", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CurrCodeV { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_AIDY_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("aidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AidyCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_FEED_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("feedDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? FeedDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_ENTRY_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("entryDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? EntryDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_TRAN_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("tranNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? TranNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_CSHR_END_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cshrEndDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CshrEndDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_INV_NUMBER_PAID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("invNumberPaid", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? InvNumberPaid { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_DETAIL_CODE, Lookup lineage reference object : tbbdetc
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("detailCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string DetailCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_ORIG_CHG_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("origChgInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? OrigChgInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_FEED_DOC_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("feedDocCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? FeedDocCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_SESSION_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("sessionNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? SessionNumber { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_CPDT_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cpdtInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CpdtInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_USER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("user", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? User { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_EFFECTIVE_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("effectiveDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset EffectiveDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_DESC
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("desc", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string Desc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRACCD_TERM_CODE, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

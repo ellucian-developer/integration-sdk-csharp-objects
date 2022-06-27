@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.BenefitCategoryRuleV100GetRequest
         /// Lineage reference object : bcatCode, Lookup lineage reference object : ptrbcat
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bcatCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object BcatCode { get; set; } = default!;
+        public string BcatCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

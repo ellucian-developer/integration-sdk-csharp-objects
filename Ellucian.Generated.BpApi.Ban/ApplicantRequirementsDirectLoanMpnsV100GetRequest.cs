@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantRequirementsDirectLoanMpnsV100Ge
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAidyCode { get; set; } = default!;
+        public string? KeyblckAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : RLRDMPR_INSTRUCTIONS
@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantRequirementsDirectLoanMpnsV100Ge
         /// Lineage reference object : keyblckId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckId { get; set; } = default!;
+        public string? KeyblckId { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("fundTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? FundTitle { get; set; } = default!;

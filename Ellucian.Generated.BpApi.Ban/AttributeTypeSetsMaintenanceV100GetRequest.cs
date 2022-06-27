@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.AttributeTypeSetsMaintenanceV100GetReques
         /// Lineage reference object : ftvattsCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftvattsCoasCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtvattsCoasCode { get; set; } = default!;
+        public string? FtvattsCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ftvattsValidFoapal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftvattsValidFoapal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtvattsValidFoapal { get; set; } = default!;
+        public string? FtvattsValidFoapal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTRATTS_ATTT_CODE
@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.AttributeTypeSetsMaintenanceV100GetReques
         /// Lineage reference object : ftvattsCode, Lookup lineage reference object : ftvatts
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftvattsCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtvattsCode { get; set; } = default!;
+        public string? FtvattsCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

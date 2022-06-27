@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.ScheduleEvaluationV100GetRequest
         /// Lineage reference object : ssaevalCrn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssaevalCrn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsaevalCrn { get; set; } = default!;
+        public string? SsaevalCrn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ssaevalTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssaevalTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SsaevalTermCode { get; set; } = default!;
+        public string? SsaevalTermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

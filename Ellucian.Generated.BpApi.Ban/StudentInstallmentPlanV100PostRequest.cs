@@ -31,6 +31,12 @@ namespace Ellucian.Generated.BpApi.Ban.StudentInstallmentPlanV100PostRequest
         public double NumberOfPayments { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : TBRISTL_INT_RATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("intRate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? IntRate { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : TBRISTL_AUTO_CALC_ACTIVE_IND
         /// </summary>
         [Newtonsoft.Json.JsonProperty("autoCalcActiveInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -41,6 +47,9 @@ namespace Ellucian.Generated.BpApi.Ban.StudentInstallmentPlanV100PostRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("servDetailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ServDetailCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("paymentDueInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string PaymentDueInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRISTL_PRIN_DETAIL_CODE, Lookup lineage reference object : tbbdetc
@@ -59,6 +68,12 @@ namespace Ellucian.Generated.BpApi.Ban.StudentInstallmentPlanV100PostRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("svcChgPct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? SvcChgPct { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRISTL_INT_DETAIL_CODE, Lookup lineage reference object : tbbdetc
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("intDetailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? IntDetailCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRISTL_SERV_CHARGE
@@ -88,7 +103,13 @@ namespace Ellucian.Generated.BpApi.Ban.StudentInstallmentPlanV100PostRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRISTL_PLAN_AMOUNT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("planAmount", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double PlanAmount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRISTL_DESC

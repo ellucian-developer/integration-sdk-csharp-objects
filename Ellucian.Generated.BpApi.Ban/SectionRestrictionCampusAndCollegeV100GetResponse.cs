@@ -77,7 +77,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionCampusAndCollegeV100Get
         /// Lineage reference object : ssrrcolCollInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrcolCollInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrcolCollInd { get; set; } = default!;
+        public string SsrrcolCollInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -120,7 +120,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionCampusAndCollegeV100Get
         /// Lineage reference object : ssrrcmpCampInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrcmpCampInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrcmpCampInd { get; set; } = default!;
+        public string SsrrcmpCampInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

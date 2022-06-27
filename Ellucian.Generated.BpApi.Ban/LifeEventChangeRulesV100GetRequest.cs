@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.LifeEventChangeRulesV100GetRequest
         /// Lineage reference object : breaCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("breaCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object BreaCode { get; set; } = default!;
+        public string BreaCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PTRLFSD_BDOC_CODE, Lookup lineage reference object : PTVBDOC

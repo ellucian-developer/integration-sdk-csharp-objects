@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicApprovalTypeRuleV100GetRequest
         /// Lineage reference object : aptyCode, Lookup lineage reference object : ntvapty
         /// </summary>
         [Newtonsoft.Json.JsonProperty("aptyCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object AptyCode { get; set; } = default!;
+        public string AptyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NTRAPFB_APPLY_SEQ_NO

@@ -43,7 +43,7 @@ namespace Ellucian.Generated.BpApi.Ban.TransferArticulationEvaluationV100GetRequ
         /// Lineage reference object : keyblocSbgiCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocSbgiCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocSbgiCode { get; set; } = default!;
+        public string? KeyblocSbgiCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTRTK_GRDE_CODE_INST
@@ -67,7 +67,7 @@ namespace Ellucian.Generated.BpApi.Ban.TransferArticulationEvaluationV100GetRequ
         /// Lineage reference object : keyblocProgram
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocProgram", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocProgram { get; set; } = default!;
+        public string? KeyblocProgram { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTRTK_DUPLICATE
@@ -109,7 +109,7 @@ namespace Ellucian.Generated.BpApi.Ban.TransferArticulationEvaluationV100GetRequ
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lookup lineage reference object : sorbtal,stvtlvl,sorbtal

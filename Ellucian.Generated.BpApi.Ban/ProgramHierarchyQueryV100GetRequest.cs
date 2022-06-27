@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.ProgramHierarchyQueryV100GetRequest
         /// Lineage reference object : ftxprghCoasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftxprghCoasCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtxprghCoasCode { get; set; } = default!;
+        public string? FtxprghCoasCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ftxprghProgCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftxprghProgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FtxprghProgCode { get; set; } = default!;
+        public string? FtxprghProgCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

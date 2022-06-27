@@ -30,9 +30,6 @@ namespace Ellucian.Generated.BpApi.Ban.AccountDetailV100QapiPost
         [Newtonsoft.Json.JsonProperty("holdPassword", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? HoldPassword { get; set; } = default!;
 
-        /// <summary>
-        /// Lookup lineage reference object : gtvcurr
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("currCodeV", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CurrCodeV { get; set; } = default!;
 

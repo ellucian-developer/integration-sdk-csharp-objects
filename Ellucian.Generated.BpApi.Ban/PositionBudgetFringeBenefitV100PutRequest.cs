@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.PositionBudgetFringeBenefitV100PutRequest
         /// Lineage reference object : fiscCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("fiscCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object FiscCode { get; set; } = default!;
+        public string FiscCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NBRFTOT_EXPEND
@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.PositionBudgetFringeBenefitV100PutRequest
         /// Lineage reference object : posn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("posn", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Posn { get; set; } = default!;
+        public string Posn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NBRFTOT_BUDGET

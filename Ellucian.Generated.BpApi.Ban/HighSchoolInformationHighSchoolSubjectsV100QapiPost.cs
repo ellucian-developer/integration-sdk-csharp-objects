@@ -27,6 +27,36 @@ namespace Ellucian.Generated.BpApi.Ban.HighSchoolInformationHighSchoolSubjectsV1
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Id { get; set; } = default!;
 
+        [Newtonsoft.Json.JsonProperty("sbgiCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SbgiCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("percentile", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Percentile { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("gpa", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Gpa { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("graduationDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? GraduationDate { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("dplmCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DplmCode { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("transRecvDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TransRecvDate { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("collPrepInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CollPrepInd { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("classRank", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ClassRank { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("classSize", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ClassSize { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("admrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AdmrCode { get; set; } = default!;
+
         /// <summary>
         /// Lineage reference object : SORHSBJ_SBJC_CODE, Lookup lineage reference object : stvsbjc
         /// </summary>

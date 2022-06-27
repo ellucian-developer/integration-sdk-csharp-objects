@@ -122,25 +122,25 @@ namespace Ellucian.Generated.BpApi.Ban.TransactionsInProcessStatusV100GetRespons
         /// Lineage reference object : totalBudgetRsvrtn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalBudgetRsvrtn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalBudgetRsvrtn { get; set; } = default!;
+        public double? TotalBudgetRsvrtn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : displayAvailBal
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayAvailBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayAvailBal { get; set; } = default!;
+        public double? DisplayAvailBal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : totalYtdActivity
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalYtdActivity", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalYtdActivity { get; set; } = default!;
+        public double? TotalYtdActivity { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : totalAdjustedBudget
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalAdjustedBudget", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalAdjustedBudget { get; set; } = default!;
+        public double? TotalAdjustedBudget { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -25,22 +25,94 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationSupplementalDataV1
     public partial class CourseDetailInformationSupplementalDataV100GetRequest
     {
         /// <summary>
+        /// Lineage reference object : SCBSUPP_CUDE_CODE, Lookup lineage reference object : stvcude
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cudeCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CudeCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_TOPS_CODE, Lookup lineage reference object : stvtops
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("topsCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TopsCode { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : scacrseCrseNumb, Lookup lineage reference object : scbcrse,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseCrseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseCrseNumb { get; set; } = default!;
+        public string? ScacrseCrseNumb { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseSubjCode, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseSubjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseSubjCode { get; set; } = default!;
+        public string? ScacrseSubjCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_PERM_DIST_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("permDistInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PermDistInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_CCSL_CODE, Lookup lineage reference object : stvccsl
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ccslCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CcslCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_CUDB_CODE, Lookup lineage reference object : stvcudb
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cudbCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CudbCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_CUDD_CODE, Lookup lineage reference object : stvcudd
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cuddCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CuddCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_CUDF_CODE, Lookup lineage reference object : STVCUDF
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cudfCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CudfCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_CREDIT_CATEGORY_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("creditCategoryInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CreditCategoryInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_COOP_ED_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("coopEdInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CoopEdInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_CUDA_CODE, Lookup lineage reference object : stvcuda
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cudaCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CudaCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_CUDC_CODE, Lookup lineage reference object : stvcudc
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cudcCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CudcCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scacrseTermCodeEff, Lookup lineage reference object : stvterm,scbcrky,scbcrky
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScacrseTermCodeEff { get; set; } = default!;
+        public string? ScacrseTermCodeEff { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCBSUPP_OCCS_CODE, Lookup lineage reference object : stvoccs
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("occsCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? OccsCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

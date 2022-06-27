@@ -34,6 +34,30 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceEmailV100QapiPost
         public string? EmalCode { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GOREMAL_EMAIL_ADDRESS
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("emailAddress", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EmailAddress { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOREMAL_PREFERRED_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("preferredInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PreferredInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOREMAL_STATUS_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("statusInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatusInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOREMAL_DISP_WEB_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("dispWebInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DispWebInd { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GOREMAL_USER_ID
         /// </summary>
         [Newtonsoft.Json.JsonProperty("userId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]

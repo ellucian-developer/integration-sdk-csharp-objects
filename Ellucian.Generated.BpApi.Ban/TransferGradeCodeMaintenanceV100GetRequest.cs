@@ -100,7 +100,7 @@ namespace Ellucian.Generated.BpApi.Ban.TransferGradeCodeMaintenanceV100GetReques
         /// Lineage reference object : shatgrdSbgiCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("shatgrdSbgiCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ShatgrdSbgiCode { get; set; } = default!;
+        public string? ShatgrdSbgiCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTGRD_LEVL_CODE, Lookup lineage reference object : sorbtal,stvtlvl,sorbtal

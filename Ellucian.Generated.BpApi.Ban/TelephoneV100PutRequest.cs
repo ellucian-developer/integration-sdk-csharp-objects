@@ -25,16 +25,34 @@ namespace Ellucian.Generated.BpApi.Ban.TelephoneV100PutRequest
     public partial class TelephoneV100PutRequest
     {
         /// <summary>
-        /// Lineage reference object : SPRTELE_TELE_CODE, Lookup lineage reference object : stvtele
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.teleCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string CriteriaTeleCode { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : SPRTELE_PHONE_EXT
         /// </summary>
         [Newtonsoft.Json.JsonProperty("phoneExt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? PhoneExt { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_UNLIST_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("unlistInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? UnlistInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_CTRY_CODE_PHONE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ctryCodePhone", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CtryCodePhone { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_TELE_CODE, Lookup lineage reference object : stvtele
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("teleCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string TeleCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRTELE_TELE_CODE, Lookup lineage reference object : stvtele
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.teleCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string CriteriaTeleCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRTELE_PHONE_NUMBER
@@ -49,10 +67,10 @@ namespace Ellucian.Generated.BpApi.Ban.TelephoneV100PutRequest
         public double? AddrSeqno { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SPRTELE_UNLIST_IND
+        /// Lineage reference object : SPRTELE_STATUS_IND
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("unlistInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? UnlistInd { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("statusInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatusInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRTELE_PHONE_AREA
@@ -70,7 +88,7 @@ namespace Ellucian.Generated.BpApi.Ban.TelephoneV100PutRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRTELE_INTL_ACCESS
@@ -79,22 +97,16 @@ namespace Ellucian.Generated.BpApi.Ban.TelephoneV100PutRequest
         public string? IntlAccess { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SPRTELE_CTRY_CODE_PHONE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("ctryCodePhone", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CtryCodePhone { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : SPRTELE_ATYP_CODE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("atypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? AtypCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SPRTELE_TELE_CODE, Lookup lineage reference object : stvtele
+        /// Lineage reference object : SPRTELE_PRIMARY_IND
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("teleCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string TeleCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("primaryInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PrimaryInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

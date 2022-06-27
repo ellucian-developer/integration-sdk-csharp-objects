@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.DocumentRetrievalInquiryV100GetRequest
         /// Lineage reference object : keyblckSubmissionNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckSubmissionNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckSubmissionNumber { get; set; } = default!;
+        public double? KeyblckSubmissionNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FGBTRNH_PRJD_CODE
@@ -64,7 +64,7 @@ namespace Ellucian.Generated.BpApi.Ban.DocumentRetrievalInquiryV100GetRequest
         /// Lineage reference object : keyblckDocCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckDocCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblckDocCode { get; set; } = default!;
+        public string KeyblckDocCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FGBTRNH_COAS_CODE, Lookup lineage reference object : ftvcoas
@@ -82,7 +82,7 @@ namespace Ellucian.Generated.BpApi.Ban.DocumentRetrievalInquiryV100GetRequest
         /// Lineage reference object : keyblckDtypCode, Lookup lineage reference object : ftvdtyp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckDtypCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object KeyblckDtypCode { get; set; } = default!;
+        public string KeyblckDtypCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FGBTRNH_ORGN_CODE

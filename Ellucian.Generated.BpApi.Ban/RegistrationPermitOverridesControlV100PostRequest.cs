@@ -58,13 +58,13 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationPermitOverridesControlV100Pos
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : xxxxxxxTermCodedef, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("xxxxxxxTermCodeDef", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? XxxxxxxTermCodeDef { get; set; } = default!;
+        public string? XxxxxxxTermCodeDef { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRROVR_REPT_OVER

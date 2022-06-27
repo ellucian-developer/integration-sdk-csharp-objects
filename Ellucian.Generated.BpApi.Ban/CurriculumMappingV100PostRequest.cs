@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.CurriculumMappingV100PostRequest
         /// Lineage reference object : academicYear, Lookup lineage reference object : STVACYR
         /// </summary>
         [Newtonsoft.Json.JsonProperty("academicYear", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AcademicYear { get; set; } = default!;
+        public string? AcademicYear { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SKRPOFR_ADMIT_COURSE_CODE

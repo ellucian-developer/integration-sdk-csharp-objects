@@ -54,25 +54,25 @@ namespace Ellucian.Generated.BpApi.Ban.CourseRegistrationDegreeAndProgramRestric
         /// Lineage reference object : rdegCtrlEndcopy
         /// </summary>
         [Newtonsoft.Json.JsonProperty("rdegCtrlEndcopy", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RdegCtrlEndcopy { get; set; } = default!;
+        public string? RdegCtrlEndcopy { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrdegTermCodeTo, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrdegTermCodeTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrdegTermCodeTo { get; set; } = default!;
+        public string? ScrrdegTermCodeTo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrdegTermCodeFrom, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrdegTermCodeFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrdegTermCodeFrom { get; set; } = default!;
+        public string? ScrrdegTermCodeFrom { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrdegDegcInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrdegDegcInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object ScrrdegDegcInd { get; set; } = default!;
+        public string ScrrdegDegcInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -115,25 +115,25 @@ namespace Ellucian.Generated.BpApi.Ban.CourseRegistrationDegreeAndProgramRestric
         /// Lineage reference object : scrrprgTermCodeTo, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrprgTermCodeTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrprgTermCodeTo { get; set; } = default!;
+        public string? ScrrprgTermCodeTo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrprgTermCodeFrom, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrprgTermCodeFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrprgTermCodeFrom { get; set; } = default!;
+        public string? ScrrprgTermCodeFrom { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrprgProgramInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrprgProgramInd", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object ScrrprgProgramInd { get; set; } = default!;
+        public string ScrrprgProgramInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : rprgCtrlEndcopy
         /// </summary>
         [Newtonsoft.Json.JsonProperty("rprgCtrlEndcopy", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RprgCtrlEndcopy { get; set; } = default!;
+        public string? RprgCtrlEndcopy { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

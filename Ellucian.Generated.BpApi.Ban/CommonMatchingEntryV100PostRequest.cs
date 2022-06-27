@@ -70,6 +70,12 @@ namespace Ellucian.Generated.BpApi.Ban.CommonMatchingEntryV100PostRequest
         public string? Ssn { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : id
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("keyblockId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? KeyblockId { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GOTCMME_EMAIL_ADDRESS
         /// </summary>
         [Newtonsoft.Json.JsonProperty("emailAddress", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -145,7 +151,7 @@ namespace Ellucian.Generated.BpApi.Ban.CommonMatchingEntryV100PostRequest
         /// Lineage reference object : keyblockSourceCode, Lookup lineage reference object : gtvcmsc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblockSourceCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblockSourceCode { get; set; } = default!;
+        public string? KeyblockSourceCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GOTCMME_PHONE_NUMBER

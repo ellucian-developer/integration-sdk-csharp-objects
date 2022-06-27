@@ -24,113 +24,59 @@ namespace Ellucian.Generated.BpApi.Ban.GradeCodeMaintenanceV100QapiPost
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class GradeCodeMaintenanceV100QapiPost
     {
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_CODE
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("code", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Code { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_LEVL_CODE, Lookup lineage reference object : stvlevl
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("levlCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? LevlCode { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_ABBREV
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("abbrev", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Abbrev { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_TERM_CODE_EFFECTIVE, Lookup lineage reference object : stvterm
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("termCodeEffective", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? TermCodeEffective { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_GRDE_STATUS_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("grdeStatusInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? GrdeStatusInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_QUALITY_POINTS
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("qualityPoints", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? QualityPoints { get; set; } = default!;
+        public string? QualityPoints { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_ATTEMPTED_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("attemptedInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? AttemptedInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_PASSED_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("passedInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? PassedInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_COMPLETED_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("completedInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CompletedInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_GPA_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("gpaInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? GpaInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_TRADITIONAL_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("traditionalInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? TraditionalInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_IMPCMP_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("impcmpInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ImpcmpInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_GRDE_CODE_INCMP_FINAL, Lookup lineage reference object : shrgrde,shrgrde
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("grdeCodeIncmpFinal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? GrdeCodeIncmpFinal { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_WEB_ENTRY_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("webEntryInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? WebEntryInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_NUMERIC_VALUE
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("numericValue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? NumericValue { get; set; } = default!;
+        public string? NumericValue { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_REPEAT_INCLUDE_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("repeatIncludeInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? RepeatIncludeInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_LAST_DATE_ATTEND_IND
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("lastDateAttendInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? LastDateAttendInd { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SHRGRDE_ACTIVITY_DATE
-        /// </summary>
         [Newtonsoft.Json.JsonProperty("activityDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? ActivityDate { get; set; } = default!;
+        public string? ActivityDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

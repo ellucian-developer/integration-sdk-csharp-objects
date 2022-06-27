@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorPaymentTransactionAuditV100GetReque
         /// Lineage reference object : payTransId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("payTransId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PayTransId { get; set; } = default!;
+        public string? PayTransId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GORCCAU_VENDOR_AUTH_CODE
@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorPaymentTransactionAuditV100GetReque
         /// Lineage reference object : referNo
         /// </summary>
         [Newtonsoft.Json.JsonProperty("referNo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ReferNo { get; set; } = default!;
+        public string? ReferNo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GORCCAU_FAILURE_URL
@@ -82,7 +82,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorPaymentTransactionAuditV100GetReque
         /// Lineage reference object : transDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("transDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TransDate { get; set; } = default!;
+        public System.DateTimeOffset? TransDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GORCCAU_VENDOR_STATUS
@@ -94,7 +94,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorPaymentTransactionAuditV100GetReque
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GORCCAU_ID

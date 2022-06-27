@@ -24,6 +24,118 @@ namespace Ellucian.Generated.BpApi.Ban.HighSchoolInformationHighSchoolSubjectsV1
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class HighSchoolInformationHighSchoolSubjectsV100PutResponse
     {
+        [Newtonsoft.Json.JsonProperty("sorhsch", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Sorhsch>? Sorhsch { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("sorhsbj", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Sorhsbj>? Sorhsbj { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Sorhsch
+    {
+        /// <summary>
+        /// Lineage reference object : SORHSCH_DPLM_CODE, Lookup lineage reference object : stvdplm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("dplmCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DplmCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_COLL_PREP_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("collPrepInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CollPrepInd { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("epsccode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Epsccode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_SBGI_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("sbgiCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string SbgiCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_CLASS_RANK
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("classRank", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? ClassRank { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_TRANS_RECV_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("transRecvDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? TransRecvDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_ADMR_CODE, Lookup lineage reference object : stvadmr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("admrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? AdmrCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_CLASS_SIZE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("classSize", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? ClassSize { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_GRADE_COMPLETED
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("gradeCompleted", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? GradeCompleted { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_PERCENTILE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("percentile", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? Percentile { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_GRADUATION_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("graduationDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? GraduationDate { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("stvsbgiDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StvsbgiDesc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SORHSCH_GPA
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("gpa", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Gpa { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("stvadmrDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StvadmrDesc { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("stvdplmDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StvdplmDesc { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Sorhsbj
+    {
         [Newtonsoft.Json.JsonProperty("stvsbjcDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? StvsbjcDesc { get; set; } = default!;
 

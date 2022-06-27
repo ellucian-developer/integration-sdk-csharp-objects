@@ -27,6 +27,12 @@ namespace Ellucian.Generated.BpApi.Ban.BankTapeReconcilationV100QapiPost
         [Newtonsoft.Json.JsonProperty("bankCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? BankCode { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : FABBKTP_RECON_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("reconInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ReconInd { get; set; } = default!;
+
         [Newtonsoft.Json.JsonProperty("bankAcct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? BankAcct { get; set; } = default!;
 

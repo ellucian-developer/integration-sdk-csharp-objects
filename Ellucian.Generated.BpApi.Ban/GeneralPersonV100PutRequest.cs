@@ -37,12 +37,6 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralPersonV100PutRequest
         public System.DateTimeOffset? DeadDate { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SPBPERS_LGCY_CODE, Lookup lineage reference object : stvlgcy
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("lgcyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? LgcyCode { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : SPBPERS_RELG_CODE, Lookup lineage reference object : stvrelg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("relgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -88,12 +82,6 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralPersonV100PutRequest
         public System.DateTimeOffset? ActiveDutySeprDate { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SPBPERS_CITZ_CODE, Lookup lineage reference object : stvcitz
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("citzCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CitzCode { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : SPBPERS_DEAD_IND
         /// </summary>
         [Newtonsoft.Json.JsonProperty("deadInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -103,7 +91,58 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralPersonV100PutRequest
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPBPERS_ETHN_CDE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ethnCde", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EthnCde { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("persSex", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersSex { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPBPERS_CONFIRMED_RE_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("confirmedReDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? ConfirmedReDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPBPERS_LGCY_CODE, Lookup lineage reference object : stvlgcy
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("lgcyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? LgcyCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPBPERS_CONFID_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("confidInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ConfidInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPBPERS_ARMED_SERV_MED_VET_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("armedServMedVetInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ArmedServMedVetInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPBPERS_BIRTH_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("birthDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? BirthDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPBPERS_CITZ_CODE, Lookup lineage reference object : stvcitz
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("citzCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CitzCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPBPERS_VETC_FILE_NUMBER
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("vetcFileNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? VetcFileNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPBPERS_CONFIRMED_RE_CDE
@@ -128,9 +167,6 @@ namespace Ellucian.Generated.BpApi.Ban.GeneralPersonV100PutRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("raceCde", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string RaceCde { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("persSex", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? PersSex { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -193,7 +193,7 @@ namespace Ellucian.Generated.BpApi.Ban.OpenLearningSectionDefaultRulesV100PutReq
         /// Lineage reference object : keyblckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SOBODTE_INSM_CODE, Lookup lineage reference object : gtvinsm
@@ -241,7 +241,7 @@ namespace Ellucian.Generated.BpApi.Ban.OpenLearningSectionDefaultRulesV100PutReq
         /// Lineage reference object : keyblocTermCodedef, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCodeDef", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCodeDef { get; set; } = default!;
+        public string? KeyblocTermCodeDef { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("criteria.insmCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaInsmCodeDesc { get; set; } = default!;

@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.OpenLearningSectionDefaultRulesV100PostRe
         /// Lineage reference object : keyblckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SOBODTE_CENSUS_DATE_TWO
@@ -94,7 +94,7 @@ namespace Ellucian.Generated.BpApi.Ban.OpenLearningSectionDefaultRulesV100PostRe
         /// Lineage reference object : keyblocTermCodedef, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCodeDef", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCodeDef { get; set; } = default!;
+        public string? KeyblocTermCodeDef { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORRSTS_RSTS_CODE, Lookup lineage reference object : stvrsts

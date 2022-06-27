@@ -27,6 +27,66 @@ namespace Ellucian.Generated.BpApi.Ban.MedicalInformationV100QapiPost
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Id { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_MEDI_CODE, Lookup lineage reference object : stvmedi
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("mediCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? MediCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_DISB_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("disbInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DisbInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_MEDI_CODE_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("mediCodeDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? MediCodeDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_MDEQ_CODE, Lookup lineage reference object : stvmdeq
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("mdeqCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? MdeqCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_DISA_CODE, Lookup lineage reference object : stvdisa
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("disaCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DisaCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_SPSR_CODE, Lookup lineage reference object : stvspsr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("spsrCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SpsrCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_ONSET_AGE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("onsetAge", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? OnsetAge { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_COMMENT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("comment", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Comment { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_USER_ID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("userId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? UserId { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRMEDI_ACTIVITY_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("activityDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? ActivityDate { get; set; } = default!;
+
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
         [Newtonsoft.Json.JsonExtensionData]

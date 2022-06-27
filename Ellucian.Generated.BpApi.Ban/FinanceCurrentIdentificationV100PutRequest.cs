@@ -27,6 +27,21 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceCurrentIdentificationV100PutReques
         [Newtonsoft.Json.JsonProperty("persPrefFname", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? PersPrefFname { get; set; } = default!;
 
+        [Newtonsoft.Json.JsonProperty("persPrefix", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersPrefix { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("persLastName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersLastName { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("persLegalName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersLegalName { get; set; } = default!;
+
+        /// <summary>
+        /// Lookup lineage reference object : stvmrtl
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("persMrtlCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersMrtlCode { get; set; } = default!;
+
         /// <summary>
         /// Lineage reference object : SPRIDEN_ID
         /// </summary>
@@ -42,9 +57,6 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceCurrentIdentificationV100PutReques
         [Newtonsoft.Json.JsonProperty("persSurnamePrefix", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? PersSurnamePrefix { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("persPrefix", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? PersPrefix { get; set; } = default!;
-
         [Newtonsoft.Json.JsonProperty("persSsn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? PersSsn { get; set; } = default!;
 
@@ -54,14 +66,14 @@ namespace Ellucian.Generated.BpApi.Ban.FinanceCurrentIdentificationV100PutReques
         [Newtonsoft.Json.JsonProperty("spridenNtypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? SpridenNtypCode { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("persLegalName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? PersLegalName { get; set; } = default!;
-
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("persFirstName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PersFirstName { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

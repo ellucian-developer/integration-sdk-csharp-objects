@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.VendorHistoryQueryV100GetRequest
         /// Lineage reference object : faavndhVendCode, Lookup lineage reference object : ftvvend
         /// </summary>
         [Newtonsoft.Json.JsonProperty("faavndhVendCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FaavndhVendCode { get; set; } = default!;
+        public string? FaavndhVendCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FAVVHI5_CREDIT_MEMO_AMT

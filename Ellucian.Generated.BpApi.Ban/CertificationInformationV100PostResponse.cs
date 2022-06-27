@@ -24,55 +24,6 @@ namespace Ellucian.Generated.BpApi.Ban.CertificationInformationV100PostResponse
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class CertificationInformationV100PostResponse
     {
-        [Newtonsoft.Json.JsonProperty("pprends", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<Pprends>? Pprends { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("pprcert", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<Pprcert>? Pprcert { get; set; } = default!;
-
-        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
-
-        [Newtonsoft.Json.JsonExtensionData]
-        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
-        {
-            get { return _additionalProperties; }
-            set { _additionalProperties = value; }
-        }
-
-    }
-
-    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class Pprends
-    {
-        [Newtonsoft.Json.JsonProperty("endsDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? EndsDesc { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRENDS_ENDS_CODE, Lookup lineage reference object : ptvends
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("endsCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string EndsCode { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : PPRENDS_ENDS_DATE
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("endsDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset EndsDate { get; set; } = default!;
-
-        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
-
-        [Newtonsoft.Json.JsonExtensionData]
-        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
-        {
-            get { return _additionalProperties; }
-            set { _additionalProperties = value; }
-        }
-
-    }
-
-    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class Pprcert
-    {
         [Newtonsoft.Json.JsonProperty("certDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CertDesc { get; set; } = default!;
 

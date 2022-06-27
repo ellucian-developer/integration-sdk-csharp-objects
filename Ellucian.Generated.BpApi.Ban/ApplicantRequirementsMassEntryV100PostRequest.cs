@@ -28,25 +28,25 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantRequirementsMassEntryV100PostReq
         /// Lineage reference object : keyblckFundCode, Lookup lineage reference object : rfrbase,rfraspc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckFundCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckFundCode { get; set; } = default!;
+        public string? KeyblckFundCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckAidyCode, Lookup lineage reference object : robinst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckAidyCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckAidyCode { get; set; } = default!;
+        public string? KeyblckAidyCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckTreqCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTreqCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTreqCode { get; set; } = default!;
+        public string? KeyblckTreqCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblckPeriod, Lookup lineage reference object : robprds
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckPeriod", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckPeriod { get; set; } = default!;
+        public string? KeyblckPeriod { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("rrrareqTreqCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string RrrareqTreqCode { get; set; } = default!;
@@ -55,7 +55,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantRequirementsMassEntryV100PostReq
         /// Lineage reference object : keyblckTrstCode, Lookup lineage reference object : rtvtrst
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTrstCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTrstCode { get; set; } = default!;
+        public string? KeyblckTrstCode { get; set; } = default!;
 
         /// <summary>
         /// Lookup lineage reference object : rfrbase,rfraspc
@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.ApplicantRequirementsMassEntryV100PostReq
         /// Lineage reference object : keyblckStatDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckStatDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckStatDate { get; set; } = default!;
+        public System.DateTimeOffset? KeyblckStatDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

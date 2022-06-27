@@ -64,7 +64,7 @@ namespace Ellucian.Generated.BpApi.Ban.GenericBillingV100PutRequest
         /// Lineage reference object : displayBillInv
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayBillInv", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayBillInv { get; set; } = default!;
+        public double? DisplayBillInv { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRRGENB_WITHHOLDING_AMT
@@ -166,7 +166,7 @@ namespace Ellucian.Generated.BpApi.Ban.GenericBillingV100PutRequest
         /// Lineage reference object : displayBfrmCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayBfrmCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayBfrmCode { get; set; } = default!;
+        public string? DisplayBfrmCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRRGENB_PERIOD_TO_DATE
@@ -178,7 +178,7 @@ namespace Ellucian.Generated.BpApi.Ban.GenericBillingV100PutRequest
         /// Lineage reference object : displayGrantCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayGrantCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayGrantCode { get; set; } = default!;
+        public string? DisplayGrantCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRRGENB_UPDATE_IND
@@ -202,7 +202,7 @@ namespace Ellucian.Generated.BpApi.Ban.GenericBillingV100PutRequest
         /// Lineage reference object : displayBillAdj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayBillAdj", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayBillAdj { get; set; } = default!;
+        public double? DisplayBillAdj { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRRGENB_DATE_SUBMITTED

@@ -28,13 +28,13 @@ namespace Ellucian.Generated.BpApi.Ban.AttributeAssociationV100GetRequest
         /// Lineage reference object : coasCode, Lookup lineage reference object : ftvcoas
         /// </summary>
         [Newtonsoft.Json.JsonProperty("coas", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Coas { get; set; } = default!;
+        public string Coas { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : foapalCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("foapalCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FoapalCode { get; set; } = default!;
+        public string? FoapalCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTRFNDA_ATTV_CODE, Lookup lineage reference object : ftrattv
@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.AttributeAssociationV100GetRequest
         /// Lineage reference object : foapalType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("foapalType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FoapalType { get; set; } = default!;
+        public string? FoapalType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FTRFNDA_ATTT_CODE, Lookup lineage reference object : ftvsatv

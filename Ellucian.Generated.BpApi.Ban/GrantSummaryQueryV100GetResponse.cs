@@ -28,103 +28,103 @@ namespace Ellucian.Generated.BpApi.Ban.GrantSummaryQueryV100GetResponse
         /// Lineage reference object : unbilledChargesAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("unbilledChargesAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? UnbilledChargesAmt { get; set; } = default!;
+        public double? UnbilledChargesAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : grossBillingAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("grossBillingAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? GrossBillingAmt { get; set; } = default!;
+        public double? GrossBillingAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : refundTotalAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("refundTotalAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RefundTotalAmt { get; set; } = default!;
+        public double? RefundTotalAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : witholdChrgTotalAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("witholdChrgTotalAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? WitholdChrgTotalAmt { get; set; } = default!;
+        public double? WitholdChrgTotalAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billedTotalAmt3160
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billedTotalAmt3160", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BilledTotalAmt3160 { get; set; } = default!;
+        public double? BilledTotalAmt3160 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : witholdPmtTotalAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("witholdPmtTotalAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? WitholdPmtTotalAmt { get; set; } = default!;
+        public double? WitholdPmtTotalAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : netBillingAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("netBillingAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NetBillingAmt { get; set; } = default!;
+        public double? NetBillingAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billedTotalAmt030
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billedTotalAmt030", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BilledTotalAmt030 { get; set; } = default!;
+        public double? BilledTotalAmt030 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : unbilledTotalAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("unbilledTotalAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? UnbilledTotalAmt { get; set; } = default!;
+        public double? UnbilledTotalAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : netDueAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("netDueAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NetDueAmt { get; set; } = default!;
+        public double? NetDueAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : totalOutstandingAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalOutstandingAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalOutstandingAmt { get; set; } = default!;
+        public double? TotalOutstandingAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : paymentsTotalAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("paymentsTotalAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PaymentsTotalAmt { get; set; } = default!;
+        public double? PaymentsTotalAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billedTotalAmt90
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billedTotalAmt90", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BilledTotalAmt90 { get; set; } = default!;
+        public double? BilledTotalAmt90 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billedTotalAmt6190
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billedTotalAmt6190", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BilledTotalAmt6190 { get; set; } = default!;
+        public double? BilledTotalAmt6190 { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : billedTotalAmtSt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("billedTotalAmtSt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BilledTotalAmtSt { get; set; } = default!;
+        public double? BilledTotalAmtSt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : grantTotalAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("grantTotalAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? GrantTotalAmt { get; set; } = default!;
+        public double? GrantTotalAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : holdChargesAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("holdChargesAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? HoldChargesAmt { get; set; } = default!;
+        public double? HoldChargesAmt { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

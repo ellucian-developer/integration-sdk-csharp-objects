@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.DeferPayPeriodRuleV100GetRequest
         /// Lineage reference object : dfprCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dfprCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DfprCode { get; set; } = default!;
+        public string? DfprCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

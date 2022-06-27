@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentBillingMassDataEntryDepositsV100Po
         /// Lineage reference object : keybloc2DetailCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2DetailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2DetailCode { get; set; } = default!;
+        public string? Keybloc2DetailCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRDEPO_MIN_AMOUNT
@@ -58,25 +58,25 @@ namespace Ellucian.Generated.BpApi.Ban.StudentBillingMassDataEntryDepositsV100Po
         /// Lineage reference object : keybloc2ExpirationDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2ExpirationDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2ExpirationDate { get; set; } = default!;
+        public System.DateTimeOffset? Keybloc2ExpirationDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keybloc2MinAmount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2MinAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2MinAmount { get; set; } = default!;
+        public double? Keybloc2MinAmount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keybloc2TermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2TermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2TermCode { get; set; } = default!;
+        public string? Keybloc2TermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keybloc2DocumentNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2DocumentNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2DocumentNumber { get; set; } = default!;
+        public string? Keybloc2DocumentNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRDEPO_DETAIL_CODE_PAYMENT, Lookup lineage reference object : tbbdetc
@@ -103,31 +103,31 @@ namespace Ellucian.Generated.BpApi.Ban.StudentBillingMassDataEntryDepositsV100Po
         /// Lineage reference object : keybloc2Amount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2Amount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2Amount { get; set; } = default!;
+        public double? Keybloc2Amount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keybloc2AutoReleaseInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2AutoReleaseInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2AutoReleaseInd { get; set; } = default!;
+        public string? Keybloc2AutoReleaseInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keybloc2DetailCodePay, Lookup lineage reference object : tbbdetc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2DetailCodePay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2DetailCodePay { get; set; } = default!;
+        public string? Keybloc2DetailCodePay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keybloc2ReleaseDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2ReleaseDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2ReleaseDate { get; set; } = default!;
+        public System.DateTimeOffset? Keybloc2ReleaseDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keybloc2EffDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keybloc2EffDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Keybloc2EffDate { get; set; } = default!;
+        public System.DateTimeOffset? Keybloc2EffDate { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Id { get; set; } = default!;

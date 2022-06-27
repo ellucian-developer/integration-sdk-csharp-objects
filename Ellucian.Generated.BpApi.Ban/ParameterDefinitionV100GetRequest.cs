@@ -88,7 +88,7 @@ namespace Ellucian.Generated.BpApi.Ban.ParameterDefinitionV100GetRequest
         /// Lineage reference object : keyblckJob
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckJob", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckJob { get; set; } = default!;
+        public string? KeyblckJob { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GJBPDEF_DESC

@@ -33,6 +33,24 @@ namespace Ellucian.Generated.BpApi.Ban.CourseDetailInformationIntegrationPartner
         [Newtonsoft.Json.JsonProperty("scacrseTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ScacrseTermCodeEff { get; set; } = default!;
 
+        /// <summary>
+        /// Lineage reference object : SCRINTG_INTG_CDE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("intgCde", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? IntgCde { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRINTG_ACTIVITY_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("activityDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? ActivityDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SCRINTG_USER_ID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("userId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? UserId { get; set; } = default!;
+
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
         [Newtonsoft.Json.JsonExtensionData]

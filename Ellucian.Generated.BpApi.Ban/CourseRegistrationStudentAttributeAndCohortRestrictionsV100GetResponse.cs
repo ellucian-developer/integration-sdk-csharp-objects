@@ -54,19 +54,19 @@ namespace Ellucian.Generated.BpApi.Ban.CourseRegistrationStudentAttributeAndCoho
         /// Lineage reference object : scrrattAttsIeCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrattAttsIeCde", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrattAttsIeCde { get; set; } = default!;
+        public string? ScrrattAttsIeCde { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrattTermCodeFrom, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrattTermCodeFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrattTermCodeFrom { get; set; } = default!;
+        public string? ScrrattTermCodeFrom { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrattTermCodeTo, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrattTermCodeTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrattTermCodeTo { get; set; } = default!;
+        public string? ScrrattTermCodeTo { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -109,19 +109,19 @@ namespace Ellucian.Generated.BpApi.Ban.CourseRegistrationStudentAttributeAndCoho
         /// Lineage reference object : scrrchrTermCodeTo, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrchrTermCodeTo", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrchrTermCodeTo { get; set; } = default!;
+        public string? ScrrchrTermCodeTo { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrchrChrtIeCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrchrChrtIeCde", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrchrChrtIeCde { get; set; } = default!;
+        public string? ScrrchrChrtIeCde { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : scrrchrTermCodeFrom, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("scrrchrTermCodeFrom", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ScrrchrTermCodeFrom { get; set; } = default!;
+        public string? ScrrchrTermCodeFrom { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

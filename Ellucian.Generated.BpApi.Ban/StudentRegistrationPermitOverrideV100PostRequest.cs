@@ -34,7 +34,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentRegistrationPermitOverrideV100Post
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRSRPO_SUBJ_CODE, Lookup lineage reference object : stvsubj
@@ -52,7 +52,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentRegistrationPermitOverrideV100Post
         /// Lineage reference object : keyblocId
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocId { get; set; } = default!;
+        public string? KeyblocId { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRSRPO_CRN

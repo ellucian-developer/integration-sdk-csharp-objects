@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.PositionBudgetCommentsV100PutRequest
         /// Lineage reference object : posn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("posn", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Posn { get; set; } = default!;
+        public string Posn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NBRPTOT_ANN_BASIS
@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.PositionBudgetCommentsV100PutRequest
         /// Lineage reference object : fiscCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("fiscCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object FiscCode { get; set; } = default!;
+        public string FiscCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : NBRPTOT_SGRP_CODE

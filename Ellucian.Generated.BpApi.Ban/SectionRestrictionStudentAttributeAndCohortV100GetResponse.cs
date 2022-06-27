@@ -83,7 +83,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionStudentAttributeAndCoho
         /// Lineage reference object : ssrrattAttsIeCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrattAttsIeCde", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrattAttsIeCde { get; set; } = default!;
+        public string SsrrattAttsIeCde { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -132,7 +132,7 @@ namespace Ellucian.Generated.BpApi.Ban.SectionRestrictionStudentAttributeAndCoho
         /// Lineage reference object : ssrrchrChrtIeCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssrrchrChrtIeCde", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object SsrrchrChrtIeCde { get; set; } = default!;
+        public string SsrrchrChrtIeCde { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

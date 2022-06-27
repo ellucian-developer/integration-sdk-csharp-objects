@@ -24,14 +24,17 @@ namespace Ellucian.Generated.BpApi.Ban.SupportServiceDetailGoalAssignmentsV100Qa
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class SupportServiceDetailGoalAssignmentsV100QapiPost
     {
-        [Newtonsoft.Json.JsonProperty("seadetlId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SeadetlId { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Id { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("seadetlTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SeadetlTermCodeEff { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("termCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TermCodeEff { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("seadetlSsgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SeadetlSsgpCode { get; set; } = default!;
+        /// <summary>
+        /// Lineage reference object : SERDTGL_SSGP_CODE, Lookup lineage reference object : stvssgp
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ssgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SsgpCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SERDTGL_GOAL_CODE, Lookup lineage reference object : stvgoal
@@ -39,11 +42,8 @@ namespace Ellucian.Generated.BpApi.Ban.SupportServiceDetailGoalAssignmentsV100Qa
         [Newtonsoft.Json.JsonProperty("goalCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? GoalCode { get; set; } = default!;
 
-        /// <summary>
-        /// Lineage reference object : SERDTGL_SSGP_CODE, Lookup lineage reference object : stvssgp
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("ssgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SsgpCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("serdtglSsgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SerdtglSsgpCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SERDTGL_PRIORITY_NBR

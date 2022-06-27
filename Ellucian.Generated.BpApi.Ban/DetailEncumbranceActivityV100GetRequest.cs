@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.DetailEncumbranceActivityV100GetRequest
         /// Lineage reference object : encumbranceNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("encumbranceNumber", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object EncumbranceNumber { get; set; } = default!;
+        public string EncumbranceNumber { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

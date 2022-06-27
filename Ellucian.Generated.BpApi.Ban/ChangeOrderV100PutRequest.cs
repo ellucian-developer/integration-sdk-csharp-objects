@@ -76,7 +76,7 @@ namespace Ellucian.Generated.BpApi.Ban.ChangeOrderV100PutRequest
         /// Lineage reference object : displayChangeSeqNum
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayChangeSeqNum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayChangeSeqNum { get; set; } = default!;
+        public string? DisplayChangeSeqNum { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("changeAcctgOnly", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? ChangeAcctgOnly { get; set; } = default!;
@@ -91,7 +91,7 @@ namespace Ellucian.Generated.BpApi.Ban.ChangeOrderV100PutRequest
         /// Lineage reference object : displayPohdCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayPohdCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayPohdCode { get; set; } = default!;
+        public string? DisplayPohdCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("ftvshipPhoneNum", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? FtvshipPhoneNum { get; set; } = default!;

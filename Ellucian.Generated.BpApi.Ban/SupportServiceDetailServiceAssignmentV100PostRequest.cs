@@ -31,6 +31,12 @@ namespace Ellucian.Generated.BpApi.Ban.SupportServiceDetailServiceAssignmentV100
         public string? SeprCode { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : seadetlTermCodeEff, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("termCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TermCodeEff { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : SERDTSR_END_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("endDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -43,10 +49,10 @@ namespace Ellucian.Generated.BpApi.Ban.SupportServiceDetailServiceAssignmentV100
         public string? SprvCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : seadetlSsgpCode, Lookup lineage reference object : stvssgp
+        /// Lineage reference object : SERDTSR_SSGP_CODE, Lookup lineage reference object : stvssgp
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("seadetlSsgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SeadetlSsgpCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("serdtsrSsgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? SerdtsrSsgpCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SERDTSR_SSER_CODE, Lookup lineage reference object : stvsser
@@ -73,13 +79,7 @@ namespace Ellucian.Generated.BpApi.Ban.SupportServiceDetailServiceAssignmentV100
         public System.DateTimeOffset? BeginDate { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : seadetlTermCodeEff, Lookup lineage reference object : stvterm
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("seadetlTermCodeEff", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SeadetlTermCodeEff { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : SERDTSR_SSGP_CODE, Lookup lineage reference object : stvssgp
+        /// Lineage reference object : seadetlSsgpCode, Lookup lineage reference object : stvssgp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ssgpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? SsgpCode { get; set; } = default!;
@@ -87,8 +87,8 @@ namespace Ellucian.Generated.BpApi.Ban.SupportServiceDetailServiceAssignmentV100
         /// <summary>
         /// Lineage reference object : seadetlId
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("seadetlId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SeadetlId { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SERDTSR_SSST_CODE, Lookup lineage reference object : stvssst

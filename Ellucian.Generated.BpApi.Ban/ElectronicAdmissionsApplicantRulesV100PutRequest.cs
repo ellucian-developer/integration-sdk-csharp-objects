@@ -82,7 +82,7 @@ namespace Ellucian.Generated.BpApi.Ban.ElectronicAdmissionsApplicantRulesV100Put
         /// Lineage reference object : keyblckEgrpCode, Lookup lineage reference object : stvegrp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckEgrpCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckEgrpCode { get; set; } = default!;
+        public string? KeyblckEgrpCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SARERUL_VALUE

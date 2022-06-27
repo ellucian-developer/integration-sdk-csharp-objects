@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.BenefitsAndDeductionsRulesV100GetRequest
         /// Lineage reference object : bdcaCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("bdcaCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object BdcaCode { get; set; } = default!;
+        public string BdcaCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

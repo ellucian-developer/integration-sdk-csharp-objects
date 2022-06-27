@@ -34,7 +34,7 @@ namespace Ellucian.Generated.BpApi.Ban.StudentBillingMassDataEntryChargesPayment
         /// Lineage reference object : keyblocTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocTermCode { get; set; } = default!;
+        public string? KeyblocTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_DOCUMENT_NUMBER
@@ -46,13 +46,13 @@ namespace Ellucian.Generated.BpApi.Ban.StudentBillingMassDataEntryChargesPayment
         /// Lineage reference object : keyblocEffDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocEffDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocEffDate { get; set; } = default!;
+        public System.DateTimeOffset? KeyblocEffDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocAmount
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocAmount { get; set; } = default!;
+        public double? KeyblocAmount { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : TBRACCD_DETAIL_CODE, Lookup lineage reference object : tbbdetc
@@ -73,13 +73,13 @@ namespace Ellucian.Generated.BpApi.Ban.StudentBillingMassDataEntryChargesPayment
         /// Lineage reference object : keyblocDocumentNumber
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocDocumentNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocDocumentNumber { get; set; } = default!;
+        public string? KeyblocDocumentNumber { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : keyblocDetailCode, Lookup lineage reference object : tbbdetc
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocDetailCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocDetailCode { get; set; } = default!;
+        public string? KeyblocDetailCode { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? Id { get; set; } = default!;

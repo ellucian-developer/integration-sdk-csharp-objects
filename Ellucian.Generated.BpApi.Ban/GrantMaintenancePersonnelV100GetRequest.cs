@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantMaintenancePersonnelV100GetRequest
         /// Lineage reference object : displayFrbgrntCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayFrbgrntCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayFrbgrntCode { get; set; } = default!;
+        public string? DisplayFrbgrntCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRRGRPI_ID_IND
@@ -70,7 +70,7 @@ namespace Ellucian.Generated.BpApi.Ban.GrantMaintenancePersonnelV100GetRequest
         /// Lineage reference object : displayPropCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayPropCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayPropCode { get; set; } = default!;
+        public string? DisplayPropCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : FRRGRPI_ADDR_SEQNO

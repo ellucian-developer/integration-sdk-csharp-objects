@@ -48,19 +48,19 @@ namespace Ellucian.Generated.BpApi.Ban.CurriculumRulesModuleControlV100GetRespon
         /// Lineage reference object : cmnrMultipleMsg
         /// </summary>
         [Newtonsoft.Json.JsonProperty("cmnrMultipleMsg", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CmnrMultipleMsg { get; set; } = default!;
+        public string? CmnrMultipleMsg { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : minrFrtermDisp, Lookup lineage reference object : sorcmnr,stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("minrFrtermDisp", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MinrFrtermDisp { get; set; } = default!;
+        public string? MinrFrtermDisp { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : minrTotermDisp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("minrTotermDisp", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MinrTotermDisp { get; set; } = default!;
+        public string? MinrTotermDisp { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

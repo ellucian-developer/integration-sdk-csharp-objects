@@ -58,7 +58,7 @@ namespace Ellucian.Generated.BpApi.Ban.CrossReferenceRulesV100PutRequest
         /// Lineage reference object : keyblckXlblCode, Lookup lineage reference object : stvxlbl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckXlblCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckXlblCode { get; set; } = default!;
+        public string? KeyblckXlblCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SORXREF_EDI_QLFR

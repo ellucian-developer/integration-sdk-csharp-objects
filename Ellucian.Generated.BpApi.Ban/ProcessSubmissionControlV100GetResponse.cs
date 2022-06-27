@@ -34,6 +34,12 @@ namespace Ellucian.Generated.BpApi.Ban.ProcessSubmissionControlV100GetResponse
         public string? DisplayDesc { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : GJBPRUN_LABEL
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("label", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Label { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : GJBPRUN_VALUE, Lookup lineage reference object : gjbpval
         /// </summary>
         [Newtonsoft.Json.JsonProperty("value", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]

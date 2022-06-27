@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.SourceOrBackgroundInstitutionV100GetReque
         /// Lineage reference object : keyblocSbgiCode, Lookup lineage reference object : stvsbgi
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblocSbgiCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblocSbgiCode { get; set; } = default!;
+        public string? KeyblocSbgiCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

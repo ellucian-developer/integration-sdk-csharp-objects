@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.BenefitOrDeductionChainRuleV100GetRequest
         /// Lineage reference object : dednCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dednCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object DednCode { get; set; } = default!;
+        public string DednCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : PTRDCHN_DEDN_CODE_CHAIN, Lookup lineage reference object : ptrbdca,ptrdchn

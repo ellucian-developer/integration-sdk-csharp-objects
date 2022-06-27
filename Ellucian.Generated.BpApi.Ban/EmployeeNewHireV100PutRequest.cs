@@ -28,73 +28,73 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeNewHireV100PutRequest
         /// Lineage reference object : confirmedReDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("confirmedReDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConfirmedReDate { get; set; } = default!;
+        public System.DateTimeOffset? ConfirmedReDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : surnamePrefix
         /// </summary>
         [Newtonsoft.Json.JsonProperty("surnamePrefix", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SurnamePrefix { get; set; } = default!;
+        public string? SurnamePrefix { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : pebemplCoasCodeHome
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pebemplCoasCodeHome", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object PebemplCoasCodeHome { get; set; } = default!;
+        public string PebemplCoasCodeHome { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : jcreCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("jcreCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? JcreCode { get; set; } = default!;
+        public string? JcreCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : prefix
         /// </summary>
         [Newtonsoft.Json.JsonProperty("prefix", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Prefix { get; set; } = default!;
+        public string? Prefix { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : contractType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("contractType", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object ContractType { get; set; } = default!;
+        public string ContractType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : deferPay
         /// </summary>
         [Newtonsoft.Json.JsonProperty("deferPay", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DeferPay { get; set; } = default!;
+        public string? DeferPay { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : suffix
         /// </summary>
         [Newtonsoft.Json.JsonProperty("suffix", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Suffix { get; set; } = default!;
+        public string? Suffix { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : jobsTitle
         /// </summary>
         [Newtonsoft.Json.JsonProperty("title", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Title { get; set; } = default!;
+        public string Title { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ethnCode, Lookup lineage reference object : stvethn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ethnCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EthnCode { get; set; } = default!;
+        public string? EthnCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : posn
         /// </summary>
         [Newtonsoft.Json.JsonProperty("posn", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Posn { get; set; } = default!;
+        public string Posn { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : pebemplBcatCode, Lookup lineage reference object : ptrecbc,ptrbcat
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pebemplBcatCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object PebemplBcatCode { get; set; } = default!;
+        public string PebemplBcatCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SPRADDR_FROM_DATE
@@ -106,67 +106,67 @@ namespace Ellucian.Generated.BpApi.Ban.EmployeeNewHireV100PutRequest
         /// Lineage reference object : pebemplFirstHireDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pebemplFirstHireDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object PebemplFirstHireDate { get; set; } = default!;
+        public System.DateTimeOffset PebemplFirstHireDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : beginDate
         /// </summary>
         [Newtonsoft.Json.JsonProperty("beginDate", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object BeginDate { get; set; } = default!;
+        public System.DateTimeOffset BeginDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ntypCode, Lookup lineage reference object : gtvntyp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ntypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NtypCode { get; set; } = default!;
+        public string? NtypCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : suff
         /// </summary>
         [Newtonsoft.Json.JsonProperty("suff", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Suff { get; set; } = default!;
+        public string Suff { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : pebemplNewHireInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pebemplNewHireInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PebemplNewHireInd { get; set; } = default!;
+        public string? PebemplNewHireInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : pebemplOrgnCodeHome
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pebemplOrgnCodeHome", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object PebemplOrgnCodeHome { get; set; } = default!;
+        public string PebemplOrgnCodeHome { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : step
         /// </summary>
         [Newtonsoft.Json.JsonProperty("step", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object Step { get; set; } = default!;
+        public double Step { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : ethnCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ethnCde", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EthnCde { get; set; } = default!;
+        public string? EthnCde { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : pebemplEclsCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("pebemplEclsCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object PebemplEclsCode { get; set; } = default!;
+        public string PebemplEclsCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : confirmedReCde
         /// </summary>
         [Newtonsoft.Json.JsonProperty("confirmedReCde", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? ConfirmedReCde { get; set; } = default!;
+        public string? ConfirmedReCde { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

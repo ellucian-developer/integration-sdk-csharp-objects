@@ -25,10 +25,70 @@ namespace Ellucian.Generated.BpApi.Ban.PersonCommentsV100GetRequest
     public partial class PersonCommentsV100GetRequest
     {
         /// <summary>
+        /// Lineage reference object : SPRCMNT_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("date", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? Date { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_CONTACT_TO_TIME
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("contactToTime", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? ContactToTime { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_CONTACT_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("contactDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? ContactDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_CMTT_CODE, Lookup lineage reference object : stvcmtt
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("cmttCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string CmttCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_CONFIDENTIAL_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("confidentialInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ConfidentialInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_CTYP_CODE, Lookup lineage reference object : stvctyp
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("ctypCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CtypCode { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_TEXT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("text", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? Text { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_CONTACT_FROM_TIME
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("contactFromTime", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? ContactFromTime { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_USER_ID
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("userId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? UserId { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SPRCMNT_ORIG_CODE, Lookup lineage reference object : stvorig
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("origCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? OrigCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

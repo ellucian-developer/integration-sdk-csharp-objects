@@ -46,7 +46,7 @@ namespace Ellucian.Generated.BpApi.Ban.PopulationSelectionInquiryV100GetRequest
         /// Lineage reference object : keyblckApplication, Lookup lineage reference object : glbappl
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckApplication", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckApplication { get; set; } = default!;
+        public string? KeyblckApplication { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GLBSLCT_CREATOR_ID

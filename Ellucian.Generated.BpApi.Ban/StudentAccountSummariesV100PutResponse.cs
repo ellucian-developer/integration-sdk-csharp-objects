@@ -24,160 +24,20 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountSummariesV100PutResponse
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class StudentAccountSummariesV100PutResponse
     {
-        [Newtonsoft.Json.JsonProperty("acct_bal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<Acct_bal>? Acct_bal { get; set; } = default!;
-
         [Newtonsoft.Json.JsonProperty("tbbacct", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.Collections.Generic.ICollection<Tbbacct>? Tbbacct { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("tbrcolc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<Tbrcolc>? Tbrcolc { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("acct_bal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Acct_bal>? Acct_bal { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("tbristl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<Tbristl>? Tbristl { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("tbbestu", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbbestu>? Tbbestu { get; set; } = default!;
 
         [Newtonsoft.Json.JsonProperty("tbbcstu", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.Collections.Generic.ICollection<Tbbcstu>? Tbbcstu { get; set; } = default!;
 
-        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
-
-        [Newtonsoft.Json.JsonExtensionData]
-        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
-        {
-            get { return _additionalProperties; }
-            set { _additionalProperties = value; }
-        }
-
-    }
-
-    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class Acct_bal
-    {
-        /// <summary>
-        /// Lineage reference object : effDate91
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("effDate91", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDate91 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : balanceDue
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("balanceDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BalanceDue { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : billDateUnbilled
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("billDateUnbilled", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDateUnbilled { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : effDate61
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("effDate61", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDate61 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : effDateFut
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("effDateFut", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDateFut { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : memoBal
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("memoBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? MemoBal { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : billDate91
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("billDate91", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDate91 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : pastDue
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("pastDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? PastDue { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : netBal
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("netBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NetBal { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : depoBal
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("depoBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DepoBal { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : currentDue
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("currentDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? CurrentDue { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : futureDue
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("futureDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? FutureDue { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : acctBal
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("acctBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AcctBal { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : nsfCounter
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("nsfCounter", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? NsfCounter { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : amountDue
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("amountDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? AmountDue { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : effDate0
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("effDate0", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDate0 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : unappliedCr
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("unappliedCr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? UnappliedCr { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : billDate61
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("billDate61", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDate61 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : billDate31
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("billDate31", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDate31 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : effDate31
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("effDate31", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? EffDate31 { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : billDate0
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("billDate0", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BillDate0 { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("tbrcolc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Collections.Generic.ICollection<Tbrcolc>? Tbrcolc { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -229,19 +89,133 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountSummariesV100PutResponse
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class Tbrcolc
+    public partial class Acct_bal
     {
-        [Newtonsoft.Json.JsonProperty("colcId", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string ColcId { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("colcName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? ColcName { get; set; } = default!;
+        /// <summary>
+        /// Lineage reference object : effDate91
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("effDate91", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? EffDate91 { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TBRCOLC_COLC_AGENCY_DATE
+        /// Lineage reference object : balanceDue
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("colcAgencyDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? ColcAgencyDate { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("balanceDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? BalanceDue { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : billDateUnbilled
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("billDateUnbilled", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? BillDateUnbilled { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : effDate61
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("effDate61", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? EffDate61 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : effDateFut
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("effDateFut", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? EffDateFut { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : memoBal
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("memoBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? MemoBal { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : billDate91
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("billDate91", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? BillDate91 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : pastDue
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("pastDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? PastDue { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : netBal
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("netBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? NetBal { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : depoBal
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("depoBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? DepoBal { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : currentDue
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("currentDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? CurrentDue { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : futureDue
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("futureDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? FutureDue { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : acctBal
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("acctBal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? AcctBal { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : nsfCounter
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("nsfCounter", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? NsfCounter { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : amountDue
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("amountDue", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? AmountDue { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : effDate0
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("effDate0", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? EffDate0 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : unappliedCr
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("unappliedCr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? UnappliedCr { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : billDate61
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("billDate61", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? BillDate61 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : billDate31
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("billDate31", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? BillDate31 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : effDate31
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("effDate31", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? EffDate31 { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : billDate0
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("billDate0", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? BillDate0 { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -255,31 +229,52 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountSummariesV100PutResponse
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class Tbristl
+    public partial class Tbbestu
     {
         /// <summary>
-        /// Lineage reference object : TBRISTL_REF_NUMBER
+        /// Lineage reference object : TBBESTU_EXEMPTION_CODE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("refNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? RefNumber { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("exemptionCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string ExemptionCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TBRISTL_INSTALLMENT_PLAN
+        /// Lineage reference object : TBBESTU_DEL_IND
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("installmentPlan", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? InstallmentPlan { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("delInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DelInd { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TBRISTL_PLAN_AMOUNT
+        /// Lineage reference object : TBBESTU_STSP_KEY_SEQUENCE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("planAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? PlanAmount { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("stspKeySequence", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? StspKeySequence { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : TBRISTL_DESC
+        /// Lineage reference object : TBBESTU_STUDENT_EXPT_ROLL_IND
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("desc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? Desc { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("studentExptRollInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StudentExptRollInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBESTU_MAX_STUDENT_AMOUNT
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("maxStudentAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? MaxStudentAmount { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("tbbexptDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? TbbexptDesc { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBESTU_EXEMPTION_PRIORITY
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("exemptionPriority", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double ExemptionPriority { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBBESTU_TERM_CODE, Lookup lineage reference object : stvterm
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string TermCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 
@@ -357,6 +352,32 @@ namespace Ellucian.Generated.BpApi.Ban.StudentAccountSummariesV100PutResponse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string TermCode { get; set; } = default!;
+
+        private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
+
+        [Newtonsoft.Json.JsonExtensionData]
+        public System.Collections.Generic.IDictionary<string, object> AdditionalProperties
+        {
+            get { return _additionalProperties; }
+            set { _additionalProperties = value; }
+        }
+
+    }
+
+    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
+    public partial class Tbrcolc
+    {
+        [Newtonsoft.Json.JsonProperty("colcId", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string ColcId { get; set; } = default!;
+
+        [Newtonsoft.Json.JsonProperty("colcName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? ColcName { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : TBRCOLC_COLC_AGENCY_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("colcAgencyDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? ColcAgencyDate { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

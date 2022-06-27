@@ -48,13 +48,13 @@ namespace Ellucian.Generated.BpApi.Ban.DetailTransactionActivityV100GetResponse
         /// Lineage reference object : dispTotalAmt
         /// </summary>
         [Newtonsoft.Json.JsonProperty("dispTotalAmt", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DispTotalAmt { get; set; } = default!;
+        public double? DispTotalAmt { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : totalDrCrInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("totalDrCrInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TotalDrCrInd { get; set; } = default!;
+        public string? TotalDrCrInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

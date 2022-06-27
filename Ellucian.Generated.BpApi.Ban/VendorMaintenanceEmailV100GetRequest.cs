@@ -24,6 +24,12 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceEmailV100GetRequest
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.16.1.0 (NJsonSchema v10.7.2.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial class VendorMaintenanceEmailV100GetRequest
     {
+        /// <summary>
+        /// Lineage reference object : GOREMAL_EMAIL_ADDRESS
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("emailAddress", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? EmailAddress { get; set; } = default!;
+
         [Newtonsoft.Json.JsonProperty("activityDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? ActivityDate { get; set; } = default!;
 
@@ -37,13 +43,31 @@ namespace Ellucian.Generated.BpApi.Ban.VendorMaintenanceEmailV100GetRequest
         /// Lineage reference object : ftvvendVendCode, Lookup lineage reference object : ftvvend
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ftvvendVendCode", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object FtvvendVendCode { get; set; } = default!;
+        public string FtvvendVendCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOREMAL_STATUS_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("statusInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? StatusInd { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOREMAL_DISP_WEB_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("dispWebInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? DispWebInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : GOREMAL_USER_ID
         /// </summary>
         [Newtonsoft.Json.JsonProperty("userId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? UserId { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : GOREMAL_PREFERRED_IND
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("preferredInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PreferredInd { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

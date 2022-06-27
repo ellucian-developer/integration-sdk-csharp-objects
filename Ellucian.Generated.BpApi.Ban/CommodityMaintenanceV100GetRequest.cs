@@ -28,7 +28,7 @@ namespace Ellucian.Generated.BpApi.Ban.CommodityMaintenanceV100GetRequest
         /// Lineage reference object : displayCommCode
         /// </summary>
         [Newtonsoft.Json.JsonProperty("displayCommCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? DisplayCommCode { get; set; } = default!;
+        public string? DisplayCommCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

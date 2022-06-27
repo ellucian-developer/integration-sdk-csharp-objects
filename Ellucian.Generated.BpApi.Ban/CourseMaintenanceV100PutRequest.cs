@@ -60,20 +60,11 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         [Newtonsoft.Json.JsonProperty("criteria.crseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaCrseNumb { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("criteria.campCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaCampCodeDesc { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("divsDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? DivsDesc { get; set; } = default!;
-
         /// <summary>
         /// Lineage reference object : SHRTCKN_SUBJ_CODE, Lookup lineage reference object : stvsubj
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.subjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaSubjCode { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.subjCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaSubjCodeDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_COLL_CODE, Lookup lineage reference object : stvcoll
@@ -82,16 +73,16 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         public string? CriteriaCollCode { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : SHRTCKG_GCHG_CODE, Lookup lineage reference object : stvgchg
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("gchgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? GchgCode { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : SHRTCKN_REG_START_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.regStartDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? CriteriaRegStartDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : SHRTCKN_SCHD_CODE, Lookup lineage reference object : stvschd,SELECT,stvschd_desc,NULL,scrschd_activity_date,FROM,stvschd,scrschd
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("schdCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SchdCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_SESS_CODE, Lookup lineage reference object : stvsess
@@ -99,32 +90,17 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         [Newtonsoft.Json.JsonProperty("sessCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? SessCode { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("criteria.repeatDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaRepeatDesc { get; set; } = default!;
-
         /// <summary>
-        /// Lineage reference object : SHRTCKN_CAMP_CODE, Lookup lineage reference object : stvcamp
+        /// Lineage reference object : SHRTCKG_GRDE_CODE_INCMP_FINAL, Lookup lineage reference object : shrgrde,shrgrde
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("campCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CampCode { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("campCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CampCodeDesc { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : SHRTCKN_NUMBER_OF_EXTENSIONS
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("numberOfExtensions", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? NumberOfExtensions { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("deptDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? DeptDesc { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.grdeCodeIncmpFinal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaGrdeCodeIncmpFinal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : id
         /// </summary>
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? Id { get; set; } = default!;
+        public string? Id { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_COURSE_COMMENT
@@ -132,32 +108,17 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         [Newtonsoft.Json.JsonProperty("courseComment", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CourseComment { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("criteria.schdCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaSchdCodeDesc { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.sessDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaSessDesc { get; set; } = default!;
-
         /// <summary>
-        /// Lineage reference object : SHRTCKN_REG_START_DATE
+        /// Lineage reference object : SHRTCKG_GRDE_CODE_FINAL
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("regStartDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? RegStartDate { get; set; } = default!;
-
-        /// <summary>
-        /// Lineage reference object : SHRTCKN_REPEAT_SYS_IND
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.repeatSysInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaRepeatSysInd { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.grdeCodeFinal", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaGrdeCodeFinal { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_STSP_KEY_SEQUENCE, Lookup lineage reference object : SGVSTSP,SGRSTSP
         /// </summary>
         [Newtonsoft.Json.JsonProperty("stspKeySequence", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? StspKeySequence { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.ptrmCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaPtrmCodeDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_PTRM_CODE, Lookup lineage reference object : stvptrm
@@ -166,16 +127,10 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         public string? CriteriaPtrmCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SHRTCKN_SUBJ_CODE, Lookup lineage reference object : stvsubj
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("subjCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SubjCode { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : keyblckTermCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("keyblckTermCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? KeyblckTermCode { get; set; } = default!;
+        public string? KeyblckTermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_DIVS_CODE, Lookup lineage reference object : stvdivs
@@ -190,19 +145,28 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         public string? CriteriaSchdCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SHRTCKN_CRSE_NUMB, Lookup lineage reference object : scbcrky
+        /// Lineage reference object : SHRTCKG_CREDIT_HOURS
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("crseNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CrseNumb { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.creditHours", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? CriteriaCreditHours { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SHRTCKN_PTRM_CODE, Lookup lineage reference object : stvptrm
+        /// Lineage reference object : SHRTCKL_PRIMARY_LEVL_IND
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("ptrmCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? PtrmCode { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("primaryLevlInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? PrimaryLevlInd { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("subjCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SubjCodeDesc { get; set; } = default!;
+        /// <summary>
+        /// Lineage reference object : SHRTCKG_GCMT_CODE, Lookup lineage reference object : stvgcmt
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("gcmtCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? GcmtCode { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SHRTCKG_INCOMPLETE_EXT_DATE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("incompleteExtDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? IncompleteExtDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_REPEAT_COURSE_IND
@@ -217,22 +181,10 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         public string? CriteriaCourseComment { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SHRTCKN_SEQ_NUMB
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty("seqNumb", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SeqNumb { get; set; } = default!;
-
-        /// <summary>
         /// Lineage reference object : SHRTCKN_LONG_COURSE_TITLE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("longCourseTitle", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? LongCourseTitle { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("ceuInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CeuInd { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("ptrmCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? PtrmCodeDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_CRSE_TITLE
@@ -256,10 +208,10 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         public string? CollCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SHRTCKN_NUMBER_OF_EXTENSIONS
+        /// Lineage reference object : SHRTCKG_GCMT_CODE, Lookup lineage reference object : stvgcmt
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("criteria.numberOfExtensions", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? CriteriaNumberOfExtensions { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.gcmtCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaGcmtCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_DEPT_CODE, Lookup lineage reference object : stvdept
@@ -274,6 +226,12 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         public System.DateTimeOffset? CriteriaPtrmStartDate { get; set; } = default!;
 
         /// <summary>
+        /// Lineage reference object : keyblckValidationCheck
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("keyblckValidationCheck", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? KeyblckValidationCheck { get; set; } = default!;
+
+        /// <summary>
         /// Lineage reference object : SHRTCKN_CAMP_CODE, Lookup lineage reference object : stvcamp
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.campCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -285,9 +243,6 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         [Newtonsoft.Json.JsonProperty("criteria.deptCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string? CriteriaDeptCode { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("sessDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SessDesc { get; set; } = default!;
-
         /// <summary>
         /// Lineage reference object : SHRTCKN_REG_COMPLETION_DATE
         /// </summary>
@@ -295,34 +250,34 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         public System.DateTimeOffset? CriteriaRegCompletionDate { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SHRTCKN_REG_COMPLETION_DATE
+        /// Lineage reference object : SHRTCKG_GCHG_CODE, Lookup lineage reference object : stvgchg
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("regCompletionDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? RegCompletionDate { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.gchgCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaGchgCode { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SHRTCKN_REPEAT_SYS_IND
+        /// Lineage reference object : SHRTCKG_INCOMPLETE_EXT_DATE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("repeatSysInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? RepeatSysInd { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("collDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CollDesc { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("repeatDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? RepeatDesc { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.incompleteExtDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaIncompleteExtDate { get; set; } = default!;
 
         /// <summary>
-        /// Lineage reference object : SHRTCKN_CRN
+        /// Lineage reference object : SHRTCKG_FINAL_GRDE_CHG_DATE
         /// </summary>
-        [Newtonsoft.Json.JsonProperty("crn", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? Crn { get; set; } = default!;
+        [Newtonsoft.Json.JsonProperty("criteria.finalGrdeChgDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? CriteriaFinalGrdeChgDate { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_PTRM_START_DATE
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ptrmStartDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? PtrmStartDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SHRTCKG_HOURS_ATTEMPTED
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.hoursAttempted", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public double? CriteriaHoursAttempted { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_SESS_CODE, Lookup lineage reference object : stvsess
@@ -336,23 +291,11 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         [Newtonsoft.Json.JsonProperty("contHr", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? ContHr { get; set; } = default!;
 
-        [Newtonsoft.Json.JsonProperty("schdCodeDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? SchdCodeDesc { get; set; } = default!;
-
         /// <summary>
         /// Lineage reference object : SHRTCKN_STSP_KEY_SEQUENCE, Lookup lineage reference object : SGVSTSP,SGRSTSP
         /// </summary>
         [Newtonsoft.Json.JsonProperty("criteria.stspKeySequence", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? CriteriaStspKeySequence { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.collDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaCollDesc { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.deptDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaDeptDesc { get; set; } = default!;
-
-        [Newtonsoft.Json.JsonProperty("criteria.divsDesc", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string? CriteriaDivsDesc { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SHRTCKN_CRN
@@ -371,6 +314,12 @@ namespace Ellucian.Generated.BpApi.Ban.CourseMaintenanceV100PutRequest
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ptrmEndDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public System.DateTimeOffset? PtrmEndDate { get; set; } = default!;
+
+        /// <summary>
+        /// Lineage reference object : SHRTCKG_GMOD_CODE
+        /// </summary>
+        [Newtonsoft.Json.JsonProperty("criteria.gmodCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string? CriteriaGmodCode { get; set; } = default!;
 
         private System.Collections.Generic.IDictionary<string, object> _additionalProperties = new System.Collections.Generic.Dictionary<string, object>();
 

@@ -40,7 +40,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationFeeAssessmentRulesV100PostReq
         /// Lineage reference object : entryType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("blockKeyEntryType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? BlockKeyEntryType { get; set; } = default!;
+        public string? BlockKeyEntryType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRRGFE_PRIM_SEC_CDE
@@ -154,7 +154,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationFeeAssessmentRulesV100PostReq
         /// Lineage reference object : ruleType
         /// </summary>
         [Newtonsoft.Json.JsonProperty("ruleType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? RuleType { get; set; } = default!;
+        public string? RuleType { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRRGFE_CLAS_CODE, Lookup lineage reference object : stvclas
@@ -232,7 +232,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationFeeAssessmentRulesV100PostReq
         /// Lineage reference object : setCopyIndEnMassInd
         /// </summary>
         [Newtonsoft.Json.JsonProperty("setCopyIndEnMassInd", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? SetCopyIndEnMassInd { get; set; } = default!;
+        public string? SetCopyIndEnMassInd { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRRGFE_ASSESS_BY_COURSE_IND
@@ -298,7 +298,7 @@ namespace Ellucian.Generated.BpApi.Ban.RegistrationFeeAssessmentRulesV100PostReq
         /// Lineage reference object : termCode, Lookup lineage reference object : stvterm
         /// </summary>
         [Newtonsoft.Json.JsonProperty("termCode", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public object? TermCode { get; set; } = default!;
+        public string? TermCode { get; set; } = default!;
 
         /// <summary>
         /// Lineage reference object : SFRRGFE_COPY_IND
