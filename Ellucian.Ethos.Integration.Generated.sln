@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ellucian.Generated.BpApi", "Ellucian.Generated.BpApi\Ellucian.Generated.BpApi.csproj", "{58FC33DC-BA0B-48A2-A8D1-DFBFB363BE5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ellucian.Generated.BpApi", "Ellucian.Generated.BpApi.Ban\Ellucian.Generated.BpApi.Ban.csproj", "{58FC33DC-BA0B-48A2-A8D1-DFBFB363BE5B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ellucian.Generated.Eedm", "Ellucian.Generated.Eedm\Ellucian.Generated.Eedm.csproj", "{37313620-44C1-4529-9F42-75FF1096BCC3}"
 EndProject

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DebugType>none</DebugType>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>obj\Debug\net6.0\EllucianGeneratedBpapiBan.xml</DocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
+    <Authors>Ellucian</Authors>
+    <Copyright>© 2022 Ellucian Company L.P. and its affiliates. All rights reserved.</Copyright>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Company>Ellucian</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
