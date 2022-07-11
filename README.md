@@ -13,3 +13,9 @@ Following are the instructions on how to add a NuGet package reference in DotNet
 5. You can then select each library by selecting in the result window and clicking on the "Install" button in the right pane of the result window
 
 Once installed you are ready to explore various objects and use them in your project.
+
+C# sites for the EISDK C# object libraries:
+
+[C# EISDK Object Library API Doc for BPAPIs](https://ellucian-developer.github.io/integration-sdk-objects-csharp-doc/Bpapi/Ban/)
+
+[C# EISDK Object Library API Doc for EEDM APIs](https://ellucian-developer.github.io/integration-sdk-objects-csharp-doc/Eedm/)
